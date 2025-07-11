@@ -1,5 +1,4 @@
-import React from "react";
-import StockItem from "./StockItem";
+import StockItem from "../Dashboard/StockItem";
 import { Warehouse } from "lucide-react";
 
 const DepotCard = ({ darkMode = true, size = "large" }) => {
@@ -34,23 +33,27 @@ const DepotCard = ({ darkMode = true, size = "large" }) => {
   ];
 
   return (
-    <div className="bg-[#171717] rounded-3xl p-4 w-full">
+    <div
+      className={`${
+        darkMode ? "bg-[#171717] text-white" : "bg-white text-black"
+      } rounded-3xl p-4 w-full h-full flex flex-col`}
+    >
       <div className="flex items-center space-x-3 mb-4">
-        <div className="w-9 h-9 flex-shrink-0 bg-white rounded-full flex items-center justify-center">
+        <div className="w-9 h-9 flex-shrink-0 bg-orange-50 rounded-full flex items-center justify-center">
           <span className="text-orange-500 text-xs font-bold">
             <Warehouse />
           </span>
         </div>
-        <h3 className="font-medium text-white text-sm">Depot</h3>
+        <h3 className="font-medium text-sm">Depot</h3>
       </div>
 
-      <div className="space-y-3">
+      <div className="space-y-3 flex-grow">
         {depotData.slice(0, size === "small" ? 2 : 3).map((depot, index) => (
           <StockItem key={index} stock={depot} darkMode={darkMode} />
         ))}
       </div>
 
-      <div className=" flex flex-wrap gap-2">
+      <div className=" flex flex-wrap gap-2 border-t border-gray-700">
         {["PMS", "AGO", "DPK", "ICE", "LPG"].map((tag, index) => (
           <span
             key={index}

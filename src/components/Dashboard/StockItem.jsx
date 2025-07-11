@@ -1,15 +1,14 @@
-import React from "react";
-import MiniChart from "./MiniChart";
+import MiniChart from "../Dashboard/MiniChart";
 
 const StockItem = ({ stock, darkMode = true, showChart = true }) => {
   const getChartColor = (trend) => {
     switch (trend) {
       case "up":
-        return "#10B981"; // green
+        return "#10B981";
       case "down":
-        return "#EF4444"; // red
+        return "#EF4444";
       default:
-        return "#10B981"; // default green
+        return "#10B981";
     }
   };
 
@@ -34,7 +33,7 @@ const StockItem = ({ stock, darkMode = true, showChart = true }) => {
   };
 
   return (
-    <div className="flex border-b-1 border-[#36353A] items-center justify-between py-2">
+    <div className="flex border-b-1 last:border-b-0 border-[#36353A] items-center justify-between py-2">
       <div className="flex items-center space-x-3 flex-1">
         <div className="flex items-center space-x-2">
           <span className={`text-xs font-medium ${getTrendColor(stock.trend)}`}>
@@ -61,15 +60,15 @@ const StockItem = ({ stock, darkMode = true, showChart = true }) => {
 
       <div className="flex items-center space-x-3">
         {showChart && (
-          <MiniChart
-            data={stock.chartData}
-            color={getChartColor(stock.trend)}
-            trend={stock.trend}
-            width={20}
-            height={10}
-          />
+          <div className="h-12 w-24 sm:w-32 md:w-40 flex-grow-0 flex-shrink-0">
+            <MiniChart
+              data={stock.chartData}
+              color={getChartColor(stock.trend)}
+              trend={stock.trend}
+            />
+          </div>
         )}
-        <div className="text-right min-w-[60px]">
+        <div className="text-right min-w-[60px] flex-shrink-0">
           <div
             className={`font-medium text-sm ${
               darkMode ? "text-white" : "text-gray-900"

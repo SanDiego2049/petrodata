@@ -1,44 +1,45 @@
-import { Plus } from "lucide-react";
+import SizeSelector from "../components/SizeSelector";
 
 const WidgetCard = ({
-  size,
   title,
+  description,
   children,
-  isConfigurable = false,
-  onAddWidget,
+  onSelect,
+  isSelected,
+  selectedSize,
+  onSizeChange,
 }) => {
   const baseCardClasses = `
-    rounded-lg p-4 shadow-lg flex flex-col
-    bg-gray-800 text-gray-100 border border-gray-700
+    rounded-3xl w-100 p-5 
+    bg-[#404040] border border-[#2a2a2a] 
+    text-white
     transition-all duration-300 ease-in-out
   `;
 
-  const sizeClasses = {
-    sm: "w-[18rem] h-[16rem] text-xs",
-    md: "w-[20rem] h-[18rem] text-sm",
-    lg: "w-[28rem] h-[24rem] text-base",
-  };
-
   return (
-    <div className={`${baseCardClasses} ${sizeClasses[size]} overflow-hidden`}>
-      {/* Header Section */}
-      <div className="flex justify-between items-center mb-4">
-        <h3 className="font-semibold text-white text-base md:text-lg lg:text-xl">
+    <div className={`${baseCardClasses}`}>
+      <div className="mb-6">
+        <h3 className="font-medium text-white text-base mb-1 leading-tight">
           {title}
         </h3>
-        {/* Plus Icon for Configuration Page */}
-        {isConfigurable && (
-          <button
-            onClick={onAddWidget}
-            className="p-1.5 bg-green-600 hover:bg-green-700 rounded-full text-white transition-colors duration-200"
-            aria-label="Add widget to dashboard"
-          >
-            <Plus size={18} />
-          </button>
-        )}
+        <p className="text-[#D4D4D4] text-xs leading-relaxed">{description}</p>
       </div>
-      {/* Widget Content (Passed as children) */}
-      <div className="flex-grow w-full overflow-auto">{children}</div>
+      <div className="flex-grow w-80 h-80 mx-auto px-4 rounded-3xl bg-black">
+        {children}
+      </div>
+      <div className="mt-4 flex justify-center items-center">
+        <button
+          onClick={onSelect}
+          className={`px-3 py-1 rounded-full text-sm ${
+            isSelected
+              ? "bg-[#313131] text-white"
+              : "bg-[#737373] text-gray-300"
+          }`}
+        >
+          {isSelected ? "Selected" : "Select"}
+        </button>
+      </div>
+      <SizeSelector selectedSize={selectedSize} onSizeChange={onSizeChange} />
     </div>
   );
 };

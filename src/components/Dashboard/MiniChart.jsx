@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react";
 import { Chart as ChartJS } from "chart.js/auto";
 
 const MiniChart = ({ data, color, trend }) => {
+  // 'data' prop is now used
   const chartRef = useRef(null);
   const chartInstanceRef = useRef(null);
 
@@ -17,7 +18,7 @@ const MiniChart = ({ data, color, trend }) => {
     const generateChartData = () => {
       const points = 20;
       const baseValue = 50;
-      const data = [];
+      const generatedData = [];
 
       for (let i = 0; i < points; i++) {
         let value;
@@ -28,20 +29,21 @@ const MiniChart = ({ data, color, trend }) => {
         } else {
           value = baseValue + Math.random() * 20;
         }
-        data.push(value);
+        generatedData.push(value);
       }
-      return data;
+      return generatedData;
     };
 
-    const chartData = generateChartData();
+    // Use provided data if available, otherwise generate
+    const finalChartData = data && data.length > 0 ? data : generateChartData();
 
     chartInstanceRef.current = new ChartJS(ctx, {
       type: "line",
       data: {
-        labels: new Array(chartData.length).fill(""),
+        labels: new Array(finalChartData.length).fill(""),
         datasets: [
           {
-            data: chartData,
+            data: finalChartData,
             borderColor: color,
             backgroundColor: color + "20",
             borderWidth: 2,
@@ -71,14 +73,11 @@ const MiniChart = ({ data, color, trend }) => {
     return () => {
       chartInstanceRef.current?.destroy();
     };
-  }, [data, color, trend]);
+  }, [data, color, trend]); // Added data to dependency array
 
   return (
     <div className="w-full h-12">
-      <canvas
-        ref={chartRef}
-        style={{ width: "350px", height: "48px" }}
-      ></canvas>
+      <canvas ref={chartRef}></canvas>
     </div>
   );
 };

@@ -1,5 +1,4 @@
-import React from "react";
-import StockItem from "./StockItem";
+import StockItem from "../Dashboard/StockItem";
 
 const RetailProductCard = ({
   darkMode = true,
@@ -49,9 +48,9 @@ const RetailProductCard = ({
     <div
       className={`${
         darkMode ? "bg-[#171717]" : "bg-white"
-      } rounded-3xl p-4 w-full`}
+      } rounded-3xl p-4 w-full h-full flex flex-col`}
     >
-      <div className="space-y-3">
+      <div className="space-y-3 flex-grow">
         {stockData.slice(0, size === "small" ? 2 : 4).map((stock, index) => (
           <StockItem key={index} stock={stock} darkMode={darkMode} />
         ))}
