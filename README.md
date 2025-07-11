@@ -1,12 +1,21 @@
-# React + Vite
+# Petrodata Project Reflection
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Just wrapped up the Petrodata project - what a ride! This was a two-page application featuring a dashboard and a widgets configuration page, but the complexity was in all the moving parts underneath.
 
-Currently, two official plugins are available:
+## The Challenge
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The project packed a punch with popup modals, complex state management, and components that needed to update entire sections of the UI. The biggest hurdle was definitely the time constraint combined with the sheer number of components that needed to be built from scratch.
 
-## Expanding the ESLint configuration
+## My Rookie Mistake
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+I completely botched the core functionality by approaching it backwards. The widgets configuration page was supposed to drive the dashboard setup, but I started building the dashboard first. Now the config page selections don't actually affect the dashboard at all - classic case of building before fully understanding the requirements!
+
+## The Fun Part
+
+Despite the chaos and the pressure, I genuinely enjoyed being challenged like this. There's something satisfying about wrestling with complex state updates and figuring out how to make all these components talk to each other.
+
+The project might be "concluded" but I'm definitely not done with it. I'll be tweaking and perfecting it until it actually works the way it was supposed to from the start.
+
+## Here'a The Link
+
+Check it out -> https://petrodata-xi.vercel.app/
