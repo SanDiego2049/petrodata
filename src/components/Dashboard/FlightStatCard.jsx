@@ -64,7 +64,7 @@ const FlightStatCard = ({ darkMode }) => {
         ticks: {
           color: "#A3A3A3",
           font: {
-            size: 10, // Smaller font size for x-axis labels on smaller screens
+            size: 10, 
           },
         },
       },
@@ -82,7 +82,7 @@ const FlightStatCard = ({ darkMode }) => {
             return value / 1000 + "k";
           },
           font: {
-            size: 10, // Smaller font size for y-axis labels on smaller screens
+            size: 10, 
           },
         },
         min: 0,

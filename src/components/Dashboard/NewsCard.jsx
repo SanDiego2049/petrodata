@@ -8,7 +8,7 @@ const NewsCard = () => (
     {/* Opaque overlay */}
     <div className="absolute inset-0 bg-black opacity-40 rounded-3xl"></div>
 
-    {/* Content Wrapper - ensures text is on top of the overlay */}
+    {/* Content Wrapper */}
     <div className="relative z-10 flex flex-col h-full">
       <div className="absolute top-0 left-0 sm:top-0 sm:left-0 bg-teal-600 text-white text-xs px-2 py-1 rounded-full">
         ICE

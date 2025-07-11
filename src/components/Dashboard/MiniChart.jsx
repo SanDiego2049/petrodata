@@ -73,7 +73,7 @@ const MiniChart = ({ data, color, trend }) => {
     return () => {
       chartInstanceRef.current?.destroy();
     };
-  }, [data, color, trend]); // Added data to dependency array
+  }, [data, color, trend]); 
 
   return (
     <div className="w-full h-12">

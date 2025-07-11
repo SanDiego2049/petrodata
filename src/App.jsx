@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router";
 import Dashboard from "./pages/Dashboard";
 import WidgetsConfiguration from "./pages/WidgetsConfiguration";
+import NotFound from "./pages/NotFound";
 
 const App = () => {
   return (
@@ -8,10 +9,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Dashboard />} />
         <Route path="/widgets" element={<WidgetsConfiguration />} />
-        {/* <Route path="/login" element={<Login />} />
-      <Route path="/signup" element={<Signup />} /> 
-      <Route path="*" element={<NotFound />} />
-*/}
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </>
   );
