@@ -10,6 +10,10 @@ The project packed a punch with popup modals, complex state management, and comp
 
 I completely botched the core functionality by approaching it backwards. The widgets configuration page was supposed to drive the dashboard setup, but I started building the dashboard first. Now the config page selections don't actually affect the dashboard at all - classic case of building before fully understanding the requirements!
 
+## External Libraries and Tools
+
+I used quite a number of libraries and tools but the most notable are TailwindCSS, ChartsJS and Lucide React
+
 ## The Fun Part
 
 Despite the chaos and the pressure, I genuinely enjoyed being challenged like this. There's something satisfying about wrestling with complex state updates and figuring out how to make all these components talk to each other.
