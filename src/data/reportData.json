@@ -1,0 +1,222 @@
+[
+  {
+    "weekNumber": 10,
+    "weekRange": "14 Jul - 20 Jul",
+    "reports": [
+      {
+        "commodity": "AGO",
+        "image": "/path/to/image_week10_1.jpg"
+      },
+      {
+        "commodity": "AGO",
+        "image": "/path/to/image_week10_2.jpg"
+      },
+      {
+        "commodity": "LPG",
+        "image": "/path/to/image_week10_3.jpg"
+      },
+      {
+        "commodity": "DPK",
+        "image": "/path/to/image_week10_4.jpg"
+      }
+    ]
+  },
+  {
+    "weekNumber": 9,
+    "weekRange": "07 Jul - 13 Jul",
+    "reports": [
+      {
+        "commodity": "LPG",
+        "image": "/path/to/image_week9_1.jpg"
+      },
+      {
+        "commodity": "PMS",
+        "image": "/path/to/image_week9_2.jpg"
+      },
+      {
+        "commodity": "AGO",
+        "image": "/path/to/image_week9_3.jpg"
+      },
+      {
+        "commodity": "PMS",
+        "image": "/path/to/image_week9_4.jpg"
+      }
+    ]
+  },
+  {
+    "weekNumber": 8,
+    "weekRange": "30 Jun - 06 Jul",
+    "reports": [
+      {
+        "commodity": "PMS",
+        "image": "/path/to/image_week8_1.jpg"
+      },
+      {
+        "commodity": "AGO",
+        "image": "/path/to/image_week8_2.jpg"
+      },
+      {
+        "commodity": "PMS",
+        "image": "/path/to/image_week8_3.jpg"
+      },
+      {
+        "commodity": "LPG",
+        "image": "/path/to/image_week8_4.jpg"
+      }
+    ]
+  },
+  {
+    "weekNumber": 7,
+    "weekRange": "23 Jun - 29 Jun",
+    "reports": [
+      {
+        "commodity": "LPG",
+        "image": "/path/to/image_week7_1.jpg"
+      },
+      {
+        "commodity": "AGO",
+        "image": "/path/to/image_week7_2.jpg"
+      },
+      {
+        "commodity": "PMS",
+        "image": "/path/to/image_week7_3.jpg"
+      },
+      {
+        "commodity": "DPK",
+        "image": "/path/to/image_week7_4.jpg"
+      }
+    ]
+  },
+  {
+    "weekNumber": 6,
+    "weekRange": "16 Jun - 22 Jun",
+    "reports": [
+      {
+        "commodity": "PMS",
+        "image": "/path/to/image_week6_1.jpg"
+      },
+      {
+        "commodity": "DPK",
+        "image": "/path/to/image_week6_2.jpg"
+      },
+      {
+        "commodity": "DPK",
+        "image": "/path/to/image_week6_3.jpg"
+      },
+      {
+        "commodity": "PMS",
+        "image": "/path/to/image_week6_4.jpg"
+      }
+    ]
+  },
+  {
+    "weekNumber": 5,
+    "weekRange": "09 Jun - 15 Jun",
+    "reports": [
+      {
+        "commodity": "DPK",
+        "image": "/path/to/image_week5_1.jpg"
+      },
+      {
+        "commodity": "AGO",
+        "image": "/path/to/image_week5_2.jpg"
+      },
+      {
+        "commodity": "DPK",
+        "image": "/path/to/image_week5_3.jpg"
+      },
+      {
+        "commodity": "DPK",
+        "image": "/path/to/image_week5_4.jpg"
+      }
+    ]
+  },
+  {
+    "weekNumber": 4,
+    "weekRange": "02 Jun - 08 Jun",
+    "reports": [
+      {
+        "commodity": "LPG",
+        "image": "/path/to/image_week4_1.jpg"
+      },
+      {
+        "commodity": "LPG",
+        "image": "/path/to/image_week4_2.jpg"
+      },
+      {
+        "commodity": "DPK",
+        "image": "/path/to/image_week4_3.jpg"
+      },
+      {
+        "commodity": "LPG",
+        "image": "/path/to/image_week4_4.jpg"
+      }
+    ]
+  },
+  {
+    "weekNumber": 3,
+    "weekRange": "26 May - 01 Jun",
+    "reports": [
+      {
+        "commodity": "PMS",
+        "image": "/path/to/image_week3_1.jpg"
+      },
+      {
+        "commodity": "AGO",
+        "image": "/path/to/image_week3_2.jpg"
+      },
+      {
+        "commodity": "PMS",
+        "image": "/path/to/image_week3_3.jpg"
+      },
+      {
+        "commodity": "DPK",
+        "image": "/path/to/image_week3_4.jpg"
+      }
+    ]
+  },
+  {
+    "weekNumber": 2,
+    "weekRange": "19 May - 25 May",
+    "reports": [
+      {
+        "commodity": "LPG",
+        "image": "/path/to/image_week2_1.jpg"
+      },
+      {
+        "commodity": "PMS",
+        "image": "/path/to/image_week2_2.jpg"
+      },
+      {
+        "commodity": "LPG",
+        "image": "/path/to/image_week2_3.jpg"
+      },
+      {
+        "commodity": "PMS",
+        "image": "/path/to/image_week2_4.jpg"
+      }
+    ]
+  },
+  {
+    "weekNumber": 1,
+    "weekRange": "12 May - 18 May",
+    "reports": [
+      {
+        "commodity": "PMS",
+        "image": "/path/to/image_week1_1.jpg"
+      },
+      {
+        "commodity": "DPK",
+        "image": "/path/to/image_week1_2.jpg"
+      },
+      {
+        "commodity": "PMS",
+        "image": "/path/to/image_week1_3.jpg"
+      },
+      {
+        "commodity": "LPG",
+        "image": "/path/to/image_week1_4.jpg"
+      }
+    ]
+  }
+]

@@ -1,0 +1,2803 @@
+[
+  {
+    "date": "10 Jan",
+    "state": "Lagos",
+    "airport": "Murtala Muhammed Intl",
+    "type": "International",
+    "Commercial": 2609,
+    "Military": 174,
+    "Private": 381,
+    "flights": {
+      "Commercial": [
+        "Murtala Muhammed Intl Flight 1"
+      ],
+      "Military": [],
+      "Private": [
+        "Murtala Muhammed Intl Private 1",
+        "Murtala Muhammed Intl Private 2",
+        "Murtala Muhammed Intl Private 3"
+      ]
+    }
+  },
+  {
+    "date": "11 Jan",
+    "state": "Lagos",
+    "airport": "Murtala Muhammed Intl",
+    "type": "International",
+    "Commercial": 6955,
+    "Military": 977,
+    "Private": 477,
+    "flights": {
+      "Commercial": [
+        "Murtala Muhammed Intl Flight 1",
+        "Murtala Muhammed Intl Flight 2",
+        "Murtala Muhammed Intl Flight 3"
+      ],
+      "Military": [
+        "Murtala Muhammed Intl Military 1",
+        "Murtala Muhammed Intl Military 2",
+        "Murtala Muhammed Intl Military 3",
+        "Murtala Muhammed Intl Military 4"
+      ],
+      "Private": [
+        "Murtala Muhammed Intl Private 1",
+        "Murtala Muhammed Intl Private 2",
+        "Murtala Muhammed Intl Private 3",
+        "Murtala Muhammed Intl Private 4"
+      ]
+    }
+  },
+  {
+    "date": "12 Jan",
+    "state": "Lagos",
+    "airport": "Murtala Muhammed Intl",
+    "type": "International",
+    "Commercial": 6742,
+    "Military": 290,
+    "Private": 129,
+    "flights": {
+      "Commercial": [
+        "Murtala Muhammed Intl Flight 1",
+        "Murtala Muhammed Intl Flight 2",
+        "Murtala Muhammed Intl Flight 3"
+      ],
+      "Military": [
+        "Murtala Muhammed Intl Military 1"
+      ],
+      "Private": [
+        "Murtala Muhammed Intl Private 1"
+      ]
+    }
+  },
+  {
+    "date": "13 Jan",
+    "state": "Lagos",
+    "airport": "Murtala Muhammed Intl",
+    "type": "International",
+    "Commercial": 1780,
+    "Military": 219,
+    "Private": 189,
+    "flights": {
+      "Commercial": [],
+      "Military": [
+        "Murtala Muhammed Intl Military 1"
+      ],
+      "Private": [
+        "Murtala Muhammed Intl Private 1"
+      ]
+    }
+  },
+  {
+    "date": "14 Jan",
+    "state": "Lagos",
+    "airport": "Murtala Muhammed Intl",
+    "type": "International",
+    "Commercial": 6968,
+    "Military": 176,
+    "Private": 334,
+    "flights": {
+      "Commercial": [
+        "Murtala Muhammed Intl Flight 1",
+        "Murtala Muhammed Intl Flight 2",
+        "Murtala Muhammed Intl Flight 3"
+      ],
+      "Military": [],
+      "Private": [
+        "Murtala Muhammed Intl Private 1",
+        "Murtala Muhammed Intl Private 2",
+        "Murtala Muhammed Intl Private 3"
+      ]
+    }
+  },
+  {
+    "date": "15 Jan",
+    "state": "Lagos",
+    "airport": "Murtala Muhammed Intl",
+    "type": "International",
+    "Commercial": 1429,
+    "Military": 532,
+    "Private": 408,
+    "flights": {
+      "Commercial": [],
+      "Military": [
+        "Murtala Muhammed Intl Military 1",
+        "Murtala Muhammed Intl Military 2"
+      ],
+      "Private": [
+        "Murtala Muhammed Intl Private 1",
+        "Murtala Muhammed Intl Private 2",
+        "Murtala Muhammed Intl Private 3",
+        "Murtala Muhammed Intl Private 4"
+      ]
+    }
+  },
+  {
+    "date": "16 Jan",
+    "state": "Lagos",
+    "airport": "Murtala Muhammed Intl",
+    "type": "International",
+    "Commercial": 6322,
+    "Military": 920,
+    "Private": 320,
+    "flights": {
+      "Commercial": [
+        "Murtala Muhammed Intl Flight 1",
+        "Murtala Muhammed Intl Flight 2",
+        "Murtala Muhammed Intl Flight 3"
+      ],
+      "Military": [
+        "Murtala Muhammed Intl Military 1",
+        "Murtala Muhammed Intl Military 2",
+        "Murtala Muhammed Intl Military 3",
+        "Murtala Muhammed Intl Military 4"
+      ],
+      "Private": [
+        "Murtala Muhammed Intl Private 1",
+        "Murtala Muhammed Intl Private 2",
+        "Murtala Muhammed Intl Private 3"
+      ]
+    }
+  },
+  {
+    "date": "17 Jan",
+    "state": "Lagos",
+    "airport": "Murtala Muhammed Intl",
+    "type": "International",
+    "Commercial": 9684,
+    "Military": 348,
+    "Private": 279,
+    "flights": {
+      "Commercial": [
+        "Murtala Muhammed Intl Flight 1",
+        "Murtala Muhammed Intl Flight 2",
+        "Murtala Muhammed Intl Flight 3",
+        "Murtala Muhammed Intl Flight 4"
+      ],
+      "Military": [
+        "Murtala Muhammed Intl Military 1"
+      ],
+      "Private": [
+        "Murtala Muhammed Intl Private 1",
+        "Murtala Muhammed Intl Private 2"
+      ]
+    }
+  },
+  {
+    "date": "18 Jan",
+    "state": "Lagos",
+    "airport": "Murtala Muhammed Intl",
+    "type": "International",
+    "Commercial": 7548,
+    "Military": 700,
+    "Private": 401,
+    "flights": {
+      "Commercial": [
+        "Murtala Muhammed Intl Flight 1",
+        "Murtala Muhammed Intl Flight 2",
+        "Murtala Muhammed Intl Flight 3"
+      ],
+      "Military": [
+        "Murtala Muhammed Intl Military 1",
+        "Murtala Muhammed Intl Military 2",
+        "Murtala Muhammed Intl Military 3"
+      ],
+      "Private": [
+        "Murtala Muhammed Intl Private 1",
+        "Murtala Muhammed Intl Private 2",
+        "Murtala Muhammed Intl Private 3",
+        "Murtala Muhammed Intl Private 4"
+      ]
+    }
+  },
+  {
+    "date": "19 Jan",
+    "state": "Lagos",
+    "airport": "Murtala Muhammed Intl",
+    "type": "International",
+    "Commercial": 6553,
+    "Military": 438,
+    "Private": 377,
+    "flights": {
+      "Commercial": [
+        "Murtala Muhammed Intl Flight 1",
+        "Murtala Muhammed Intl Flight 2",
+        "Murtala Muhammed Intl Flight 3"
+      ],
+      "Military": [
+        "Murtala Muhammed Intl Military 1",
+        "Murtala Muhammed Intl Military 2"
+      ],
+      "Private": [
+        "Murtala Muhammed Intl Private 1",
+        "Murtala Muhammed Intl Private 2",
+        "Murtala Muhammed Intl Private 3"
+      ]
+    }
+  },
+  {
+    "date": "10 Jan",
+    "state": "Lagos",
+    "airport": "Muritala Mohammed Airport (Local)",
+    "type": "Domestic",
+    "Commercial": 6296,
+    "Military": 709,
+    "Private": 262,
+    "flights": {
+      "Commercial": [
+        "Muritala Mohammed Airport (Local) Flight 1",
+        "Muritala Mohammed Airport (Local) Flight 2",
+        "Muritala Mohammed Airport (Local) Flight 3"
+      ],
+      "Military": [
+        "Muritala Mohammed Airport (Local) Military 1",
+        "Muritala Mohammed Airport (Local) Military 2",
+        "Muritala Mohammed Airport (Local) Military 3"
+      ],
+      "Private": [
+        "Muritala Mohammed Airport (Local) Private 1",
+        "Muritala Mohammed Airport (Local) Private 2"
+      ]
+    }
+  },
+  {
+    "date": "11 Jan",
+    "state": "Lagos",
+    "airport": "Muritala Mohammed Airport (Local)",
+    "type": "Domestic",
+    "Commercial": 8918,
+    "Military": 180,
+    "Private": 273,
+    "flights": {
+      "Commercial": [
+        "Muritala Mohammed Airport (Local) Flight 1",
+        "Muritala Mohammed Airport (Local) Flight 2",
+        "Muritala Mohammed Airport (Local) Flight 3",
+        "Muritala Mohammed Airport (Local) Flight 4"
+      ],
+      "Military": [],
+      "Private": [
+        "Muritala Mohammed Airport (Local) Private 1",
+        "Muritala Mohammed Airport (Local) Private 2"
+      ]
+    }
+  },
+  {
+    "date": "12 Jan",
+    "state": "Lagos",
+    "airport": "Muritala Mohammed Airport (Local)",
+    "type": "Domestic",
+    "Commercial": 9849,
+    "Military": 689,
+    "Private": 407,
+    "flights": {
+      "Commercial": [
+        "Muritala Mohammed Airport (Local) Flight 1",
+        "Muritala Mohammed Airport (Local) Flight 2",
+        "Muritala Mohammed Airport (Local) Flight 3",
+        "Muritala Mohammed Airport (Local) Flight 4"
+      ],
+      "Military": [
+        "Muritala Mohammed Airport (Local) Military 1",
+        "Muritala Mohammed Airport (Local) Military 2",
+        "Muritala Mohammed Airport (Local) Military 3"
+      ],
+      "Private": [
+        "Muritala Mohammed Airport (Local) Private 1",
+        "Muritala Mohammed Airport (Local) Private 2",
+        "Muritala Mohammed Airport (Local) Private 3",
+        "Muritala Mohammed Airport (Local) Private 4"
+      ]
+    }
+  },
+  {
+    "date": "13 Jan",
+    "state": "Lagos",
+    "airport": "Muritala Mohammed Airport (Local)",
+    "type": "Domestic",
+    "Commercial": 8620,
+    "Military": 783,
+    "Private": 418,
+    "flights": {
+      "Commercial": [
+        "Muritala Mohammed Airport (Local) Flight 1",
+        "Muritala Mohammed Airport (Local) Flight 2",
+        "Muritala Mohammed Airport (Local) Flight 3",
+        "Muritala Mohammed Airport (Local) Flight 4"
+      ],
+      "Military": [
+        "Muritala Mohammed Airport (Local) Military 1",
+        "Muritala Mohammed Airport (Local) Military 2",
+        "Muritala Mohammed Airport (Local) Military 3"
+      ],
+      "Private": [
+        "Muritala Mohammed Airport (Local) Private 1",
+        "Muritala Mohammed Airport (Local) Private 2",
+        "Muritala Mohammed Airport (Local) Private 3",
+        "Muritala Mohammed Airport (Local) Private 4"
+      ]
+    }
+  },
+  {
+    "date": "14 Jan",
+    "state": "Lagos",
+    "airport": "Muritala Mohammed Airport (Local)",
+    "type": "Domestic",
+    "Commercial": 5565,
+    "Military": 917,
+    "Private": 257,
+    "flights": {
+      "Commercial": [
+        "Muritala Mohammed Airport (Local) Flight 1",
+        "Muritala Mohammed Airport (Local) Flight 2"
+      ],
+      "Military": [
+        "Muritala Mohammed Airport (Local) Military 1",
+        "Muritala Mohammed Airport (Local) Military 2",
+        "Muritala Mohammed Airport (Local) Military 3",
+        "Muritala Mohammed Airport (Local) Military 4"
+      ],
+      "Private": [
+        "Muritala Mohammed Airport (Local) Private 1",
+        "Muritala Mohammed Airport (Local) Private 2"
+      ]
+    }
+  },
+  {
+    "date": "15 Jan",
+    "state": "Lagos",
+    "airport": "Muritala Mohammed Airport (Local)",
+    "type": "Domestic",
+    "Commercial": 2185,
+    "Military": 977,
+    "Private": 466,
+    "flights": {
+      "Commercial": [
+        "Muritala Mohammed Airport (Local) Flight 1"
+      ],
+      "Military": [
+        "Muritala Mohammed Airport (Local) Military 1",
+        "Muritala Mohammed Airport (Local) Military 2",
+        "Muritala Mohammed Airport (Local) Military 3",
+        "Muritala Mohammed Airport (Local) Military 4"
+      ],
+      "Private": [
+        "Muritala Mohammed Airport (Local) Private 1",
+        "Muritala Mohammed Airport (Local) Private 2",
+        "Muritala Mohammed Airport (Local) Private 3",
+        "Muritala Mohammed Airport (Local) Private 4"
+      ]
+    }
+  },
+  {
+    "date": "16 Jan",
+    "state": "Lagos",
+    "airport": "Muritala Mohammed Airport (Local)",
+    "type": "Domestic",
+    "Commercial": 2695,
+    "Military": 278,
+    "Private": 180,
+    "flights": {
+      "Commercial": [
+        "Muritala Mohammed Airport (Local) Flight 1"
+      ],
+      "Military": [
+        "Muritala Mohammed Airport (Local) Military 1"
+      ],
+      "Private": [
+        "Muritala Mohammed Airport (Local) Private 1"
+      ]
+    }
+  },
+  {
+    "date": "17 Jan",
+    "state": "Lagos",
+    "airport": "Muritala Mohammed Airport (Local)",
+    "type": "Domestic",
+    "Commercial": 3519,
+    "Military": 784,
+    "Private": 159,
+    "flights": {
+      "Commercial": [
+        "Muritala Mohammed Airport (Local) Flight 1"
+      ],
+      "Military": [
+        "Muritala Mohammed Airport (Local) Military 1",
+        "Muritala Mohammed Airport (Local) Military 2",
+        "Muritala Mohammed Airport (Local) Military 3"
+      ],
+      "Private": [
+        "Muritala Mohammed Airport (Local) Private 1"
+      ]
+    }
+  },
+  {
+    "date": "18 Jan",
+    "state": "Lagos",
+    "airport": "Muritala Mohammed Airport (Local)",
+    "type": "Domestic",
+    "Commercial": 1186,
+    "Military": 884,
+    "Private": 198,
+    "flights": {
+      "Commercial": [],
+      "Military": [
+        "Muritala Mohammed Airport (Local) Military 1",
+        "Muritala Mohammed Airport (Local) Military 2",
+        "Muritala Mohammed Airport (Local) Military 3",
+        "Muritala Mohammed Airport (Local) Military 4"
+      ],
+      "Private": [
+        "Muritala Mohammed Airport (Local) Private 1"
+      ]
+    }
+  },
+  {
+    "date": "19 Jan",
+    "state": "Lagos",
+    "airport": "Muritala Mohammed Airport (Local)",
+    "type": "Domestic",
+    "Commercial": 5202,
+    "Military": 795,
+    "Private": 196,
+    "flights": {
+      "Commercial": [
+        "Muritala Mohammed Airport (Local) Flight 1",
+        "Muritala Mohammed Airport (Local) Flight 2"
+      ],
+      "Military": [
+        "Muritala Mohammed Airport (Local) Military 1",
+        "Muritala Mohammed Airport (Local) Military 2",
+        "Muritala Mohammed Airport (Local) Military 3"
+      ],
+      "Private": [
+        "Muritala Mohammed Airport (Local) Private 1"
+      ]
+    }
+  },
+  {
+    "date": "10 Jan",
+    "state": "Abuja",
+    "airport": "Nnamdi Azikiwe Intl",
+    "type": "International",
+    "Commercial": 7763,
+    "Military": 436,
+    "Private": 287,
+    "flights": {
+      "Commercial": [
+        "Nnamdi Azikiwe Intl Flight 1",
+        "Nnamdi Azikiwe Intl Flight 2",
+        "Nnamdi Azikiwe Intl Flight 3"
+      ],
+      "Military": [
+        "Nnamdi Azikiwe Intl Military 1",
+        "Nnamdi Azikiwe Intl Military 2"
+      ],
+      "Private": [
+        "Nnamdi Azikiwe Intl Private 1",
+        "Nnamdi Azikiwe Intl Private 2"
+      ]
+    }
+  },
+  {
+    "date": "11 Jan",
+    "state": "Abuja",
+    "airport": "Nnamdi Azikiwe Intl",
+    "type": "International",
+    "Commercial": 3056,
+    "Military": 329,
+    "Private": 427,
+    "flights": {
+      "Commercial": [
+        "Nnamdi Azikiwe Intl Flight 1"
+      ],
+      "Military": [
+        "Nnamdi Azikiwe Intl Military 1"
+      ],
+      "Private": [
+        "Nnamdi Azikiwe Intl Private 1",
+        "Nnamdi Azikiwe Intl Private 2",
+        "Nnamdi Azikiwe Intl Private 3",
+        "Nnamdi Azikiwe Intl Private 4"
+      ]
+    }
+  },
+  {
+    "date": "12 Jan",
+    "state": "Abuja",
+    "airport": "Nnamdi Azikiwe Intl",
+    "type": "International",
+    "Commercial": 7220,
+    "Military": 845,
+    "Private": 236,
+    "flights": {
+      "Commercial": [
+        "Nnamdi Azikiwe Intl Flight 1",
+        "Nnamdi Azikiwe Intl Flight 2",
+        "Nnamdi Azikiwe Intl Flight 3"
+      ],
+      "Military": [
+        "Nnamdi Azikiwe Intl Military 1",
+        "Nnamdi Azikiwe Intl Military 2",
+        "Nnamdi Azikiwe Intl Military 3",
+        "Nnamdi Azikiwe Intl Military 4"
+      ],
+      "Private": [
+        "Nnamdi Azikiwe Intl Private 1",
+        "Nnamdi Azikiwe Intl Private 2"
+      ]
+    }
+  },
+  {
+    "date": "13 Jan",
+    "state": "Abuja",
+    "airport": "Nnamdi Azikiwe Intl",
+    "type": "International",
+    "Commercial": 7673,
+    "Military": 327,
+    "Private": 426,
+    "flights": {
+      "Commercial": [
+        "Nnamdi Azikiwe Intl Flight 1",
+        "Nnamdi Azikiwe Intl Flight 2",
+        "Nnamdi Azikiwe Intl Flight 3"
+      ],
+      "Military": [
+        "Nnamdi Azikiwe Intl Military 1"
+      ],
+      "Private": [
+        "Nnamdi Azikiwe Intl Private 1",
+        "Nnamdi Azikiwe Intl Private 2",
+        "Nnamdi Azikiwe Intl Private 3",
+        "Nnamdi Azikiwe Intl Private 4"
+      ]
+    }
+  },
+  {
+    "date": "14 Jan",
+    "state": "Abuja",
+    "airport": "Nnamdi Azikiwe Intl",
+    "type": "International",
+    "Commercial": 2980,
+    "Military": 781,
+    "Private": 485,
+    "flights": {
+      "Commercial": [
+        "Nnamdi Azikiwe Intl Flight 1"
+      ],
+      "Military": [
+        "Nnamdi Azikiwe Intl Military 1",
+        "Nnamdi Azikiwe Intl Military 2",
+        "Nnamdi Azikiwe Intl Military 3"
+      ],
+      "Private": [
+        "Nnamdi Azikiwe Intl Private 1",
+        "Nnamdi Azikiwe Intl Private 2",
+        "Nnamdi Azikiwe Intl Private 3",
+        "Nnamdi Azikiwe Intl Private 4"
+      ]
+    }
+  },
+  {
+    "date": "15 Jan",
+    "state": "Abuja",
+    "airport": "Nnamdi Azikiwe Intl",
+    "type": "International",
+    "Commercial": 1593,
+    "Military": 769,
+    "Private": 254,
+    "flights": {
+      "Commercial": [],
+      "Military": [
+        "Nnamdi Azikiwe Intl Military 1",
+        "Nnamdi Azikiwe Intl Military 2",
+        "Nnamdi Azikiwe Intl Military 3"
+      ],
+      "Private": [
+        "Nnamdi Azikiwe Intl Private 1",
+        "Nnamdi Azikiwe Intl Private 2"
+      ]
+    }
+  },
+  {
+    "date": "16 Jan",
+    "state": "Abuja",
+    "airport": "Nnamdi Azikiwe Intl",
+    "type": "International",
+    "Commercial": 3976,
+    "Military": 502,
+    "Private": 426,
+    "flights": {
+      "Commercial": [
+        "Nnamdi Azikiwe Intl Flight 1"
+      ],
+      "Military": [
+        "Nnamdi Azikiwe Intl Military 1",
+        "Nnamdi Azikiwe Intl Military 2"
+      ],
+      "Private": [
+        "Nnamdi Azikiwe Intl Private 1",
+        "Nnamdi Azikiwe Intl Private 2",
+        "Nnamdi Azikiwe Intl Private 3",
+        "Nnamdi Azikiwe Intl Private 4"
+      ]
+    }
+  },
+  {
+    "date": "17 Jan",
+    "state": "Abuja",
+    "airport": "Nnamdi Azikiwe Intl",
+    "type": "International",
+    "Commercial": 6374,
+    "Military": 343,
+    "Private": 401,
+    "flights": {
+      "Commercial": [
+        "Nnamdi Azikiwe Intl Flight 1",
+        "Nnamdi Azikiwe Intl Flight 2",
+        "Nnamdi Azikiwe Intl Flight 3"
+      ],
+      "Military": [
+        "Nnamdi Azikiwe Intl Military 1"
+      ],
+      "Private": [
+        "Nnamdi Azikiwe Intl Private 1",
+        "Nnamdi Azikiwe Intl Private 2",
+        "Nnamdi Azikiwe Intl Private 3",
+        "Nnamdi Azikiwe Intl Private 4"
+      ]
+    }
+  },
+  {
+    "date": "18 Jan",
+    "state": "Abuja",
+    "airport": "Nnamdi Azikiwe Intl",
+    "type": "International",
+    "Commercial": 7288,
+    "Military": 723,
+    "Private": 407,
+    "flights": {
+      "Commercial": [
+        "Nnamdi Azikiwe Intl Flight 1",
+        "Nnamdi Azikiwe Intl Flight 2",
+        "Nnamdi Azikiwe Intl Flight 3"
+      ],
+      "Military": [
+        "Nnamdi Azikiwe Intl Military 1",
+        "Nnamdi Azikiwe Intl Military 2",
+        "Nnamdi Azikiwe Intl Military 3"
+      ],
+      "Private": [
+        "Nnamdi Azikiwe Intl Private 1",
+        "Nnamdi Azikiwe Intl Private 2",
+        "Nnamdi Azikiwe Intl Private 3",
+        "Nnamdi Azikiwe Intl Private 4"
+      ]
+    }
+  },
+  {
+    "date": "19 Jan",
+    "state": "Abuja",
+    "airport": "Nnamdi Azikiwe Intl",
+    "type": "International",
+    "Commercial": 7115,
+    "Military": 960,
+    "Private": 294,
+    "flights": {
+      "Commercial": [
+        "Nnamdi Azikiwe Intl Flight 1",
+        "Nnamdi Azikiwe Intl Flight 2",
+        "Nnamdi Azikiwe Intl Flight 3"
+      ],
+      "Military": [
+        "Nnamdi Azikiwe Intl Military 1",
+        "Nnamdi Azikiwe Intl Military 2",
+        "Nnamdi Azikiwe Intl Military 3",
+        "Nnamdi Azikiwe Intl Military 4"
+      ],
+      "Private": [
+        "Nnamdi Azikiwe Intl Private 1",
+        "Nnamdi Azikiwe Intl Private 2"
+      ]
+    }
+  },
+  {
+    "date": "10 Jan",
+    "state": "Abuja",
+    "airport": "Nnamdi Azikiwe Domestic",
+    "type": "Domestic",
+    "Commercial": 7677,
+    "Military": 670,
+    "Private": 443,
+    "flights": {
+      "Commercial": [
+        "Nnamdi Azikiwe Domestic Flight 1",
+        "Nnamdi Azikiwe Domestic Flight 2",
+        "Nnamdi Azikiwe Domestic Flight 3"
+      ],
+      "Military": [
+        "Nnamdi Azikiwe Domestic Military 1",
+        "Nnamdi Azikiwe Domestic Military 2",
+        "Nnamdi Azikiwe Domestic Military 3"
+      ],
+      "Private": [
+        "Nnamdi Azikiwe Domestic Private 1",
+        "Nnamdi Azikiwe Domestic Private 2",
+        "Nnamdi Azikiwe Domestic Private 3",
+        "Nnamdi Azikiwe Domestic Private 4"
+      ]
+    }
+  },
+  {
+    "date": "11 Jan",
+    "state": "Abuja",
+    "airport": "Nnamdi Azikiwe Domestic",
+    "type": "Domestic",
+    "Commercial": 8863,
+    "Military": 454,
+    "Private": 225,
+    "flights": {
+      "Commercial": [
+        "Nnamdi Azikiwe Domestic Flight 1",
+        "Nnamdi Azikiwe Domestic Flight 2",
+        "Nnamdi Azikiwe Domestic Flight 3",
+        "Nnamdi Azikiwe Domestic Flight 4"
+      ],
+      "Military": [
+        "Nnamdi Azikiwe Domestic Military 1",
+        "Nnamdi Azikiwe Domestic Military 2"
+      ],
+      "Private": [
+        "Nnamdi Azikiwe Domestic Private 1",
+        "Nnamdi Azikiwe Domestic Private 2"
+      ]
+    }
+  },
+  {
+    "date": "12 Jan",
+    "state": "Abuja",
+    "airport": "Nnamdi Azikiwe Domestic",
+    "type": "Domestic",
+    "Commercial": 3523,
+    "Military": 848,
+    "Private": 147,
+    "flights": {
+      "Commercial": [
+        "Nnamdi Azikiwe Domestic Flight 1"
+      ],
+      "Military": [
+        "Nnamdi Azikiwe Domestic Military 1",
+        "Nnamdi Azikiwe Domestic Military 2",
+        "Nnamdi Azikiwe Domestic Military 3",
+        "Nnamdi Azikiwe Domestic Military 4"
+      ],
+      "Private": [
+        "Nnamdi Azikiwe Domestic Private 1"
+      ]
+    }
+  },
+  {
+    "date": "13 Jan",
+    "state": "Abuja",
+    "airport": "Nnamdi Azikiwe Domestic",
+    "type": "Domestic",
+    "Commercial": 5378,
+    "Military": 697,
+    "Private": 225,
+    "flights": {
+      "Commercial": [
+        "Nnamdi Azikiwe Domestic Flight 1",
+        "Nnamdi Azikiwe Domestic Flight 2"
+      ],
+      "Military": [
+        "Nnamdi Azikiwe Domestic Military 1",
+        "Nnamdi Azikiwe Domestic Military 2",
+        "Nnamdi Azikiwe Domestic Military 3"
+      ],
+      "Private": [
+        "Nnamdi Azikiwe Domestic Private 1",
+        "Nnamdi Azikiwe Domestic Private 2"
+      ]
+    }
+  },
+  {
+    "date": "14 Jan",
+    "state": "Abuja",
+    "airport": "Nnamdi Azikiwe Domestic",
+    "type": "Domestic",
+    "Commercial": 7222,
+    "Military": 953,
+    "Private": 208,
+    "flights": {
+      "Commercial": [
+        "Nnamdi Azikiwe Domestic Flight 1",
+        "Nnamdi Azikiwe Domestic Flight 2",
+        "Nnamdi Azikiwe Domestic Flight 3"
+      ],
+      "Military": [
+        "Nnamdi Azikiwe Domestic Military 1",
+        "Nnamdi Azikiwe Domestic Military 2",
+        "Nnamdi Azikiwe Domestic Military 3",
+        "Nnamdi Azikiwe Domestic Military 4"
+      ],
+      "Private": [
+        "Nnamdi Azikiwe Domestic Private 1",
+        "Nnamdi Azikiwe Domestic Private 2"
+      ]
+    }
+  },
+  {
+    "date": "15 Jan",
+    "state": "Abuja",
+    "airport": "Nnamdi Azikiwe Domestic",
+    "type": "Domestic",
+    "Commercial": 4164,
+    "Military": 598,
+    "Private": 104,
+    "flights": {
+      "Commercial": [
+        "Nnamdi Azikiwe Domestic Flight 1",
+        "Nnamdi Azikiwe Domestic Flight 2"
+      ],
+      "Military": [
+        "Nnamdi Azikiwe Domestic Military 1",
+        "Nnamdi Azikiwe Domestic Military 2"
+      ],
+      "Private": [
+        "Nnamdi Azikiwe Domestic Private 1"
+      ]
+    }
+  },
+  {
+    "date": "16 Jan",
+    "state": "Abuja",
+    "airport": "Nnamdi Azikiwe Domestic",
+    "type": "Domestic",
+    "Commercial": 3107,
+    "Military": 822,
+    "Private": 175,
+    "flights": {
+      "Commercial": [
+        "Nnamdi Azikiwe Domestic Flight 1"
+      ],
+      "Military": [
+        "Nnamdi Azikiwe Domestic Military 1",
+        "Nnamdi Azikiwe Domestic Military 2",
+        "Nnamdi Azikiwe Domestic Military 3",
+        "Nnamdi Azikiwe Domestic Military 4"
+      ],
+      "Private": [
+        "Nnamdi Azikiwe Domestic Private 1"
+      ]
+    }
+  },
+  {
+    "date": "17 Jan",
+    "state": "Abuja",
+    "airport": "Nnamdi Azikiwe Domestic",
+    "type": "Domestic",
+    "Commercial": 2451,
+    "Military": 947,
+    "Private": 308,
+    "flights": {
+      "Commercial": [
+        "Nnamdi Azikiwe Domestic Flight 1"
+      ],
+      "Military": [
+        "Nnamdi Azikiwe Domestic Military 1",
+        "Nnamdi Azikiwe Domestic Military 2",
+        "Nnamdi Azikiwe Domestic Military 3",
+        "Nnamdi Azikiwe Domestic Military 4"
+      ],
+      "Private": [
+        "Nnamdi Azikiwe Domestic Private 1",
+        "Nnamdi Azikiwe Domestic Private 2",
+        "Nnamdi Azikiwe Domestic Private 3"
+      ]
+    }
+  },
+  {
+    "date": "18 Jan",
+    "state": "Abuja",
+    "airport": "Nnamdi Azikiwe Domestic",
+    "type": "Domestic",
+    "Commercial": 8578,
+    "Military": 166,
+    "Private": 331,
+    "flights": {
+      "Commercial": [
+        "Nnamdi Azikiwe Domestic Flight 1",
+        "Nnamdi Azikiwe Domestic Flight 2",
+        "Nnamdi Azikiwe Domestic Flight 3",
+        "Nnamdi Azikiwe Domestic Flight 4"
+      ],
+      "Military": [],
+      "Private": [
+        "Nnamdi Azikiwe Domestic Private 1",
+        "Nnamdi Azikiwe Domestic Private 2",
+        "Nnamdi Azikiwe Domestic Private 3"
+      ]
+    }
+  },
+  {
+    "date": "19 Jan",
+    "state": "Abuja",
+    "airport": "Nnamdi Azikiwe Domestic",
+    "type": "Domestic",
+    "Commercial": 6276,
+    "Military": 594,
+    "Private": 87,
+    "flights": {
+      "Commercial": [
+        "Nnamdi Azikiwe Domestic Flight 1",
+        "Nnamdi Azikiwe Domestic Flight 2",
+        "Nnamdi Azikiwe Domestic Flight 3"
+      ],
+      "Military": [
+        "Nnamdi Azikiwe Domestic Military 1",
+        "Nnamdi Azikiwe Domestic Military 2"
+      ],
+      "Private": []
+    }
+  },
+  {
+    "date": "10 Jan",
+    "state": "Kano",
+    "airport": "Mallam Aminu Kano Intl",
+    "type": "International",
+    "Commercial": 2751,
+    "Military": 841,
+    "Private": 429,
+    "flights": {
+      "Commercial": [
+        "Mallam Aminu Kano Intl Flight 1"
+      ],
+      "Military": [
+        "Mallam Aminu Kano Intl Military 1",
+        "Mallam Aminu Kano Intl Military 2",
+        "Mallam Aminu Kano Intl Military 3",
+        "Mallam Aminu Kano Intl Military 4"
+      ],
+      "Private": [
+        "Mallam Aminu Kano Intl Private 1",
+        "Mallam Aminu Kano Intl Private 2",
+        "Mallam Aminu Kano Intl Private 3",
+        "Mallam Aminu Kano Intl Private 4"
+      ]
+    }
+  },
+  {
+    "date": "11 Jan",
+    "state": "Kano",
+    "airport": "Mallam Aminu Kano Intl",
+    "type": "International",
+    "Commercial": 5423,
+    "Military": 238,
+    "Private": 386,
+    "flights": {
+      "Commercial": [
+        "Mallam Aminu Kano Intl Flight 1",
+        "Mallam Aminu Kano Intl Flight 2"
+      ],
+      "Military": [
+        "Mallam Aminu Kano Intl Military 1"
+      ],
+      "Private": [
+        "Mallam Aminu Kano Intl Private 1",
+        "Mallam Aminu Kano Intl Private 2",
+        "Mallam Aminu Kano Intl Private 3"
+      ]
+    }
+  },
+  {
+    "date": "12 Jan",
+    "state": "Kano",
+    "airport": "Mallam Aminu Kano Intl",
+    "type": "International",
+    "Commercial": 1080,
+    "Military": 970,
+    "Private": 83,
+    "flights": {
+      "Commercial": [],
+      "Military": [
+        "Mallam Aminu Kano Intl Military 1",
+        "Mallam Aminu Kano Intl Military 2",
+        "Mallam Aminu Kano Intl Military 3",
+        "Mallam Aminu Kano Intl Military 4"
+      ],
+      "Private": []
+    }
+  },
+  {
+    "date": "13 Jan",
+    "state": "Kano",
+    "airport": "Mallam Aminu Kano Intl",
+    "type": "International",
+    "Commercial": 4560,
+    "Military": 187,
+    "Private": 64,
+    "flights": {
+      "Commercial": [
+        "Mallam Aminu Kano Intl Flight 1",
+        "Mallam Aminu Kano Intl Flight 2"
+      ],
+      "Military": [],
+      "Private": []
+    }
+  },
+  {
+    "date": "14 Jan",
+    "state": "Kano",
+    "airport": "Mallam Aminu Kano Intl",
+    "type": "International",
+    "Commercial": 5193,
+    "Military": 401,
+    "Private": 52,
+    "flights": {
+      "Commercial": [
+        "Mallam Aminu Kano Intl Flight 1",
+        "Mallam Aminu Kano Intl Flight 2"
+      ],
+      "Military": [
+        "Mallam Aminu Kano Intl Military 1",
+        "Mallam Aminu Kano Intl Military 2"
+      ],
+      "Private": []
+    }
+  },
+  {
+    "date": "15 Jan",
+    "state": "Kano",
+    "airport": "Mallam Aminu Kano Intl",
+    "type": "International",
+    "Commercial": 7503,
+    "Military": 301,
+    "Private": 320,
+    "flights": {
+      "Commercial": [
+        "Mallam Aminu Kano Intl Flight 1",
+        "Mallam Aminu Kano Intl Flight 2",
+        "Mallam Aminu Kano Intl Flight 3"
+      ],
+      "Military": [
+        "Mallam Aminu Kano Intl Military 1"
+      ],
+      "Private": [
+        "Mallam Aminu Kano Intl Private 1",
+        "Mallam Aminu Kano Intl Private 2",
+        "Mallam Aminu Kano Intl Private 3"
+      ]
+    }
+  },
+  {
+    "date": "16 Jan",
+    "state": "Kano",
+    "airport": "Mallam Aminu Kano Intl",
+    "type": "International",
+    "Commercial": 9255,
+    "Military": 550,
+    "Private": 162,
+    "flights": {
+      "Commercial": [
+        "Mallam Aminu Kano Intl Flight 1",
+        "Mallam Aminu Kano Intl Flight 2",
+        "Mallam Aminu Kano Intl Flight 3",
+        "Mallam Aminu Kano Intl Flight 4"
+      ],
+      "Military": [
+        "Mallam Aminu Kano Intl Military 1",
+        "Mallam Aminu Kano Intl Military 2"
+      ],
+      "Private": [
+        "Mallam Aminu Kano Intl Private 1"
+      ]
+    }
+  },
+  {
+    "date": "17 Jan",
+    "state": "Kano",
+    "airport": "Mallam Aminu Kano Intl",
+    "type": "International",
+    "Commercial": 2603,
+    "Military": 670,
+    "Private": 215,
+    "flights": {
+      "Commercial": [
+        "Mallam Aminu Kano Intl Flight 1"
+      ],
+      "Military": [
+        "Mallam Aminu Kano Intl Military 1",
+        "Mallam Aminu Kano Intl Military 2",
+        "Mallam Aminu Kano Intl Military 3"
+      ],
+      "Private": [
+        "Mallam Aminu Kano Intl Private 1",
+        "Mallam Aminu Kano Intl Private 2"
+      ]
+    }
+  },
+  {
+    "date": "18 Jan",
+    "state": "Kano",
+    "airport": "Mallam Aminu Kano Intl",
+    "type": "International",
+    "Commercial": 1779,
+    "Military": 841,
+    "Private": 363,
+    "flights": {
+      "Commercial": [],
+      "Military": [
+        "Mallam Aminu Kano Intl Military 1",
+        "Mallam Aminu Kano Intl Military 2",
+        "Mallam Aminu Kano Intl Military 3",
+        "Mallam Aminu Kano Intl Military 4"
+      ],
+      "Private": [
+        "Mallam Aminu Kano Intl Private 1",
+        "Mallam Aminu Kano Intl Private 2",
+        "Mallam Aminu Kano Intl Private 3"
+      ]
+    }
+  },
+  {
+    "date": "19 Jan",
+    "state": "Kano",
+    "airport": "Mallam Aminu Kano Intl",
+    "type": "International",
+    "Commercial": 3894,
+    "Military": 473,
+    "Private": 203,
+    "flights": {
+      "Commercial": [
+        "Mallam Aminu Kano Intl Flight 1"
+      ],
+      "Military": [
+        "Mallam Aminu Kano Intl Military 1",
+        "Mallam Aminu Kano Intl Military 2"
+      ],
+      "Private": [
+        "Mallam Aminu Kano Intl Private 1",
+        "Mallam Aminu Kano Intl Private 2"
+      ]
+    }
+  },
+  {
+    "date": "10 Jan",
+    "state": "Kano",
+    "airport": "Mallam Aminu Kano Domestic",
+    "type": "Domestic",
+    "Commercial": 4333,
+    "Military": 924,
+    "Private": 297,
+    "flights": {
+      "Commercial": [
+        "Mallam Aminu Kano Domestic Flight 1",
+        "Mallam Aminu Kano Domestic Flight 2"
+      ],
+      "Military": [
+        "Mallam Aminu Kano Domestic Military 1",
+        "Mallam Aminu Kano Domestic Military 2",
+        "Mallam Aminu Kano Domestic Military 3",
+        "Mallam Aminu Kano Domestic Military 4"
+      ],
+      "Private": [
+        "Mallam Aminu Kano Domestic Private 1",
+        "Mallam Aminu Kano Domestic Private 2"
+      ]
+    }
+  },
+  {
+    "date": "11 Jan",
+    "state": "Kano",
+    "airport": "Mallam Aminu Kano Domestic",
+    "type": "Domestic",
+    "Commercial": 4374,
+    "Military": 619,
+    "Private": 269,
+    "flights": {
+      "Commercial": [
+        "Mallam Aminu Kano Domestic Flight 1",
+        "Mallam Aminu Kano Domestic Flight 2"
+      ],
+      "Military": [
+        "Mallam Aminu Kano Domestic Military 1",
+        "Mallam Aminu Kano Domestic Military 2",
+        "Mallam Aminu Kano Domestic Military 3"
+      ],
+      "Private": [
+        "Mallam Aminu Kano Domestic Private 1",
+        "Mallam Aminu Kano Domestic Private 2"
+      ]
+    }
+  },
+  {
+    "date": "12 Jan",
+    "state": "Kano",
+    "airport": "Mallam Aminu Kano Domestic",
+    "type": "Domestic",
+    "Commercial": 6746,
+    "Military": 791,
+    "Private": 63,
+    "flights": {
+      "Commercial": [
+        "Mallam Aminu Kano Domestic Flight 1",
+        "Mallam Aminu Kano Domestic Flight 2",
+        "Mallam Aminu Kano Domestic Flight 3"
+      ],
+      "Military": [
+        "Mallam Aminu Kano Domestic Military 1",
+        "Mallam Aminu Kano Domestic Military 2",
+        "Mallam Aminu Kano Domestic Military 3"
+      ],
+      "Private": []
+    }
+  },
+  {
+    "date": "13 Jan",
+    "state": "Kano",
+    "airport": "Mallam Aminu Kano Domestic",
+    "type": "Domestic",
+    "Commercial": 6967,
+    "Military": 208,
+    "Private": 119,
+    "flights": {
+      "Commercial": [
+        "Mallam Aminu Kano Domestic Flight 1",
+        "Mallam Aminu Kano Domestic Flight 2",
+        "Mallam Aminu Kano Domestic Flight 3"
+      ],
+      "Military": [
+        "Mallam Aminu Kano Domestic Military 1"
+      ],
+      "Private": [
+        "Mallam Aminu Kano Domestic Private 1"
+      ]
+    }
+  },
+  {
+    "date": "14 Jan",
+    "state": "Kano",
+    "airport": "Mallam Aminu Kano Domestic",
+    "type": "Domestic",
+    "Commercial": 4598,
+    "Military": 145,
+    "Private": 132,
+    "flights": {
+      "Commercial": [
+        "Mallam Aminu Kano Domestic Flight 1",
+        "Mallam Aminu Kano Domestic Flight 2"
+      ],
+      "Military": [],
+      "Private": [
+        "Mallam Aminu Kano Domestic Private 1"
+      ]
+    }
+  },
+  {
+    "date": "15 Jan",
+    "state": "Kano",
+    "airport": "Mallam Aminu Kano Domestic",
+    "type": "Domestic",
+    "Commercial": 8585,
+    "Military": 263,
+    "Private": 246,
+    "flights": {
+      "Commercial": [
+        "Mallam Aminu Kano Domestic Flight 1",
+        "Mallam Aminu Kano Domestic Flight 2",
+        "Mallam Aminu Kano Domestic Flight 3",
+        "Mallam Aminu Kano Domestic Flight 4"
+      ],
+      "Military": [
+        "Mallam Aminu Kano Domestic Military 1"
+      ],
+      "Private": [
+        "Mallam Aminu Kano Domestic Private 1",
+        "Mallam Aminu Kano Domestic Private 2"
+      ]
+    }
+  },
+  {
+    "date": "16 Jan",
+    "state": "Kano",
+    "airport": "Mallam Aminu Kano Domestic",
+    "type": "Domestic",
+    "Commercial": 9997,
+    "Military": 993,
+    "Private": 199,
+    "flights": {
+      "Commercial": [
+        "Mallam Aminu Kano Domestic Flight 1",
+        "Mallam Aminu Kano Domestic Flight 2",
+        "Mallam Aminu Kano Domestic Flight 3",
+        "Mallam Aminu Kano Domestic Flight 4"
+      ],
+      "Military": [
+        "Mallam Aminu Kano Domestic Military 1",
+        "Mallam Aminu Kano Domestic Military 2",
+        "Mallam Aminu Kano Domestic Military 3",
+        "Mallam Aminu Kano Domestic Military 4"
+      ],
+      "Private": [
+        "Mallam Aminu Kano Domestic Private 1"
+      ]
+    }
+  },
+  {
+    "date": "17 Jan",
+    "state": "Kano",
+    "airport": "Mallam Aminu Kano Domestic",
+    "type": "Domestic",
+    "Commercial": 3768,
+    "Military": 488,
+    "Private": 119,
+    "flights": {
+      "Commercial": [
+        "Mallam Aminu Kano Domestic Flight 1"
+      ],
+      "Military": [
+        "Mallam Aminu Kano Domestic Military 1",
+        "Mallam Aminu Kano Domestic Military 2"
+      ],
+      "Private": [
+        "Mallam Aminu Kano Domestic Private 1"
+      ]
+    }
+  },
+  {
+    "date": "18 Jan",
+    "state": "Kano",
+    "airport": "Mallam Aminu Kano Domestic",
+    "type": "Domestic",
+    "Commercial": 5136,
+    "Military": 685,
+    "Private": 218,
+    "flights": {
+      "Commercial": [
+        "Mallam Aminu Kano Domestic Flight 1",
+        "Mallam Aminu Kano Domestic Flight 2"
+      ],
+      "Military": [
+        "Mallam Aminu Kano Domestic Military 1",
+        "Mallam Aminu Kano Domestic Military 2",
+        "Mallam Aminu Kano Domestic Military 3"
+      ],
+      "Private": [
+        "Mallam Aminu Kano Domestic Private 1",
+        "Mallam Aminu Kano Domestic Private 2"
+      ]
+    }
+  },
+  {
+    "date": "19 Jan",
+    "state": "Kano",
+    "airport": "Mallam Aminu Kano Domestic",
+    "type": "Domestic",
+    "Commercial": 8151,
+    "Military": 446,
+    "Private": 259,
+    "flights": {
+      "Commercial": [
+        "Mallam Aminu Kano Domestic Flight 1",
+        "Mallam Aminu Kano Domestic Flight 2",
+        "Mallam Aminu Kano Domestic Flight 3",
+        "Mallam Aminu Kano Domestic Flight 4"
+      ],
+      "Military": [
+        "Mallam Aminu Kano Domestic Military 1",
+        "Mallam Aminu Kano Domestic Military 2"
+      ],
+      "Private": [
+        "Mallam Aminu Kano Domestic Private 1",
+        "Mallam Aminu Kano Domestic Private 2"
+      ]
+    }
+  },
+  {
+    "date": "10 Jan",
+    "state": "Port Harcourt",
+    "airport": "Port Harcourt Intl",
+    "type": "International",
+    "Commercial": 5129,
+    "Military": 776,
+    "Private": 220,
+    "flights": {
+      "Commercial": [
+        "Port Harcourt Intl Flight 1",
+        "Port Harcourt Intl Flight 2"
+      ],
+      "Military": [
+        "Port Harcourt Intl Military 1",
+        "Port Harcourt Intl Military 2",
+        "Port Harcourt Intl Military 3"
+      ],
+      "Private": [
+        "Port Harcourt Intl Private 1",
+        "Port Harcourt Intl Private 2"
+      ]
+    }
+  },
+  {
+    "date": "11 Jan",
+    "state": "Port Harcourt",
+    "airport": "Port Harcourt Intl",
+    "type": "International",
+    "Commercial": 1128,
+    "Military": 196,
+    "Private": 236,
+    "flights": {
+      "Commercial": [],
+      "Military": [],
+      "Private": [
+        "Port Harcourt Intl Private 1",
+        "Port Harcourt Intl Private 2"
+      ]
+    }
+  },
+  {
+    "date": "12 Jan",
+    "state": "Port Harcourt",
+    "airport": "Port Harcourt Intl",
+    "type": "International",
+    "Commercial": 7464,
+    "Military": 406,
+    "Private": 338,
+    "flights": {
+      "Commercial": [
+        "Port Harcourt Intl Flight 1",
+        "Port Harcourt Intl Flight 2",
+        "Port Harcourt Intl Flight 3"
+      ],
+      "Military": [
+        "Port Harcourt Intl Military 1",
+        "Port Harcourt Intl Military 2"
+      ],
+      "Private": [
+        "Port Harcourt Intl Private 1",
+        "Port Harcourt Intl Private 2",
+        "Port Harcourt Intl Private 3"
+      ]
+    }
+  },
+  {
+    "date": "13 Jan",
+    "state": "Port Harcourt",
+    "airport": "Port Harcourt Intl",
+    "type": "International",
+    "Commercial": 5104,
+    "Military": 552,
+    "Private": 119,
+    "flights": {
+      "Commercial": [
+        "Port Harcourt Intl Flight 1",
+        "Port Harcourt Intl Flight 2"
+      ],
+      "Military": [
+        "Port Harcourt Intl Military 1",
+        "Port Harcourt Intl Military 2"
+      ],
+      "Private": [
+        "Port Harcourt Intl Private 1"
+      ]
+    }
+  },
+  {
+    "date": "14 Jan",
+    "state": "Port Harcourt",
+    "airport": "Port Harcourt Intl",
+    "type": "International",
+    "Commercial": 7072,
+    "Military": 578,
+    "Private": 216,
+    "flights": {
+      "Commercial": [
+        "Port Harcourt Intl Flight 1",
+        "Port Harcourt Intl Flight 2",
+        "Port Harcourt Intl Flight 3"
+      ],
+      "Military": [
+        "Port Harcourt Intl Military 1",
+        "Port Harcourt Intl Military 2"
+      ],
+      "Private": [
+        "Port Harcourt Intl Private 1",
+        "Port Harcourt Intl Private 2"
+      ]
+    }
+  },
+  {
+    "date": "15 Jan",
+    "state": "Port Harcourt",
+    "airport": "Port Harcourt Intl",
+    "type": "International",
+    "Commercial": 1107,
+    "Military": 928,
+    "Private": 252,
+    "flights": {
+      "Commercial": [],
+      "Military": [
+        "Port Harcourt Intl Military 1",
+        "Port Harcourt Intl Military 2",
+        "Port Harcourt Intl Military 3",
+        "Port Harcourt Intl Military 4"
+      ],
+      "Private": [
+        "Port Harcourt Intl Private 1",
+        "Port Harcourt Intl Private 2"
+      ]
+    }
+  },
+  {
+    "date": "16 Jan",
+    "state": "Port Harcourt",
+    "airport": "Port Harcourt Intl",
+    "type": "International",
+    "Commercial": 1435,
+    "Military": 868,
+    "Private": 355,
+    "flights": {
+      "Commercial": [],
+      "Military": [
+        "Port Harcourt Intl Military 1",
+        "Port Harcourt Intl Military 2",
+        "Port Harcourt Intl Military 3",
+        "Port Harcourt Intl Military 4"
+      ],
+      "Private": [
+        "Port Harcourt Intl Private 1",
+        "Port Harcourt Intl Private 2",
+        "Port Harcourt Intl Private 3"
+      ]
+    }
+  },
+  {
+    "date": "17 Jan",
+    "state": "Port Harcourt",
+    "airport": "Port Harcourt Intl",
+    "type": "International",
+    "Commercial": 7219,
+    "Military": 353,
+    "Private": 56,
+    "flights": {
+      "Commercial": [
+        "Port Harcourt Intl Flight 1",
+        "Port Harcourt Intl Flight 2",
+        "Port Harcourt Intl Flight 3"
+      ],
+      "Military": [
+        "Port Harcourt Intl Military 1"
+      ],
+      "Private": []
+    }
+  },
+  {
+    "date": "18 Jan",
+    "state": "Port Harcourt",
+    "airport": "Port Harcourt Intl",
+    "type": "International",
+    "Commercial": 7471,
+    "Military": 637,
+    "Private": 383,
+    "flights": {
+      "Commercial": [
+        "Port Harcourt Intl Flight 1",
+        "Port Harcourt Intl Flight 2",
+        "Port Harcourt Intl Flight 3"
+      ],
+      "Military": [
+        "Port Harcourt Intl Military 1",
+        "Port Harcourt Intl Military 2",
+        "Port Harcourt Intl Military 3"
+      ],
+      "Private": [
+        "Port Harcourt Intl Private 1",
+        "Port Harcourt Intl Private 2",
+        "Port Harcourt Intl Private 3"
+      ]
+    }
+  },
+  {
+    "date": "19 Jan",
+    "state": "Port Harcourt",
+    "airport": "Port Harcourt Intl",
+    "type": "International",
+    "Commercial": 3139,
+    "Military": 234,
+    "Private": 374,
+    "flights": {
+      "Commercial": [
+        "Port Harcourt Intl Flight 1"
+      ],
+      "Military": [
+        "Port Harcourt Intl Military 1"
+      ],
+      "Private": [
+        "Port Harcourt Intl Private 1",
+        "Port Harcourt Intl Private 2",
+        "Port Harcourt Intl Private 3"
+      ]
+    }
+  },
+  {
+    "date": "10 Jan",
+    "state": "Port Harcourt",
+    "airport": "Port Harcourt Domestic",
+    "type": "Domestic",
+    "Commercial": 5758,
+    "Military": 385,
+    "Private": 189,
+    "flights": {
+      "Commercial": [
+        "Port Harcourt Domestic Flight 1",
+        "Port Harcourt Domestic Flight 2"
+      ],
+      "Military": [
+        "Port Harcourt Domestic Military 1"
+      ],
+      "Private": [
+        "Port Harcourt Domestic Private 1"
+      ]
+    }
+  },
+  {
+    "date": "11 Jan",
+    "state": "Port Harcourt",
+    "airport": "Port Harcourt Domestic",
+    "type": "Domestic",
+    "Commercial": 5362,
+    "Military": 885,
+    "Private": 360,
+    "flights": {
+      "Commercial": [
+        "Port Harcourt Domestic Flight 1",
+        "Port Harcourt Domestic Flight 2"
+      ],
+      "Military": [
+        "Port Harcourt Domestic Military 1",
+        "Port Harcourt Domestic Military 2",
+        "Port Harcourt Domestic Military 3",
+        "Port Harcourt Domestic Military 4"
+      ],
+      "Private": [
+        "Port Harcourt Domestic Private 1",
+        "Port Harcourt Domestic Private 2",
+        "Port Harcourt Domestic Private 3"
+      ]
+    }
+  },
+  {
+    "date": "12 Jan",
+    "state": "Port Harcourt",
+    "airport": "Port Harcourt Domestic",
+    "type": "Domestic",
+    "Commercial": 3925,
+    "Military": 561,
+    "Private": 311,
+    "flights": {
+      "Commercial": [
+        "Port Harcourt Domestic Flight 1"
+      ],
+      "Military": [
+        "Port Harcourt Domestic Military 1",
+        "Port Harcourt Domestic Military 2"
+      ],
+      "Private": [
+        "Port Harcourt Domestic Private 1",
+        "Port Harcourt Domestic Private 2",
+        "Port Harcourt Domestic Private 3"
+      ]
+    }
+  },
+  {
+    "date": "13 Jan",
+    "state": "Port Harcourt",
+    "airport": "Port Harcourt Domestic",
+    "type": "Domestic",
+    "Commercial": 2331,
+    "Military": 779,
+    "Private": 89,
+    "flights": {
+      "Commercial": [
+        "Port Harcourt Domestic Flight 1"
+      ],
+      "Military": [
+        "Port Harcourt Domestic Military 1",
+        "Port Harcourt Domestic Military 2",
+        "Port Harcourt Domestic Military 3"
+      ],
+      "Private": []
+    }
+  },
+  {
+    "date": "14 Jan",
+    "state": "Port Harcourt",
+    "airport": "Port Harcourt Domestic",
+    "type": "Domestic",
+    "Commercial": 4316,
+    "Military": 530,
+    "Private": 305,
+    "flights": {
+      "Commercial": [
+        "Port Harcourt Domestic Flight 1",
+        "Port Harcourt Domestic Flight 2"
+      ],
+      "Military": [
+        "Port Harcourt Domestic Military 1",
+        "Port Harcourt Domestic Military 2"
+      ],
+      "Private": [
+        "Port Harcourt Domestic Private 1",
+        "Port Harcourt Domestic Private 2",
+        "Port Harcourt Domestic Private 3"
+      ]
+    }
+  },
+  {
+    "date": "15 Jan",
+    "state": "Port Harcourt",
+    "airport": "Port Harcourt Domestic",
+    "type": "Domestic",
+    "Commercial": 3819,
+    "Military": 487,
+    "Private": 167,
+    "flights": {
+      "Commercial": [
+        "Port Harcourt Domestic Flight 1"
+      ],
+      "Military": [
+        "Port Harcourt Domestic Military 1",
+        "Port Harcourt Domestic Military 2"
+      ],
+      "Private": [
+        "Port Harcourt Domestic Private 1"
+      ]
+    }
+  },
+  {
+    "date": "16 Jan",
+    "state": "Port Harcourt",
+    "airport": "Port Harcourt Domestic",
+    "type": "Domestic",
+    "Commercial": 8437,
+    "Military": 778,
+    "Private": 343,
+    "flights": {
+      "Commercial": [
+        "Port Harcourt Domestic Flight 1",
+        "Port Harcourt Domestic Flight 2",
+        "Port Harcourt Domestic Flight 3",
+        "Port Harcourt Domestic Flight 4"
+      ],
+      "Military": [
+        "Port Harcourt Domestic Military 1",
+        "Port Harcourt Domestic Military 2",
+        "Port Harcourt Domestic Military 3"
+      ],
+      "Private": [
+        "Port Harcourt Domestic Private 1",
+        "Port Harcourt Domestic Private 2",
+        "Port Harcourt Domestic Private 3"
+      ]
+    }
+  },
+  {
+    "date": "17 Jan",
+    "state": "Port Harcourt",
+    "airport": "Port Harcourt Domestic",
+    "type": "Domestic",
+    "Commercial": 1819,
+    "Military": 929,
+    "Private": 437,
+    "flights": {
+      "Commercial": [],
+      "Military": [
+        "Port Harcourt Domestic Military 1",
+        "Port Harcourt Domestic Military 2",
+        "Port Harcourt Domestic Military 3",
+        "Port Harcourt Domestic Military 4"
+      ],
+      "Private": [
+        "Port Harcourt Domestic Private 1",
+        "Port Harcourt Domestic Private 2",
+        "Port Harcourt Domestic Private 3",
+        "Port Harcourt Domestic Private 4"
+      ]
+    }
+  },
+  {
+    "date": "18 Jan",
+    "state": "Port Harcourt",
+    "airport": "Port Harcourt Domestic",
+    "type": "Domestic",
+    "Commercial": 1009,
+    "Military": 374,
+    "Private": 486,
+    "flights": {
+      "Commercial": [],
+      "Military": [
+        "Port Harcourt Domestic Military 1"
+      ],
+      "Private": [
+        "Port Harcourt Domestic Private 1",
+        "Port Harcourt Domestic Private 2",
+        "Port Harcourt Domestic Private 3",
+        "Port Harcourt Domestic Private 4"
+      ]
+    }
+  },
+  {
+    "date": "19 Jan",
+    "state": "Port Harcourt",
+    "airport": "Port Harcourt Domestic",
+    "type": "Domestic",
+    "Commercial": 5220,
+    "Military": 209,
+    "Private": 69,
+    "flights": {
+      "Commercial": [
+        "Port Harcourt Domestic Flight 1",
+        "Port Harcourt Domestic Flight 2"
+      ],
+      "Military": [
+        "Port Harcourt Domestic Military 1"
+      ],
+      "Private": []
+    }
+  },
+  {
+    "date": "10 Jan",
+    "state": "Enugu",
+    "airport": "Akanu Ibiam Intl",
+    "type": "International",
+    "Commercial": 2867,
+    "Military": 573,
+    "Private": 242,
+    "flights": {
+      "Commercial": [
+        "Akanu Ibiam Intl Flight 1"
+      ],
+      "Military": [
+        "Akanu Ibiam Intl Military 1",
+        "Akanu Ibiam Intl Military 2"
+      ],
+      "Private": [
+        "Akanu Ibiam Intl Private 1",
+        "Akanu Ibiam Intl Private 2"
+      ]
+    }
+  },
+  {
+    "date": "11 Jan",
+    "state": "Enugu",
+    "airport": "Akanu Ibiam Intl",
+    "type": "International",
+    "Commercial": 3604,
+    "Military": 310,
+    "Private": 224,
+    "flights": {
+      "Commercial": [
+        "Akanu Ibiam Intl Flight 1"
+      ],
+      "Military": [
+        "Akanu Ibiam Intl Military 1"
+      ],
+      "Private": [
+        "Akanu Ibiam Intl Private 1",
+        "Akanu Ibiam Intl Private 2"
+      ]
+    }
+  },
+  {
+    "date": "12 Jan",
+    "state": "Enugu",
+    "airport": "Akanu Ibiam Intl",
+    "type": "International",
+    "Commercial": 7575,
+    "Military": 932,
+    "Private": 432,
+    "flights": {
+      "Commercial": [
+        "Akanu Ibiam Intl Flight 1",
+        "Akanu Ibiam Intl Flight 2",
+        "Akanu Ibiam Intl Flight 3"
+      ],
+      "Military": [
+        "Akanu Ibiam Intl Military 1",
+        "Akanu Ibiam Intl Military 2",
+        "Akanu Ibiam Intl Military 3",
+        "Akanu Ibiam Intl Military 4"
+      ],
+      "Private": [
+        "Akanu Ibiam Intl Private 1",
+        "Akanu Ibiam Intl Private 2",
+        "Akanu Ibiam Intl Private 3",
+        "Akanu Ibiam Intl Private 4"
+      ]
+    }
+  },
+  {
+    "date": "13 Jan",
+    "state": "Enugu",
+    "airport": "Akanu Ibiam Intl",
+    "type": "International",
+    "Commercial": 4382,
+    "Military": 922,
+    "Private": 119,
+    "flights": {
+      "Commercial": [
+        "Akanu Ibiam Intl Flight 1",
+        "Akanu Ibiam Intl Flight 2"
+      ],
+      "Military": [
+        "Akanu Ibiam Intl Military 1",
+        "Akanu Ibiam Intl Military 2",
+        "Akanu Ibiam Intl Military 3",
+        "Akanu Ibiam Intl Military 4"
+      ],
+      "Private": [
+        "Akanu Ibiam Intl Private 1"
+      ]
+    }
+  },
+  {
+    "date": "14 Jan",
+    "state": "Enugu",
+    "airport": "Akanu Ibiam Intl",
+    "type": "International",
+    "Commercial": 5163,
+    "Military": 680,
+    "Private": 71,
+    "flights": {
+      "Commercial": [
+        "Akanu Ibiam Intl Flight 1",
+        "Akanu Ibiam Intl Flight 2"
+      ],
+      "Military": [
+        "Akanu Ibiam Intl Military 1",
+        "Akanu Ibiam Intl Military 2",
+        "Akanu Ibiam Intl Military 3"
+      ],
+      "Private": []
+    }
+  },
+  {
+    "date": "15 Jan",
+    "state": "Enugu",
+    "airport": "Akanu Ibiam Intl",
+    "type": "International",
+    "Commercial": 7466,
+    "Military": 508,
+    "Private": 346,
+    "flights": {
+      "Commercial": [
+        "Akanu Ibiam Intl Flight 1",
+        "Akanu Ibiam Intl Flight 2",
+        "Akanu Ibiam Intl Flight 3"
+      ],
+      "Military": [
+        "Akanu Ibiam Intl Military 1",
+        "Akanu Ibiam Intl Military 2"
+      ],
+      "Private": [
+        "Akanu Ibiam Intl Private 1",
+        "Akanu Ibiam Intl Private 2",
+        "Akanu Ibiam Intl Private 3"
+      ]
+    }
+  },
+  {
+    "date": "16 Jan",
+    "state": "Enugu",
+    "airport": "Akanu Ibiam Intl",
+    "type": "International",
+    "Commercial": 7616,
+    "Military": 443,
+    "Private": 462,
+    "flights": {
+      "Commercial": [
+        "Akanu Ibiam Intl Flight 1",
+        "Akanu Ibiam Intl Flight 2",
+        "Akanu Ibiam Intl Flight 3"
+      ],
+      "Military": [
+        "Akanu Ibiam Intl Military 1",
+        "Akanu Ibiam Intl Military 2"
+      ],
+      "Private": [
+        "Akanu Ibiam Intl Private 1",
+        "Akanu Ibiam Intl Private 2",
+        "Akanu Ibiam Intl Private 3",
+        "Akanu Ibiam Intl Private 4"
+      ]
+    }
+  },
+  {
+    "date": "17 Jan",
+    "state": "Enugu",
+    "airport": "Akanu Ibiam Intl",
+    "type": "International",
+    "Commercial": 3368,
+    "Military": 281,
+    "Private": 102,
+    "flights": {
+      "Commercial": [
+        "Akanu Ibiam Intl Flight 1"
+      ],
+      "Military": [
+        "Akanu Ibiam Intl Military 1"
+      ],
+      "Private": [
+        "Akanu Ibiam Intl Private 1"
+      ]
+    }
+  },
+  {
+    "date": "18 Jan",
+    "state": "Enugu",
+    "airport": "Akanu Ibiam Intl",
+    "type": "International",
+    "Commercial": 6115,
+    "Military": 837,
+    "Private": 287,
+    "flights": {
+      "Commercial": [
+        "Akanu Ibiam Intl Flight 1",
+        "Akanu Ibiam Intl Flight 2",
+        "Akanu Ibiam Intl Flight 3"
+      ],
+      "Military": [
+        "Akanu Ibiam Intl Military 1",
+        "Akanu Ibiam Intl Military 2",
+        "Akanu Ibiam Intl Military 3",
+        "Akanu Ibiam Intl Military 4"
+      ],
+      "Private": [
+        "Akanu Ibiam Intl Private 1",
+        "Akanu Ibiam Intl Private 2"
+      ]
+    }
+  },
+  {
+    "date": "19 Jan",
+    "state": "Enugu",
+    "airport": "Akanu Ibiam Intl",
+    "type": "International",
+    "Commercial": 3403,
+    "Military": 227,
+    "Private": 173,
+    "flights": {
+      "Commercial": [
+        "Akanu Ibiam Intl Flight 1"
+      ],
+      "Military": [
+        "Akanu Ibiam Intl Military 1"
+      ],
+      "Private": [
+        "Akanu Ibiam Intl Private 1"
+      ]
+    }
+  },
+  {
+    "date": "10 Jan",
+    "state": "Enugu",
+    "airport": "Akanu Ibiam Domestic",
+    "type": "Domestic",
+    "Commercial": 4379,
+    "Military": 305,
+    "Private": 151,
+    "flights": {
+      "Commercial": [
+        "Akanu Ibiam Domestic Flight 1",
+        "Akanu Ibiam Domestic Flight 2"
+      ],
+      "Military": [
+        "Akanu Ibiam Domestic Military 1"
+      ],
+      "Private": [
+        "Akanu Ibiam Domestic Private 1"
+      ]
+    }
+  },
+  {
+    "date": "11 Jan",
+    "state": "Enugu",
+    "airport": "Akanu Ibiam Domestic",
+    "type": "Domestic",
+    "Commercial": 4015,
+    "Military": 495,
+    "Private": 254,
+    "flights": {
+      "Commercial": [
+        "Akanu Ibiam Domestic Flight 1",
+        "Akanu Ibiam Domestic Flight 2"
+      ],
+      "Military": [
+        "Akanu Ibiam Domestic Military 1",
+        "Akanu Ibiam Domestic Military 2"
+      ],
+      "Private": [
+        "Akanu Ibiam Domestic Private 1",
+        "Akanu Ibiam Domestic Private 2"
+      ]
+    }
+  },
+  {
+    "date": "12 Jan",
+    "state": "Enugu",
+    "airport": "Akanu Ibiam Domestic",
+    "type": "Domestic",
+    "Commercial": 4239,
+    "Military": 967,
+    "Private": 148,
+    "flights": {
+      "Commercial": [
+        "Akanu Ibiam Domestic Flight 1",
+        "Akanu Ibiam Domestic Flight 2"
+      ],
+      "Military": [
+        "Akanu Ibiam Domestic Military 1",
+        "Akanu Ibiam Domestic Military 2",
+        "Akanu Ibiam Domestic Military 3",
+        "Akanu Ibiam Domestic Military 4"
+      ],
+      "Private": [
+        "Akanu Ibiam Domestic Private 1"
+      ]
+    }
+  },
+  {
+    "date": "13 Jan",
+    "state": "Enugu",
+    "airport": "Akanu Ibiam Domestic",
+    "type": "Domestic",
+    "Commercial": 6320,
+    "Military": 250,
+    "Private": 315,
+    "flights": {
+      "Commercial": [
+        "Akanu Ibiam Domestic Flight 1",
+        "Akanu Ibiam Domestic Flight 2",
+        "Akanu Ibiam Domestic Flight 3"
+      ],
+      "Military": [
+        "Akanu Ibiam Domestic Military 1"
+      ],
+      "Private": [
+        "Akanu Ibiam Domestic Private 1",
+        "Akanu Ibiam Domestic Private 2",
+        "Akanu Ibiam Domestic Private 3"
+      ]
+    }
+  },
+  {
+    "date": "14 Jan",
+    "state": "Enugu",
+    "airport": "Akanu Ibiam Domestic",
+    "type": "Domestic",
+    "Commercial": 6092,
+    "Military": 485,
+    "Private": 196,
+    "flights": {
+      "Commercial": [
+        "Akanu Ibiam Domestic Flight 1",
+        "Akanu Ibiam Domestic Flight 2",
+        "Akanu Ibiam Domestic Flight 3"
+      ],
+      "Military": [
+        "Akanu Ibiam Domestic Military 1",
+        "Akanu Ibiam Domestic Military 2"
+      ],
+      "Private": [
+        "Akanu Ibiam Domestic Private 1"
+      ]
+    }
+  },
+  {
+    "date": "15 Jan",
+    "state": "Enugu",
+    "airport": "Akanu Ibiam Domestic",
+    "type": "Domestic",
+    "Commercial": 2957,
+    "Military": 126,
+    "Private": 62,
+    "flights": {
+      "Commercial": [
+        "Akanu Ibiam Domestic Flight 1"
+      ],
+      "Military": [],
+      "Private": []
+    }
+  },
+  {
+    "date": "16 Jan",
+    "state": "Enugu",
+    "airport": "Akanu Ibiam Domestic",
+    "type": "Domestic",
+    "Commercial": 7250,
+    "Military": 776,
+    "Private": 56,
+    "flights": {
+      "Commercial": [
+        "Akanu Ibiam Domestic Flight 1",
+        "Akanu Ibiam Domestic Flight 2",
+        "Akanu Ibiam Domestic Flight 3"
+      ],
+      "Military": [
+        "Akanu Ibiam Domestic Military 1",
+        "Akanu Ibiam Domestic Military 2",
+        "Akanu Ibiam Domestic Military 3"
+      ],
+      "Private": []
+    }
+  },
+  {
+    "date": "17 Jan",
+    "state": "Enugu",
+    "airport": "Akanu Ibiam Domestic",
+    "type": "Domestic",
+    "Commercial": 8081,
+    "Military": 732,
+    "Private": 133,
+    "flights": {
+      "Commercial": [
+        "Akanu Ibiam Domestic Flight 1",
+        "Akanu Ibiam Domestic Flight 2",
+        "Akanu Ibiam Domestic Flight 3",
+        "Akanu Ibiam Domestic Flight 4"
+      ],
+      "Military": [
+        "Akanu Ibiam Domestic Military 1",
+        "Akanu Ibiam Domestic Military 2",
+        "Akanu Ibiam Domestic Military 3"
+      ],
+      "Private": [
+        "Akanu Ibiam Domestic Private 1"
+      ]
+    }
+  },
+  {
+    "date": "18 Jan",
+    "state": "Enugu",
+    "airport": "Akanu Ibiam Domestic",
+    "type": "Domestic",
+    "Commercial": 6099,
+    "Military": 332,
+    "Private": 361,
+    "flights": {
+      "Commercial": [
+        "Akanu Ibiam Domestic Flight 1",
+        "Akanu Ibiam Domestic Flight 2",
+        "Akanu Ibiam Domestic Flight 3"
+      ],
+      "Military": [
+        "Akanu Ibiam Domestic Military 1"
+      ],
+      "Private": [
+        "Akanu Ibiam Domestic Private 1",
+        "Akanu Ibiam Domestic Private 2",
+        "Akanu Ibiam Domestic Private 3"
+      ]
+    }
+  },
+  {
+    "date": "19 Jan",
+    "state": "Enugu",
+    "airport": "Akanu Ibiam Domestic",
+    "type": "Domestic",
+    "Commercial": 4154,
+    "Military": 626,
+    "Private": 311,
+    "flights": {
+      "Commercial": [
+        "Akanu Ibiam Domestic Flight 1",
+        "Akanu Ibiam Domestic Flight 2"
+      ],
+      "Military": [
+        "Akanu Ibiam Domestic Military 1",
+        "Akanu Ibiam Domestic Military 2",
+        "Akanu Ibiam Domestic Military 3"
+      ],
+      "Private": [
+        "Akanu Ibiam Domestic Private 1",
+        "Akanu Ibiam Domestic Private 2",
+        "Akanu Ibiam Domestic Private 3"
+      ]
+    }
+  },
+  {
+    "date": "10 Jan",
+    "state": "Ibadan",
+    "airport": "Ibadan Intl",
+    "type": "International",
+    "Commercial": 5976,
+    "Military": 266,
+    "Private": 484,
+    "flights": {
+      "Commercial": [
+        "Ibadan Intl Flight 1",
+        "Ibadan Intl Flight 2"
+      ],
+      "Military": [
+        "Ibadan Intl Military 1"
+      ],
+      "Private": [
+        "Ibadan Intl Private 1",
+        "Ibadan Intl Private 2",
+        "Ibadan Intl Private 3",
+        "Ibadan Intl Private 4"
+      ]
+    }
+  },
+  {
+    "date": "11 Jan",
+    "state": "Ibadan",
+    "airport": "Ibadan Intl",
+    "type": "International",
+    "Commercial": 4892,
+    "Military": 362,
+    "Private": 279,
+    "flights": {
+      "Commercial": [
+        "Ibadan Intl Flight 1",
+        "Ibadan Intl Flight 2"
+      ],
+      "Military": [
+        "Ibadan Intl Military 1"
+      ],
+      "Private": [
+        "Ibadan Intl Private 1",
+        "Ibadan Intl Private 2"
+      ]
+    }
+  },
+  {
+    "date": "12 Jan",
+    "state": "Ibadan",
+    "airport": "Ibadan Intl",
+    "type": "International",
+    "Commercial": 8079,
+    "Military": 995,
+    "Private": 343,
+    "flights": {
+      "Commercial": [
+        "Ibadan Intl Flight 1",
+        "Ibadan Intl Flight 2",
+        "Ibadan Intl Flight 3",
+        "Ibadan Intl Flight 4"
+      ],
+      "Military": [
+        "Ibadan Intl Military 1",
+        "Ibadan Intl Military 2",
+        "Ibadan Intl Military 3",
+        "Ibadan Intl Military 4"
+      ],
+      "Private": [
+        "Ibadan Intl Private 1",
+        "Ibadan Intl Private 2",
+        "Ibadan Intl Private 3"
+      ]
+    }
+  },
+  {
+    "date": "13 Jan",
+    "state": "Ibadan",
+    "airport": "Ibadan Intl",
+    "type": "International",
+    "Commercial": 7828,
+    "Military": 615,
+    "Private": 480,
+    "flights": {
+      "Commercial": [
+        "Ibadan Intl Flight 1",
+        "Ibadan Intl Flight 2",
+        "Ibadan Intl Flight 3"
+      ],
+      "Military": [
+        "Ibadan Intl Military 1",
+        "Ibadan Intl Military 2",
+        "Ibadan Intl Military 3"
+      ],
+      "Private": [
+        "Ibadan Intl Private 1",
+        "Ibadan Intl Private 2",
+        "Ibadan Intl Private 3",
+        "Ibadan Intl Private 4"
+      ]
+    }
+  },
+  {
+    "date": "14 Jan",
+    "state": "Ibadan",
+    "airport": "Ibadan Intl",
+    "type": "International",
+    "Commercial": 8181,
+    "Military": 980,
+    "Private": 475,
+    "flights": {
+      "Commercial": [
+        "Ibadan Intl Flight 1",
+        "Ibadan Intl Flight 2",
+        "Ibadan Intl Flight 3",
+        "Ibadan Intl Flight 4"
+      ],
+      "Military": [
+        "Ibadan Intl Military 1",
+        "Ibadan Intl Military 2",
+        "Ibadan Intl Military 3",
+        "Ibadan Intl Military 4"
+      ],
+      "Private": [
+        "Ibadan Intl Private 1",
+        "Ibadan Intl Private 2",
+        "Ibadan Intl Private 3",
+        "Ibadan Intl Private 4"
+      ]
+    }
+  },
+  {
+    "date": "15 Jan",
+    "state": "Ibadan",
+    "airport": "Ibadan Intl",
+    "type": "International",
+    "Commercial": 8056,
+    "Military": 511,
+    "Private": 215,
+    "flights": {
+      "Commercial": [
+        "Ibadan Intl Flight 1",
+        "Ibadan Intl Flight 2",
+        "Ibadan Intl Flight 3",
+        "Ibadan Intl Flight 4"
+      ],
+      "Military": [
+        "Ibadan Intl Military 1",
+        "Ibadan Intl Military 2"
+      ],
+      "Private": [
+        "Ibadan Intl Private 1",
+        "Ibadan Intl Private 2"
+      ]
+    }
+  },
+  {
+    "date": "16 Jan",
+    "state": "Ibadan",
+    "airport": "Ibadan Intl",
+    "type": "International",
+    "Commercial": 1822,
+    "Military": 582,
+    "Private": 360,
+    "flights": {
+      "Commercial": [],
+      "Military": [
+        "Ibadan Intl Military 1",
+        "Ibadan Intl Military 2"
+      ],
+      "Private": [
+        "Ibadan Intl Private 1",
+        "Ibadan Intl Private 2",
+        "Ibadan Intl Private 3"
+      ]
+    }
+  },
+  {
+    "date": "17 Jan",
+    "state": "Ibadan",
+    "airport": "Ibadan Intl",
+    "type": "International",
+    "Commercial": 1172,
+    "Military": 605,
+    "Private": 372,
+    "flights": {
+      "Commercial": [],
+      "Military": [
+        "Ibadan Intl Military 1",
+        "Ibadan Intl Military 2",
+        "Ibadan Intl Military 3"
+      ],
+      "Private": [
+        "Ibadan Intl Private 1",
+        "Ibadan Intl Private 2",
+        "Ibadan Intl Private 3"
+      ]
+    }
+  },
+  {
+    "date": "18 Jan",
+    "state": "Ibadan",
+    "airport": "Ibadan Intl",
+    "type": "International",
+    "Commercial": 6892,
+    "Military": 443,
+    "Private": 95,
+    "flights": {
+      "Commercial": [
+        "Ibadan Intl Flight 1",
+        "Ibadan Intl Flight 2",
+        "Ibadan Intl Flight 3"
+      ],
+      "Military": [
+        "Ibadan Intl Military 1",
+        "Ibadan Intl Military 2"
+      ],
+      "Private": []
+    }
+  },
+  {
+    "date": "19 Jan",
+    "state": "Ibadan",
+    "airport": "Ibadan Intl",
+    "type": "International",
+    "Commercial": 4323,
+    "Military": 870,
+    "Private": 166,
+    "flights": {
+      "Commercial": [
+        "Ibadan Intl Flight 1",
+        "Ibadan Intl Flight 2"
+      ],
+      "Military": [
+        "Ibadan Intl Military 1",
+        "Ibadan Intl Military 2",
+        "Ibadan Intl Military 3",
+        "Ibadan Intl Military 4"
+      ],
+      "Private": [
+        "Ibadan Intl Private 1"
+      ]
+    }
+  },
+  {
+    "date": "10 Jan",
+    "state": "Ibadan",
+    "airport": "Ibadan Airport",
+    "type": "Domestic",
+    "Commercial": 3031,
+    "Military": 726,
+    "Private": 199,
+    "flights": {
+      "Commercial": [
+        "Ibadan Airport Flight 1"
+      ],
+      "Military": [
+        "Ibadan Airport Military 1",
+        "Ibadan Airport Military 2",
+        "Ibadan Airport Military 3"
+      ],
+      "Private": [
+        "Ibadan Airport Private 1"
+      ]
+    }
+  },
+  {
+    "date": "11 Jan",
+    "state": "Ibadan",
+    "airport": "Ibadan Airport",
+    "type": "Domestic",
+    "Commercial": 3406,
+    "Military": 837,
+    "Private": 295,
+    "flights": {
+      "Commercial": [
+        "Ibadan Airport Flight 1"
+      ],
+      "Military": [
+        "Ibadan Airport Military 1",
+        "Ibadan Airport Military 2",
+        "Ibadan Airport Military 3",
+        "Ibadan Airport Military 4"
+      ],
+      "Private": [
+        "Ibadan Airport Private 1",
+        "Ibadan Airport Private 2"
+      ]
+    }
+  },
+  {
+    "date": "12 Jan",
+    "state": "Ibadan",
+    "airport": "Ibadan Airport",
+    "type": "Domestic",
+    "Commercial": 9477,
+    "Military": 542,
+    "Private": 273,
+    "flights": {
+      "Commercial": [
+        "Ibadan Airport Flight 1",
+        "Ibadan Airport Flight 2",
+        "Ibadan Airport Flight 3",
+        "Ibadan Airport Flight 4"
+      ],
+      "Military": [
+        "Ibadan Airport Military 1",
+        "Ibadan Airport Military 2"
+      ],
+      "Private": [
+        "Ibadan Airport Private 1",
+        "Ibadan Airport Private 2"
+      ]
+    }
+  },
+  {
+    "date": "13 Jan",
+    "state": "Ibadan",
+    "airport": "Ibadan Airport",
+    "type": "Domestic",
+    "Commercial": 1650,
+    "Military": 551,
+    "Private": 497,
+    "flights": {
+      "Commercial": [],
+      "Military": [
+        "Ibadan Airport Military 1",
+        "Ibadan Airport Military 2"
+      ],
+      "Private": [
+        "Ibadan Airport Private 1",
+        "Ibadan Airport Private 2",
+        "Ibadan Airport Private 3",
+        "Ibadan Airport Private 4"
+      ]
+    }
+  },
+  {
+    "date": "14 Jan",
+    "state": "Ibadan",
+    "airport": "Ibadan Airport",
+    "type": "Domestic",
+    "Commercial": 5431,
+    "Military": 201,
+    "Private": 434,
+    "flights": {
+      "Commercial": [
+        "Ibadan Airport Flight 1",
+        "Ibadan Airport Flight 2"
+      ],
+      "Military": [
+        "Ibadan Airport Military 1"
+      ],
+      "Private": [
+        "Ibadan Airport Private 1",
+        "Ibadan Airport Private 2",
+        "Ibadan Airport Private 3",
+        "Ibadan Airport Private 4"
+      ]
+    }
+  },
+  {
+    "date": "15 Jan",
+    "state": "Ibadan",
+    "airport": "Ibadan Airport",
+    "type": "Domestic",
+    "Commercial": 3127,
+    "Military": 168,
+    "Private": 434,
+    "flights": {
+      "Commercial": [
+        "Ibadan Airport Flight 1"
+      ],
+      "Military": [],
+      "Private": [
+        "Ibadan Airport Private 1",
+        "Ibadan Airport Private 2",
+        "Ibadan Airport Private 3",
+        "Ibadan Airport Private 4"
+      ]
+    }
+  },
+  {
+    "date": "16 Jan",
+    "state": "Ibadan",
+    "airport": "Ibadan Airport",
+    "type": "Domestic",
+    "Commercial": 1117,
+    "Military": 832,
+    "Private": 364,
+    "flights": {
+      "Commercial": [],
+      "Military": [
+        "Ibadan Airport Military 1",
+        "Ibadan Airport Military 2",
+        "Ibadan Airport Military 3",
+        "Ibadan Airport Military 4"
+      ],
+      "Private": [
+        "Ibadan Airport Private 1",
+        "Ibadan Airport Private 2",
+        "Ibadan Airport Private 3"
+      ]
+    }
+  },
+  {
+    "date": "17 Jan",
+    "state": "Ibadan",
+    "airport": "Ibadan Airport",
+    "type": "Domestic",
+    "Commercial": 5281,
+    "Military": 434,
+    "Private": 271,
+    "flights": {
+      "Commercial": [
+        "Ibadan Airport Flight 1",
+        "Ibadan Airport Flight 2"
+      ],
+      "Military": [
+        "Ibadan Airport Military 1",
+        "Ibadan Airport Military 2"
+      ],
+      "Private": [
+        "Ibadan Airport Private 1",
+        "Ibadan Airport Private 2"
+      ]
+    }
+  },
+  {
+    "date": "18 Jan",
+    "state": "Ibadan",
+    "airport": "Ibadan Airport",
+    "type": "Domestic",
+    "Commercial": 4480,
+    "Military": 951,
+    "Private": 238,
+    "flights": {
+      "Commercial": [
+        "Ibadan Airport Flight 1",
+        "Ibadan Airport Flight 2"
+      ],
+      "Military": [
+        "Ibadan Airport Military 1",
+        "Ibadan Airport Military 2",
+        "Ibadan Airport Military 3",
+        "Ibadan Airport Military 4"
+      ],
+      "Private": [
+        "Ibadan Airport Private 1",
+        "Ibadan Airport Private 2"
+      ]
+    }
+  },
+  {
+    "date": "19 Jan",
+    "state": "Ibadan",
+    "airport": "Ibadan Airport",
+    "type": "Domestic",
+    "Commercial": 2266,
+    "Military": 963,
+    "Private": 360,
+    "flights": {
+      "Commercial": [
+        "Ibadan Airport Flight 1"
+      ],
+      "Military": [
+        "Ibadan Airport Military 1",
+        "Ibadan Airport Military 2",
+        "Ibadan Airport Military 3",
+        "Ibadan Airport Military 4"
+      ],
+      "Private": [
+        "Ibadan Airport Private 1",
+        "Ibadan Airport Private 2",
+        "Ibadan Airport Private 3"
+      ]
+    }
+  }
+]

@@ -62,3 +62,10 @@ function ThemeToggle() {
 }
 
 export default ThemeToggle;
+
+
+<div
+  className={`flex justify-between items-center py-2 ${
+    index !== arr.length - 1 ? "border-b border-[#333]" : ""
+  }`}
+></div>

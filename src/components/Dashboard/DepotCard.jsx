@@ -1,4 +1,4 @@
-import StockItem from "../Dashboard/StockItem";
+import StockItem from "./StockItem";
 import { Warehouse } from "lucide-react";
 
 const DepotCard = ({ darkMode = true, size = "large" }) => {

@@ -1,4 +1,4 @@
-import MiniChart from "../Dashboard/MiniChart";
+import MiniChart from "./MiniChart";
 
 const StockItem = ({ stock, darkMode = true, showChart = true }) => {
   const getChartColor = (trend) => {

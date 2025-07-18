@@ -1,0 +1,5402 @@
+[
+  {
+    "Depot": "NIPCO",
+    "State": "Lagos",
+    "Period": "2024-01-01",
+    "PMS": 740.36,
+    "AGO": 733.38,
+    "DPK": 742.5,
+    "LPG": 739.39
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Lagos",
+    "Period": "2024-01-31",
+    "PMS": 731.92,
+    "AGO": 742.55,
+    "DPK": 729.44,
+    "LPG": 733.79
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Lagos",
+    "Period": "2024-03-01",
+    "PMS": 744.83,
+    "AGO": 744.06,
+    "DPK": 745.86,
+    "LPG": 736.27
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Lagos",
+    "Period": "2024-03-31",
+    "PMS": 722.34,
+    "AGO": 734.34,
+    "DPK": 726.89,
+    "LPG": 721.1
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Lagos",
+    "Period": "2024-04-30",
+    "PMS": 730.31,
+    "AGO": 733.43,
+    "DPK": 722.26,
+    "LPG": 725.68
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Lagos",
+    "Period": "2024-05-30",
+    "PMS": 732.37,
+    "AGO": 733.0,
+    "DPK": 740.03,
+    "LPG": 737.78
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Lagos",
+    "Period": "2024-06-29",
+    "PMS": 741.59,
+    "AGO": 740.86,
+    "DPK": 739.29,
+    "LPG": 741.93
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Lagos",
+    "Period": "2024-07-29",
+    "PMS": 735.86,
+    "AGO": 745.3,
+    "DPK": 735.22,
+    "LPG": 737.7
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Lagos",
+    "Period": "2024-08-28",
+    "PMS": 743.26,
+    "AGO": 750.96,
+    "DPK": 742.86,
+    "LPG": 735.91
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Lagos",
+    "Period": "2024-09-27",
+    "PMS": 739.82,
+    "AGO": 737.02,
+    "DPK": 742.93,
+    "LPG": 739.37
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Lagos",
+    "Period": "2024-10-27",
+    "PMS": 743.63,
+    "AGO": 742.54,
+    "DPK": 739.45,
+    "LPG": 742.3
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Lagos",
+    "Period": "2024-11-26",
+    "PMS": 732.2,
+    "AGO": 726.09,
+    "DPK": 732.63,
+    "LPG": 733.42
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Abuja",
+    "Period": "2024-01-01",
+    "PMS": 685.08,
+    "AGO": 691.35,
+    "DPK": 688.15,
+    "LPG": 693.8
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Abuja",
+    "Period": "2024-01-31",
+    "PMS": 689.73,
+    "AGO": 685.45,
+    "DPK": 684.2,
+    "LPG": 687.49
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Abuja",
+    "Period": "2024-03-01",
+    "PMS": 688.08,
+    "AGO": 692.82,
+    "DPK": 683.79,
+    "LPG": 686.37
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Abuja",
+    "Period": "2024-03-31",
+    "PMS": 684.67,
+    "AGO": 681.08,
+    "DPK": 688.35,
+    "LPG": 691.1
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Abuja",
+    "Period": "2024-04-30",
+    "PMS": 684.19,
+    "AGO": 675.25,
+    "DPK": 679.05,
+    "LPG": 682.33
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Abuja",
+    "Period": "2024-05-30",
+    "PMS": 688.13,
+    "AGO": 692.52,
+    "DPK": 697.16,
+    "LPG": 688.43
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Abuja",
+    "Period": "2024-06-29",
+    "PMS": 686.08,
+    "AGO": 685.87,
+    "DPK": 689.17,
+    "LPG": 689.3
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Abuja",
+    "Period": "2024-07-29",
+    "PMS": 682.56,
+    "AGO": 676.95,
+    "DPK": 685.25,
+    "LPG": 686.35
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Abuja",
+    "Period": "2024-08-28",
+    "PMS": 682.29,
+    "AGO": 685.71,
+    "DPK": 688.43,
+    "LPG": 675.92
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Abuja",
+    "Period": "2024-09-27",
+    "PMS": 674.48,
+    "AGO": 669.98,
+    "DPK": 671.72,
+    "LPG": 671.38
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Abuja",
+    "Period": "2024-10-27",
+    "PMS": 685.51,
+    "AGO": 680.73,
+    "DPK": 679.39,
+    "LPG": 684.21
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Abuja",
+    "Period": "2024-11-26",
+    "PMS": 679.77,
+    "AGO": 676.36,
+    "DPK": 682.8,
+    "LPG": 683.47
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Port Harcourt",
+    "Period": "2024-01-01",
+    "PMS": 691.12,
+    "AGO": 700.04,
+    "DPK": 698.61,
+    "LPG": 691.69
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Port Harcourt",
+    "Period": "2024-01-31",
+    "PMS": 695.02,
+    "AGO": 705.82,
+    "DPK": 693.26,
+    "LPG": 695.63
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Port Harcourt",
+    "Period": "2024-03-01",
+    "PMS": 693.0,
+    "AGO": 686.95,
+    "DPK": 690.16,
+    "LPG": 695.63
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Port Harcourt",
+    "Period": "2024-03-31",
+    "PMS": 693.65,
+    "AGO": 691.43,
+    "DPK": 688.32,
+    "LPG": 695.28
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Port Harcourt",
+    "Period": "2024-04-30",
+    "PMS": 691.02,
+    "AGO": 685.74,
+    "DPK": 684.19,
+    "LPG": 686.5
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Port Harcourt",
+    "Period": "2024-05-30",
+    "PMS": 688.95,
+    "AGO": 695.25,
+    "DPK": 681.62,
+    "LPG": 687.85
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Port Harcourt",
+    "Period": "2024-06-29",
+    "PMS": 696.47,
+    "AGO": 702.33,
+    "DPK": 696.05,
+    "LPG": 689.23
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Port Harcourt",
+    "Period": "2024-07-29",
+    "PMS": 699.41,
+    "AGO": 696.79,
+    "DPK": 697.75,
+    "LPG": 696.55
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Port Harcourt",
+    "Period": "2024-08-28",
+    "PMS": 689.41,
+    "AGO": 693.93,
+    "DPK": 691.43,
+    "LPG": 686.17
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Port Harcourt",
+    "Period": "2024-09-27",
+    "PMS": 693.11,
+    "AGO": 697.56,
+    "DPK": 702.21,
+    "LPG": 691.59
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Port Harcourt",
+    "Period": "2024-10-27",
+    "PMS": 691.43,
+    "AGO": 686.48,
+    "DPK": 692.81,
+    "LPG": 699.79
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Port Harcourt",
+    "Period": "2024-11-26",
+    "PMS": 685.96,
+    "AGO": 690.87,
+    "DPK": 686.82,
+    "LPG": 688.37
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Kano",
+    "Period": "2024-01-01",
+    "PMS": 681.21,
+    "AGO": 693.84,
+    "DPK": 680.63,
+    "LPG": 685.93
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Kano",
+    "Period": "2024-01-31",
+    "PMS": 688.56,
+    "AGO": 700.13,
+    "DPK": 693.73,
+    "LPG": 693.03
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Kano",
+    "Period": "2024-03-01",
+    "PMS": 696.72,
+    "AGO": 698.62,
+    "DPK": 704.79,
+    "LPG": 706.43
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Kano",
+    "Period": "2024-03-31",
+    "PMS": 683.16,
+    "AGO": 697.35,
+    "DPK": 682.73,
+    "LPG": 685.32
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Kano",
+    "Period": "2024-04-30",
+    "PMS": 683.04,
+    "AGO": 691.31,
+    "DPK": 688.18,
+    "LPG": 679.33
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Kano",
+    "Period": "2024-05-30",
+    "PMS": 698.75,
+    "AGO": 690.72,
+    "DPK": 696.79,
+    "LPG": 699.74
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Kano",
+    "Period": "2024-06-29",
+    "PMS": 699.53,
+    "AGO": 700.92,
+    "DPK": 695.39,
+    "LPG": 697.18
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Kano",
+    "Period": "2024-07-29",
+    "PMS": 678.22,
+    "AGO": 681.96,
+    "DPK": 685.48,
+    "LPG": 684.38
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Kano",
+    "Period": "2024-08-28",
+    "PMS": 689.59,
+    "AGO": 697.05,
+    "DPK": 699.64,
+    "LPG": 694.68
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Kano",
+    "Period": "2024-09-27",
+    "PMS": 699.27,
+    "AGO": 707.68,
+    "DPK": 706.05,
+    "LPG": 699.08
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Kano",
+    "Period": "2024-10-27",
+    "PMS": 702.1,
+    "AGO": 693.93,
+    "DPK": 703.21,
+    "LPG": 691.87
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Kano",
+    "Period": "2024-11-26",
+    "PMS": 692.9,
+    "AGO": 687.36,
+    "DPK": 695.38,
+    "LPG": 692.21
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Warri",
+    "Period": "2024-01-01",
+    "PMS": 734.08,
+    "AGO": 728.13,
+    "DPK": 724.7,
+    "LPG": 730.1
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Warri",
+    "Period": "2024-01-31",
+    "PMS": 720.5,
+    "AGO": 716.59,
+    "DPK": 711.93,
+    "LPG": 716.32
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Warri",
+    "Period": "2024-03-01",
+    "PMS": 717.51,
+    "AGO": 718.71,
+    "DPK": 720.35,
+    "LPG": 715.82
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Warri",
+    "Period": "2024-03-31",
+    "PMS": 717.83,
+    "AGO": 712.89,
+    "DPK": 720.92,
+    "LPG": 714.93
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Warri",
+    "Period": "2024-04-30",
+    "PMS": 711.5,
+    "AGO": 714.16,
+    "DPK": 707.78,
+    "LPG": 709.32
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Warri",
+    "Period": "2024-05-30",
+    "PMS": 731.24,
+    "AGO": 742.07,
+    "DPK": 724.85,
+    "LPG": 732.49
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Warri",
+    "Period": "2024-06-29",
+    "PMS": 727.55,
+    "AGO": 736.33,
+    "DPK": 736.35,
+    "LPG": 729.06
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Warri",
+    "Period": "2024-07-29",
+    "PMS": 724.83,
+    "AGO": 728.96,
+    "DPK": 729.77,
+    "LPG": 721.65
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Warri",
+    "Period": "2024-08-28",
+    "PMS": 711.76,
+    "AGO": 725.56,
+    "DPK": 722.96,
+    "LPG": 721.04
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Warri",
+    "Period": "2024-09-27",
+    "PMS": 719.94,
+    "AGO": 710.14,
+    "DPK": 713.98,
+    "LPG": 723.08
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Warri",
+    "Period": "2024-10-27",
+    "PMS": 722.61,
+    "AGO": 730.48,
+    "DPK": 725.01,
+    "LPG": 717.66
+  },
+  {
+    "Depot": "NIPCO",
+    "State": "Warri",
+    "Period": "2024-11-26",
+    "PMS": 713.71,
+    "AGO": 714.51,
+    "DPK": 722.4,
+    "LPG": 711.5
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Lagos",
+    "Period": "2024-01-01",
+    "PMS": 702.46,
+    "AGO": 698.37,
+    "DPK": 703.65,
+    "LPG": 702.98
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Lagos",
+    "Period": "2024-01-31",
+    "PMS": 710.9,
+    "AGO": 707.49,
+    "DPK": 704.18,
+    "LPG": 705.29
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Lagos",
+    "Period": "2024-03-01",
+    "PMS": 708.45,
+    "AGO": 705.02,
+    "DPK": 701.29,
+    "LPG": 707.97
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Lagos",
+    "Period": "2024-03-31",
+    "PMS": 705.11,
+    "AGO": 705.79,
+    "DPK": 705.52,
+    "LPG": 710.26
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Lagos",
+    "Period": "2024-04-30",
+    "PMS": 704.33,
+    "AGO": 700.39,
+    "DPK": 707.32,
+    "LPG": 700.11
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Lagos",
+    "Period": "2024-05-30",
+    "PMS": 703.81,
+    "AGO": 710.22,
+    "DPK": 696.82,
+    "LPG": 703.89
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Lagos",
+    "Period": "2024-06-29",
+    "PMS": 702.83,
+    "AGO": 704.3,
+    "DPK": 693.24,
+    "LPG": 696.65
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Lagos",
+    "Period": "2024-07-29",
+    "PMS": 698.85,
+    "AGO": 695.15,
+    "DPK": 700.15,
+    "LPG": 703.06
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Lagos",
+    "Period": "2024-08-28",
+    "PMS": 701.23,
+    "AGO": 708.92,
+    "DPK": 702.78,
+    "LPG": 696.25
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Lagos",
+    "Period": "2024-09-27",
+    "PMS": 711.02,
+    "AGO": 701.0,
+    "DPK": 706.02,
+    "LPG": 705.96
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Lagos",
+    "Period": "2024-10-27",
+    "PMS": 698.98,
+    "AGO": 705.24,
+    "DPK": 696.23,
+    "LPG": 696.86
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Lagos",
+    "Period": "2024-11-26",
+    "PMS": 713.09,
+    "AGO": 711.25,
+    "DPK": 707.97,
+    "LPG": 713.17
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Abuja",
+    "Period": "2024-01-01",
+    "PMS": 721.55,
+    "AGO": 721.62,
+    "DPK": 709.6,
+    "LPG": 722.91
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Abuja",
+    "Period": "2024-01-31",
+    "PMS": 716.57,
+    "AGO": 719.32,
+    "DPK": 712.34,
+    "LPG": 711.26
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Abuja",
+    "Period": "2024-03-01",
+    "PMS": 714.16,
+    "AGO": 708.06,
+    "DPK": 710.98,
+    "LPG": 719.57
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Abuja",
+    "Period": "2024-03-31",
+    "PMS": 713.17,
+    "AGO": 704.29,
+    "DPK": 716.65,
+    "LPG": 716.97
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Abuja",
+    "Period": "2024-04-30",
+    "PMS": 712.23,
+    "AGO": 704.83,
+    "DPK": 702.61,
+    "LPG": 706.63
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Abuja",
+    "Period": "2024-05-30",
+    "PMS": 722.23,
+    "AGO": 729.68,
+    "DPK": 726.87,
+    "LPG": 727.14
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Abuja",
+    "Period": "2024-06-29",
+    "PMS": 705.34,
+    "AGO": 708.36,
+    "DPK": 700.51,
+    "LPG": 704.73
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Abuja",
+    "Period": "2024-07-29",
+    "PMS": 712.78,
+    "AGO": 716.01,
+    "DPK": 713.73,
+    "LPG": 722.48
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Abuja",
+    "Period": "2024-08-28",
+    "PMS": 712.5,
+    "AGO": 703.27,
+    "DPK": 719.08,
+    "LPG": 718.13
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Abuja",
+    "Period": "2024-09-27",
+    "PMS": 706.46,
+    "AGO": 705.19,
+    "DPK": 716.62,
+    "LPG": 710.45
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Abuja",
+    "Period": "2024-10-27",
+    "PMS": 712.9,
+    "AGO": 712.8,
+    "DPK": 716.73,
+    "LPG": 716.56
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Abuja",
+    "Period": "2024-11-26",
+    "PMS": 726.52,
+    "AGO": 728.95,
+    "DPK": 727.87,
+    "LPG": 720.7
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Port Harcourt",
+    "Period": "2024-01-01",
+    "PMS": 719.33,
+    "AGO": 708.39,
+    "DPK": 720.73,
+    "LPG": 713.44
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Port Harcourt",
+    "Period": "2024-01-31",
+    "PMS": 705.15,
+    "AGO": 697.68,
+    "DPK": 706.74,
+    "LPG": 705.3
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Port Harcourt",
+    "Period": "2024-03-01",
+    "PMS": 706.03,
+    "AGO": 712.98,
+    "DPK": 705.21,
+    "LPG": 705.29
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Port Harcourt",
+    "Period": "2024-03-31",
+    "PMS": 706.56,
+    "AGO": 702.83,
+    "DPK": 702.54,
+    "LPG": 703.69
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Port Harcourt",
+    "Period": "2024-04-30",
+    "PMS": 715.44,
+    "AGO": 711.88,
+    "DPK": 717.28,
+    "LPG": 720.41
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Port Harcourt",
+    "Period": "2024-05-30",
+    "PMS": 715.86,
+    "AGO": 707.54,
+    "DPK": 710.28,
+    "LPG": 715.97
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Port Harcourt",
+    "Period": "2024-06-29",
+    "PMS": 712.35,
+    "AGO": 713.75,
+    "DPK": 711.31,
+    "LPG": 717.59
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Port Harcourt",
+    "Period": "2024-07-29",
+    "PMS": 704.56,
+    "AGO": 702.97,
+    "DPK": 704.46,
+    "LPG": 704.51
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Port Harcourt",
+    "Period": "2024-08-28",
+    "PMS": 718.68,
+    "AGO": 707.81,
+    "DPK": 716.92,
+    "LPG": 716.68
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Port Harcourt",
+    "Period": "2024-09-27",
+    "PMS": 700.96,
+    "AGO": 693.09,
+    "DPK": 707.36,
+    "LPG": 700.71
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Port Harcourt",
+    "Period": "2024-10-27",
+    "PMS": 715.26,
+    "AGO": 707.33,
+    "DPK": 709.26,
+    "LPG": 714.86
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Port Harcourt",
+    "Period": "2024-11-26",
+    "PMS": 714.5,
+    "AGO": 721.02,
+    "DPK": 707.39,
+    "LPG": 713.07
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Kano",
+    "Period": "2024-01-01",
+    "PMS": 717.07,
+    "AGO": 715.37,
+    "DPK": 710.09,
+    "LPG": 711.01
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Kano",
+    "Period": "2024-01-31",
+    "PMS": 711.89,
+    "AGO": 713.28,
+    "DPK": 722.28,
+    "LPG": 716.68
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Kano",
+    "Period": "2024-03-01",
+    "PMS": 712.28,
+    "AGO": 708.37,
+    "DPK": 707.54,
+    "LPG": 717.07
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Kano",
+    "Period": "2024-03-31",
+    "PMS": 709.59,
+    "AGO": 711.7,
+    "DPK": 715.21,
+    "LPG": 710.41
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Kano",
+    "Period": "2024-04-30",
+    "PMS": 722.06,
+    "AGO": 715.34,
+    "DPK": 713.64,
+    "LPG": 715.79
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Kano",
+    "Period": "2024-05-30",
+    "PMS": 723.84,
+    "AGO": 724.28,
+    "DPK": 722.54,
+    "LPG": 719.82
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Kano",
+    "Period": "2024-06-29",
+    "PMS": 715.91,
+    "AGO": 717.01,
+    "DPK": 716.81,
+    "LPG": 714.32
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Kano",
+    "Period": "2024-07-29",
+    "PMS": 710.83,
+    "AGO": 712.76,
+    "DPK": 721.65,
+    "LPG": 720.14
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Kano",
+    "Period": "2024-08-28",
+    "PMS": 729.57,
+    "AGO": 716.6,
+    "DPK": 720.86,
+    "LPG": 726.65
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Kano",
+    "Period": "2024-09-27",
+    "PMS": 711.04,
+    "AGO": 701.45,
+    "DPK": 711.61,
+    "LPG": 713.35
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Kano",
+    "Period": "2024-10-27",
+    "PMS": 710.04,
+    "AGO": 701.13,
+    "DPK": 700.62,
+    "LPG": 708.36
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Kano",
+    "Period": "2024-11-26",
+    "PMS": 719.15,
+    "AGO": 725.93,
+    "DPK": 724.4,
+    "LPG": 718.43
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Warri",
+    "Period": "2024-01-01",
+    "PMS": 715.37,
+    "AGO": 720.62,
+    "DPK": 716.82,
+    "LPG": 724.27
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Warri",
+    "Period": "2024-01-31",
+    "PMS": 735.48,
+    "AGO": 740.91,
+    "DPK": 742.32,
+    "LPG": 741.44
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Warri",
+    "Period": "2024-03-01",
+    "PMS": 713.4,
+    "AGO": 716.93,
+    "DPK": 716.52,
+    "LPG": 718.8
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Warri",
+    "Period": "2024-03-31",
+    "PMS": 739.65,
+    "AGO": 729.92,
+    "DPK": 735.36,
+    "LPG": 737.21
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Warri",
+    "Period": "2024-04-30",
+    "PMS": 718.71,
+    "AGO": 731.33,
+    "DPK": 719.33,
+    "LPG": 726.76
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Warri",
+    "Period": "2024-05-30",
+    "PMS": 728.17,
+    "AGO": 727.87,
+    "DPK": 716.33,
+    "LPG": 727.98
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Warri",
+    "Period": "2024-06-29",
+    "PMS": 738.25,
+    "AGO": 736.01,
+    "DPK": 738.63,
+    "LPG": 734.88
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Warri",
+    "Period": "2024-07-29",
+    "PMS": 715.48,
+    "AGO": 719.16,
+    "DPK": 719.56,
+    "LPG": 721.28
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Warri",
+    "Period": "2024-08-28",
+    "PMS": 728.21,
+    "AGO": 728.64,
+    "DPK": 730.27,
+    "LPG": 731.01
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Warri",
+    "Period": "2024-09-27",
+    "PMS": 718.79,
+    "AGO": 726.41,
+    "DPK": 720.82,
+    "LPG": 716.79
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Warri",
+    "Period": "2024-10-27",
+    "PMS": 738.65,
+    "AGO": 744.07,
+    "DPK": 741.05,
+    "LPG": 739.43
+  },
+  {
+    "Depot": "AY Shafa",
+    "State": "Warri",
+    "Period": "2024-11-26",
+    "PMS": 730.65,
+    "AGO": 736.54,
+    "DPK": 722.67,
+    "LPG": 730.26
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Lagos",
+    "Period": "2024-01-01",
+    "PMS": 691.5,
+    "AGO": 693.07,
+    "DPK": 694.69,
+    "LPG": 692.8
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Lagos",
+    "Period": "2024-01-31",
+    "PMS": 677.35,
+    "AGO": 682.61,
+    "DPK": 686.49,
+    "LPG": 680.9
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Lagos",
+    "Period": "2024-03-01",
+    "PMS": 692.21,
+    "AGO": 698.02,
+    "DPK": 685.55,
+    "LPG": 690.62
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Lagos",
+    "Period": "2024-03-31",
+    "PMS": 685.16,
+    "AGO": 688.44,
+    "DPK": 686.27,
+    "LPG": 677.42
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Lagos",
+    "Period": "2024-04-30",
+    "PMS": 687.61,
+    "AGO": 679.46,
+    "DPK": 690.15,
+    "LPG": 683.6
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Lagos",
+    "Period": "2024-05-30",
+    "PMS": 698.22,
+    "AGO": 700.38,
+    "DPK": 693.13,
+    "LPG": 700.45
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Lagos",
+    "Period": "2024-06-29",
+    "PMS": 700.18,
+    "AGO": 700.25,
+    "DPK": 694.44,
+    "LPG": 702.61
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Lagos",
+    "Period": "2024-07-29",
+    "PMS": 677.93,
+    "AGO": 690.73,
+    "DPK": 675.93,
+    "LPG": 682.56
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Lagos",
+    "Period": "2024-08-28",
+    "PMS": 688.84,
+    "AGO": 692.07,
+    "DPK": 686.25,
+    "LPG": 692.16
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Lagos",
+    "Period": "2024-09-27",
+    "PMS": 696.64,
+    "AGO": 686.2,
+    "DPK": 693.11,
+    "LPG": 696.6
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Lagos",
+    "Period": "2024-10-27",
+    "PMS": 692.55,
+    "AGO": 688.3,
+    "DPK": 693.0,
+    "LPG": 689.63
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Lagos",
+    "Period": "2024-11-26",
+    "PMS": 680.03,
+    "AGO": 687.85,
+    "DPK": 677.39,
+    "LPG": 681.75
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Abuja",
+    "Period": "2024-01-01",
+    "PMS": 723.67,
+    "AGO": 729.33,
+    "DPK": 725.98,
+    "LPG": 733.91
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Abuja",
+    "Period": "2024-01-31",
+    "PMS": 736.13,
+    "AGO": 733.54,
+    "DPK": 734.67,
+    "LPG": 732.85
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Abuja",
+    "Period": "2024-03-01",
+    "PMS": 731.21,
+    "AGO": 721.69,
+    "DPK": 723.58,
+    "LPG": 731.6
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Abuja",
+    "Period": "2024-03-31",
+    "PMS": 728.83,
+    "AGO": 732.26,
+    "DPK": 732.38,
+    "LPG": 727.67
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Abuja",
+    "Period": "2024-04-30",
+    "PMS": 722.24,
+    "AGO": 724.56,
+    "DPK": 720.76,
+    "LPG": 720.72
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Abuja",
+    "Period": "2024-05-30",
+    "PMS": 738.19,
+    "AGO": 725.29,
+    "DPK": 739.14,
+    "LPG": 732.21
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Abuja",
+    "Period": "2024-06-29",
+    "PMS": 724.34,
+    "AGO": 719.46,
+    "DPK": 720.87,
+    "LPG": 724.56
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Abuja",
+    "Period": "2024-07-29",
+    "PMS": 734.99,
+    "AGO": 732.32,
+    "DPK": 741.06,
+    "LPG": 730.62
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Abuja",
+    "Period": "2024-08-28",
+    "PMS": 737.03,
+    "AGO": 745.74,
+    "DPK": 738.83,
+    "LPG": 734.24
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Abuja",
+    "Period": "2024-09-27",
+    "PMS": 729.9,
+    "AGO": 728.28,
+    "DPK": 725.84,
+    "LPG": 734.87
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Abuja",
+    "Period": "2024-10-27",
+    "PMS": 727.38,
+    "AGO": 713.84,
+    "DPK": 730.69,
+    "LPG": 720.96
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Abuja",
+    "Period": "2024-11-26",
+    "PMS": 735.24,
+    "AGO": 736.92,
+    "DPK": 740.0,
+    "LPG": 737.21
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Port Harcourt",
+    "Period": "2024-01-01",
+    "PMS": 708.5,
+    "AGO": 703.36,
+    "DPK": 715.75,
+    "LPG": 707.76
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Port Harcourt",
+    "Period": "2024-01-31",
+    "PMS": 703.68,
+    "AGO": 713.03,
+    "DPK": 711.93,
+    "LPG": 702.2
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Port Harcourt",
+    "Period": "2024-03-01",
+    "PMS": 714.26,
+    "AGO": 717.01,
+    "DPK": 716.75,
+    "LPG": 706.78
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Port Harcourt",
+    "Period": "2024-03-31",
+    "PMS": 710.16,
+    "AGO": 712.23,
+    "DPK": 718.19,
+    "LPG": 711.35
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Port Harcourt",
+    "Period": "2024-04-30",
+    "PMS": 707.73,
+    "AGO": 700.49,
+    "DPK": 707.78,
+    "LPG": 706.84
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Port Harcourt",
+    "Period": "2024-05-30",
+    "PMS": 715.28,
+    "AGO": 718.34,
+    "DPK": 714.07,
+    "LPG": 716.84
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Port Harcourt",
+    "Period": "2024-06-29",
+    "PMS": 711.2,
+    "AGO": 703.37,
+    "DPK": 712.18,
+    "LPG": 703.14
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Port Harcourt",
+    "Period": "2024-07-29",
+    "PMS": 722.0,
+    "AGO": 713.0,
+    "DPK": 716.65,
+    "LPG": 714.28
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Port Harcourt",
+    "Period": "2024-08-28",
+    "PMS": 712.08,
+    "AGO": 705.89,
+    "DPK": 707.13,
+    "LPG": 719.25
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Port Harcourt",
+    "Period": "2024-09-27",
+    "PMS": 705.79,
+    "AGO": 705.98,
+    "DPK": 705.9,
+    "LPG": 704.25
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Port Harcourt",
+    "Period": "2024-10-27",
+    "PMS": 713.48,
+    "AGO": 714.88,
+    "DPK": 712.48,
+    "LPG": 711.04
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Port Harcourt",
+    "Period": "2024-11-26",
+    "PMS": 714.76,
+    "AGO": 702.12,
+    "DPK": 710.81,
+    "LPG": 704.72
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Kano",
+    "Period": "2024-01-01",
+    "PMS": 673.62,
+    "AGO": 676.33,
+    "DPK": 680.88,
+    "LPG": 674.45
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Kano",
+    "Period": "2024-01-31",
+    "PMS": 674.46,
+    "AGO": 666.09,
+    "DPK": 679.76,
+    "LPG": 669.85
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Kano",
+    "Period": "2024-03-01",
+    "PMS": 680.44,
+    "AGO": 678.79,
+    "DPK": 687.97,
+    "LPG": 685.12
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Kano",
+    "Period": "2024-03-31",
+    "PMS": 675.64,
+    "AGO": 685.82,
+    "DPK": 684.56,
+    "LPG": 684.43
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Kano",
+    "Period": "2024-04-30",
+    "PMS": 683.26,
+    "AGO": 693.43,
+    "DPK": 688.05,
+    "LPG": 687.78
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Kano",
+    "Period": "2024-05-30",
+    "PMS": 673.16,
+    "AGO": 682.13,
+    "DPK": 675.76,
+    "LPG": 679.76
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Kano",
+    "Period": "2024-06-29",
+    "PMS": 678.85,
+    "AGO": 673.55,
+    "DPK": 677.94,
+    "LPG": 681.09
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Kano",
+    "Period": "2024-07-29",
+    "PMS": 682.94,
+    "AGO": 680.88,
+    "DPK": 678.74,
+    "LPG": 687.29
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Kano",
+    "Period": "2024-08-28",
+    "PMS": 688.54,
+    "AGO": 695.66,
+    "DPK": 694.15,
+    "LPG": 682.53
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Kano",
+    "Period": "2024-09-27",
+    "PMS": 686.88,
+    "AGO": 691.33,
+    "DPK": 694.72,
+    "LPG": 695.53
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Kano",
+    "Period": "2024-10-27",
+    "PMS": 693.88,
+    "AGO": 696.23,
+    "DPK": 692.2,
+    "LPG": 692.88
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Kano",
+    "Period": "2024-11-26",
+    "PMS": 690.21,
+    "AGO": 681.74,
+    "DPK": 685.09,
+    "LPG": 689.45
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Warri",
+    "Period": "2024-01-01",
+    "PMS": 687.7,
+    "AGO": 696.88,
+    "DPK": 680.92,
+    "LPG": 682.88
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Warri",
+    "Period": "2024-01-31",
+    "PMS": 687.21,
+    "AGO": 686.31,
+    "DPK": 687.95,
+    "LPG": 683.02
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Warri",
+    "Period": "2024-03-01",
+    "PMS": 695.09,
+    "AGO": 692.64,
+    "DPK": 702.55,
+    "LPG": 701.48
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Warri",
+    "Period": "2024-03-31",
+    "PMS": 695.05,
+    "AGO": 694.54,
+    "DPK": 690.18,
+    "LPG": 699.48
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Warri",
+    "Period": "2024-04-30",
+    "PMS": 683.6,
+    "AGO": 692.06,
+    "DPK": 688.74,
+    "LPG": 691.75
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Warri",
+    "Period": "2024-05-30",
+    "PMS": 701.54,
+    "AGO": 699.07,
+    "DPK": 691.28,
+    "LPG": 695.51
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Warri",
+    "Period": "2024-06-29",
+    "PMS": 692.16,
+    "AGO": 684.99,
+    "DPK": 698.18,
+    "LPG": 695.43
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Warri",
+    "Period": "2024-07-29",
+    "PMS": 681.65,
+    "AGO": 686.77,
+    "DPK": 688.43,
+    "LPG": 683.79
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Warri",
+    "Period": "2024-08-28",
+    "PMS": 685.73,
+    "AGO": 692.48,
+    "DPK": 690.06,
+    "LPG": 689.08
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Warri",
+    "Period": "2024-09-27",
+    "PMS": 701.68,
+    "AGO": 700.48,
+    "DPK": 693.27,
+    "LPG": 697.28
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Warri",
+    "Period": "2024-10-27",
+    "PMS": 687.52,
+    "AGO": 686.3,
+    "DPK": 679.35,
+    "LPG": 682.64
+  },
+  {
+    "Depot": "AA Rano",
+    "State": "Warri",
+    "Period": "2024-11-26",
+    "PMS": 689.03,
+    "AGO": 687.62,
+    "DPK": 687.83,
+    "LPG": 697.29
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Lagos",
+    "Period": "2024-01-01",
+    "PMS": 724.51,
+    "AGO": 729.19,
+    "DPK": 719.51,
+    "LPG": 718.96
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Lagos",
+    "Period": "2024-01-31",
+    "PMS": 720.45,
+    "AGO": 718.96,
+    "DPK": 716.61,
+    "LPG": 716.08
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Lagos",
+    "Period": "2024-03-01",
+    "PMS": 725.61,
+    "AGO": 732.06,
+    "DPK": 725.37,
+    "LPG": 728.51
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Lagos",
+    "Period": "2024-03-31",
+    "PMS": 724.27,
+    "AGO": 724.47,
+    "DPK": 721.09,
+    "LPG": 730.87
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Lagos",
+    "Period": "2024-04-30",
+    "PMS": 731.95,
+    "AGO": 729.0,
+    "DPK": 726.83,
+    "LPG": 729.42
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Lagos",
+    "Period": "2024-05-30",
+    "PMS": 715.48,
+    "AGO": 724.6,
+    "DPK": 720.91,
+    "LPG": 722.06
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Lagos",
+    "Period": "2024-06-29",
+    "PMS": 708.51,
+    "AGO": 718.23,
+    "DPK": 706.66,
+    "LPG": 716.37
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Lagos",
+    "Period": "2024-07-29",
+    "PMS": 715.16,
+    "AGO": 716.65,
+    "DPK": 715.11,
+    "LPG": 719.11
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Lagos",
+    "Period": "2024-08-28",
+    "PMS": 730.01,
+    "AGO": 734.01,
+    "DPK": 730.84,
+    "LPG": 731.8
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Lagos",
+    "Period": "2024-09-27",
+    "PMS": 726.99,
+    "AGO": 719.51,
+    "DPK": 728.7,
+    "LPG": 726.94
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Lagos",
+    "Period": "2024-10-27",
+    "PMS": 727.29,
+    "AGO": 734.69,
+    "DPK": 733.52,
+    "LPG": 726.15
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Lagos",
+    "Period": "2024-11-26",
+    "PMS": 732.64,
+    "AGO": 734.29,
+    "DPK": 724.18,
+    "LPG": 725.8
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Abuja",
+    "Period": "2024-01-01",
+    "PMS": 701.29,
+    "AGO": 698.4,
+    "DPK": 694.6,
+    "LPG": 697.42
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Abuja",
+    "Period": "2024-01-31",
+    "PMS": 706.1,
+    "AGO": 699.41,
+    "DPK": 709.16,
+    "LPG": 704.64
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Abuja",
+    "Period": "2024-03-01",
+    "PMS": 711.32,
+    "AGO": 710.68,
+    "DPK": 714.02,
+    "LPG": 713.32
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Abuja",
+    "Period": "2024-03-31",
+    "PMS": 707.88,
+    "AGO": 701.81,
+    "DPK": 710.15,
+    "LPG": 704.81
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Abuja",
+    "Period": "2024-04-30",
+    "PMS": 707.44,
+    "AGO": 708.77,
+    "DPK": 703.47,
+    "LPG": 713.1
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Abuja",
+    "Period": "2024-05-30",
+    "PMS": 722.04,
+    "AGO": 712.84,
+    "DPK": 719.72,
+    "LPG": 723.31
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Abuja",
+    "Period": "2024-06-29",
+    "PMS": 715.07,
+    "AGO": 711.19,
+    "DPK": 719.17,
+    "LPG": 712.85
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Abuja",
+    "Period": "2024-07-29",
+    "PMS": 695.78,
+    "AGO": 693.43,
+    "DPK": 704.53,
+    "LPG": 704.01
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Abuja",
+    "Period": "2024-08-28",
+    "PMS": 719.34,
+    "AGO": 720.55,
+    "DPK": 718.25,
+    "LPG": 716.82
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Abuja",
+    "Period": "2024-09-27",
+    "PMS": 714.42,
+    "AGO": 720.3,
+    "DPK": 718.33,
+    "LPG": 711.49
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Abuja",
+    "Period": "2024-10-27",
+    "PMS": 700.67,
+    "AGO": 703.56,
+    "DPK": 701.7,
+    "LPG": 708.12
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Abuja",
+    "Period": "2024-11-26",
+    "PMS": 719.27,
+    "AGO": 719.29,
+    "DPK": 714.8,
+    "LPG": 711.33
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Port Harcourt",
+    "Period": "2024-01-01",
+    "PMS": 728.52,
+    "AGO": 727.5,
+    "DPK": 727.56,
+    "LPG": 731.91
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Port Harcourt",
+    "Period": "2024-01-31",
+    "PMS": 728.62,
+    "AGO": 732.47,
+    "DPK": 730.74,
+    "LPG": 725.77
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Port Harcourt",
+    "Period": "2024-03-01",
+    "PMS": 728.1,
+    "AGO": 719.65,
+    "DPK": 723.77,
+    "LPG": 723.87
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Port Harcourt",
+    "Period": "2024-03-31",
+    "PMS": 739.39,
+    "AGO": 735.28,
+    "DPK": 745.57,
+    "LPG": 734.9
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Port Harcourt",
+    "Period": "2024-04-30",
+    "PMS": 734.72,
+    "AGO": 735.07,
+    "DPK": 735.29,
+    "LPG": 732.39
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Port Harcourt",
+    "Period": "2024-05-30",
+    "PMS": 718.56,
+    "AGO": 714.41,
+    "DPK": 722.51,
+    "LPG": 723.36
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Port Harcourt",
+    "Period": "2024-06-29",
+    "PMS": 723.4,
+    "AGO": 724.63,
+    "DPK": 725.11,
+    "LPG": 717.53
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Port Harcourt",
+    "Period": "2024-07-29",
+    "PMS": 732.22,
+    "AGO": 734.57,
+    "DPK": 743.02,
+    "LPG": 733.63
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Port Harcourt",
+    "Period": "2024-08-28",
+    "PMS": 734.23,
+    "AGO": 724.38,
+    "DPK": 726.0,
+    "LPG": 731.15
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Port Harcourt",
+    "Period": "2024-09-27",
+    "PMS": 740.27,
+    "AGO": 745.54,
+    "DPK": 736.56,
+    "LPG": 739.23
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Port Harcourt",
+    "Period": "2024-10-27",
+    "PMS": 723.62,
+    "AGO": 731.27,
+    "DPK": 723.59,
+    "LPG": 721.32
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Port Harcourt",
+    "Period": "2024-11-26",
+    "PMS": 721.55,
+    "AGO": 724.42,
+    "DPK": 717.09,
+    "LPG": 722.33
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Kano",
+    "Period": "2024-01-01",
+    "PMS": 723.98,
+    "AGO": 729.88,
+    "DPK": 718.08,
+    "LPG": 718.78
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Kano",
+    "Period": "2024-01-31",
+    "PMS": 714.6,
+    "AGO": 716.35,
+    "DPK": 716.7,
+    "LPG": 723.5
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Kano",
+    "Period": "2024-03-01",
+    "PMS": 721.76,
+    "AGO": 718.45,
+    "DPK": 716.05,
+    "LPG": 723.84
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Kano",
+    "Period": "2024-03-31",
+    "PMS": 724.42,
+    "AGO": 720.96,
+    "DPK": 719.82,
+    "LPG": 721.13
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Kano",
+    "Period": "2024-04-30",
+    "PMS": 732.0,
+    "AGO": 727.88,
+    "DPK": 739.08,
+    "LPG": 730.12
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Kano",
+    "Period": "2024-05-30",
+    "PMS": 722.5,
+    "AGO": 721.46,
+    "DPK": 724.03,
+    "LPG": 719.97
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Kano",
+    "Period": "2024-06-29",
+    "PMS": 724.39,
+    "AGO": 726.48,
+    "DPK": 713.13,
+    "LPG": 721.14
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Kano",
+    "Period": "2024-07-29",
+    "PMS": 735.21,
+    "AGO": 728.45,
+    "DPK": 737.29,
+    "LPG": 734.09
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Kano",
+    "Period": "2024-08-28",
+    "PMS": 735.37,
+    "AGO": 730.7,
+    "DPK": 740.39,
+    "LPG": 732.93
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Kano",
+    "Period": "2024-09-27",
+    "PMS": 718.21,
+    "AGO": 717.58,
+    "DPK": 721.22,
+    "LPG": 726.39
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Kano",
+    "Period": "2024-10-27",
+    "PMS": 713.47,
+    "AGO": 712.1,
+    "DPK": 708.71,
+    "LPG": 716.18
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Kano",
+    "Period": "2024-11-26",
+    "PMS": 726.56,
+    "AGO": 725.25,
+    "DPK": 717.83,
+    "LPG": 728.69
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Warri",
+    "Period": "2024-01-01",
+    "PMS": 732.76,
+    "AGO": 741.93,
+    "DPK": 739.74,
+    "LPG": 731.08
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Warri",
+    "Period": "2024-01-31",
+    "PMS": 724.76,
+    "AGO": 731.32,
+    "DPK": 735.62,
+    "LPG": 727.34
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Warri",
+    "Period": "2024-03-01",
+    "PMS": 731.61,
+    "AGO": 731.86,
+    "DPK": 727.72,
+    "LPG": 723.96
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Warri",
+    "Period": "2024-03-31",
+    "PMS": 725.99,
+    "AGO": 731.48,
+    "DPK": 724.55,
+    "LPG": 721.8
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Warri",
+    "Period": "2024-04-30",
+    "PMS": 737.07,
+    "AGO": 728.09,
+    "DPK": 731.77,
+    "LPG": 733.99
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Warri",
+    "Period": "2024-05-30",
+    "PMS": 730.64,
+    "AGO": 724.15,
+    "DPK": 734.19,
+    "LPG": 726.85
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Warri",
+    "Period": "2024-06-29",
+    "PMS": 732.92,
+    "AGO": 740.9,
+    "DPK": 735.49,
+    "LPG": 730.45
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Warri",
+    "Period": "2024-07-29",
+    "PMS": 729.92,
+    "AGO": 732.35,
+    "DPK": 741.85,
+    "LPG": 734.97
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Warri",
+    "Period": "2024-08-28",
+    "PMS": 725.0,
+    "AGO": 729.85,
+    "DPK": 726.26,
+    "LPG": 720.22
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Warri",
+    "Period": "2024-09-27",
+    "PMS": 735.73,
+    "AGO": 727.9,
+    "DPK": 729.08,
+    "LPG": 738.15
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Warri",
+    "Period": "2024-10-27",
+    "PMS": 723.82,
+    "AGO": 717.86,
+    "DPK": 715.62,
+    "LPG": 725.57
+  },
+  {
+    "Depot": "Bluefin",
+    "State": "Warri",
+    "Period": "2024-11-26",
+    "PMS": 730.55,
+    "AGO": 716.76,
+    "DPK": 720.62,
+    "LPG": 729.5
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Lagos",
+    "Period": "2024-01-01",
+    "PMS": 702.13,
+    "AGO": 711.02,
+    "DPK": 710.57,
+    "LPG": 698.9
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Lagos",
+    "Period": "2024-01-31",
+    "PMS": 705.12,
+    "AGO": 708.62,
+    "DPK": 716.5,
+    "LPG": 705.17
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Lagos",
+    "Period": "2024-03-01",
+    "PMS": 696.35,
+    "AGO": 694.88,
+    "DPK": 708.92,
+    "LPG": 701.11
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Lagos",
+    "Period": "2024-03-31",
+    "PMS": 701.8,
+    "AGO": 711.87,
+    "DPK": 713.13,
+    "LPG": 704.49
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Lagos",
+    "Period": "2024-04-30",
+    "PMS": 712.27,
+    "AGO": 714.96,
+    "DPK": 724.67,
+    "LPG": 718.15
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Lagos",
+    "Period": "2024-05-30",
+    "PMS": 708.93,
+    "AGO": 713.54,
+    "DPK": 708.48,
+    "LPG": 708.31
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Lagos",
+    "Period": "2024-06-29",
+    "PMS": 718.72,
+    "AGO": 719.46,
+    "DPK": 722.6,
+    "LPG": 715.36
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Lagos",
+    "Period": "2024-07-29",
+    "PMS": 705.5,
+    "AGO": 708.32,
+    "DPK": 712.64,
+    "LPG": 707.31
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Lagos",
+    "Period": "2024-08-28",
+    "PMS": 698.81,
+    "AGO": 695.16,
+    "DPK": 696.66,
+    "LPG": 704.49
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Lagos",
+    "Period": "2024-09-27",
+    "PMS": 700.97,
+    "AGO": 703.1,
+    "DPK": 699.66,
+    "LPG": 700.82
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Lagos",
+    "Period": "2024-10-27",
+    "PMS": 711.33,
+    "AGO": 716.23,
+    "DPK": 718.93,
+    "LPG": 711.05
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Lagos",
+    "Period": "2024-11-26",
+    "PMS": 699.81,
+    "AGO": 708.82,
+    "DPK": 705.43,
+    "LPG": 704.62
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Abuja",
+    "Period": "2024-01-01",
+    "PMS": 720.08,
+    "AGO": 720.44,
+    "DPK": 728.08,
+    "LPG": 724.04
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Abuja",
+    "Period": "2024-01-31",
+    "PMS": 717.13,
+    "AGO": 725.38,
+    "DPK": 715.92,
+    "LPG": 721.62
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Abuja",
+    "Period": "2024-03-01",
+    "PMS": 711.81,
+    "AGO": 707.91,
+    "DPK": 716.93,
+    "LPG": 713.46
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Abuja",
+    "Period": "2024-03-31",
+    "PMS": 724.63,
+    "AGO": 718.04,
+    "DPK": 721.99,
+    "LPG": 724.33
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Abuja",
+    "Period": "2024-04-30",
+    "PMS": 734.01,
+    "AGO": 723.2,
+    "DPK": 729.84,
+    "LPG": 738.13
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Abuja",
+    "Period": "2024-05-30",
+    "PMS": 733.95,
+    "AGO": 721.66,
+    "DPK": 733.47,
+    "LPG": 729.3
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Abuja",
+    "Period": "2024-06-29",
+    "PMS": 730.87,
+    "AGO": 724.41,
+    "DPK": 733.71,
+    "LPG": 735.25
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Abuja",
+    "Period": "2024-07-29",
+    "PMS": 713.12,
+    "AGO": 714.82,
+    "DPK": 714.61,
+    "LPG": 715.78
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Abuja",
+    "Period": "2024-08-28",
+    "PMS": 730.33,
+    "AGO": 729.36,
+    "DPK": 731.99,
+    "LPG": 724.55
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Abuja",
+    "Period": "2024-09-27",
+    "PMS": 726.15,
+    "AGO": 730.09,
+    "DPK": 724.91,
+    "LPG": 726.38
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Abuja",
+    "Period": "2024-10-27",
+    "PMS": 725.63,
+    "AGO": 728.61,
+    "DPK": 729.1,
+    "LPG": 728.45
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Abuja",
+    "Period": "2024-11-26",
+    "PMS": 714.2,
+    "AGO": 724.19,
+    "DPK": 724.08,
+    "LPG": 717.85
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Port Harcourt",
+    "Period": "2024-01-01",
+    "PMS": 686.18,
+    "AGO": 679.72,
+    "DPK": 685.07,
+    "LPG": 689.48
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Port Harcourt",
+    "Period": "2024-01-31",
+    "PMS": 687.4,
+    "AGO": 678.46,
+    "DPK": 687.78,
+    "LPG": 686.04
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Port Harcourt",
+    "Period": "2024-03-01",
+    "PMS": 675.62,
+    "AGO": 677.6,
+    "DPK": 675.54,
+    "LPG": 679.4
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Port Harcourt",
+    "Period": "2024-03-31",
+    "PMS": 688.46,
+    "AGO": 686.83,
+    "DPK": 700.15,
+    "LPG": 695.52
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Port Harcourt",
+    "Period": "2024-04-30",
+    "PMS": 686.97,
+    "AGO": 697.62,
+    "DPK": 690.5,
+    "LPG": 694.99
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Port Harcourt",
+    "Period": "2024-05-30",
+    "PMS": 684.49,
+    "AGO": 686.83,
+    "DPK": 689.18,
+    "LPG": 691.26
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Port Harcourt",
+    "Period": "2024-06-29",
+    "PMS": 686.83,
+    "AGO": 676.92,
+    "DPK": 676.54,
+    "LPG": 677.15
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Port Harcourt",
+    "Period": "2024-07-29",
+    "PMS": 673.82,
+    "AGO": 681.86,
+    "DPK": 684.93,
+    "LPG": 682.37
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Port Harcourt",
+    "Period": "2024-08-28",
+    "PMS": 688.53,
+    "AGO": 682.27,
+    "DPK": 688.5,
+    "LPG": 689.9
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Port Harcourt",
+    "Period": "2024-09-27",
+    "PMS": 681.0,
+    "AGO": 676.53,
+    "DPK": 674.21,
+    "LPG": 682.5
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Port Harcourt",
+    "Period": "2024-10-27",
+    "PMS": 675.91,
+    "AGO": 681.82,
+    "DPK": 678.49,
+    "LPG": 677.2
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Port Harcourt",
+    "Period": "2024-11-26",
+    "PMS": 690.95,
+    "AGO": 686.25,
+    "DPK": 690.46,
+    "LPG": 687.34
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Kano",
+    "Period": "2024-01-01",
+    "PMS": 723.4,
+    "AGO": 721.43,
+    "DPK": 715.4,
+    "LPG": 725.2
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Kano",
+    "Period": "2024-01-31",
+    "PMS": 729.9,
+    "AGO": 734.75,
+    "DPK": 726.75,
+    "LPG": 726.68
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Kano",
+    "Period": "2024-03-01",
+    "PMS": 718.92,
+    "AGO": 714.34,
+    "DPK": 717.13,
+    "LPG": 722.05
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Kano",
+    "Period": "2024-03-31",
+    "PMS": 721.83,
+    "AGO": 726.93,
+    "DPK": 717.45,
+    "LPG": 720.36
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Kano",
+    "Period": "2024-04-30",
+    "PMS": 730.87,
+    "AGO": 739.11,
+    "DPK": 736.75,
+    "LPG": 729.58
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Kano",
+    "Period": "2024-05-30",
+    "PMS": 721.79,
+    "AGO": 716.43,
+    "DPK": 725.31,
+    "LPG": 714.54
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Kano",
+    "Period": "2024-06-29",
+    "PMS": 722.49,
+    "AGO": 711.92,
+    "DPK": 727.67,
+    "LPG": 716.34
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Kano",
+    "Period": "2024-07-29",
+    "PMS": 736.11,
+    "AGO": 723.86,
+    "DPK": 737.49,
+    "LPG": 734.55
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Kano",
+    "Period": "2024-08-28",
+    "PMS": 731.24,
+    "AGO": 727.21,
+    "DPK": 730.13,
+    "LPG": 728.95
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Kano",
+    "Period": "2024-09-27",
+    "PMS": 721.05,
+    "AGO": 720.76,
+    "DPK": 722.51,
+    "LPG": 719.91
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Kano",
+    "Period": "2024-10-27",
+    "PMS": 716.91,
+    "AGO": 720.74,
+    "DPK": 717.56,
+    "LPG": 722.5
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Kano",
+    "Period": "2024-11-26",
+    "PMS": 716.75,
+    "AGO": 717.62,
+    "DPK": 728.28,
+    "LPG": 725.73
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Warri",
+    "Period": "2024-01-01",
+    "PMS": 719.19,
+    "AGO": 726.13,
+    "DPK": 711.82,
+    "LPG": 712.65
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Warri",
+    "Period": "2024-01-31",
+    "PMS": 734.21,
+    "AGO": 725.14,
+    "DPK": 723.12,
+    "LPG": 733.17
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Warri",
+    "Period": "2024-03-01",
+    "PMS": 729.61,
+    "AGO": 735.61,
+    "DPK": 736.44,
+    "LPG": 725.32
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Warri",
+    "Period": "2024-03-31",
+    "PMS": 709.67,
+    "AGO": 712.24,
+    "DPK": 704.45,
+    "LPG": 716.34
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Warri",
+    "Period": "2024-04-30",
+    "PMS": 725.65,
+    "AGO": 712.28,
+    "DPK": 720.22,
+    "LPG": 716.35
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Warri",
+    "Period": "2024-05-30",
+    "PMS": 715.38,
+    "AGO": 720.35,
+    "DPK": 718.41,
+    "LPG": 714.44
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Warri",
+    "Period": "2024-06-29",
+    "PMS": 712.3,
+    "AGO": 710.98,
+    "DPK": 721.39,
+    "LPG": 717.57
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Warri",
+    "Period": "2024-07-29",
+    "PMS": 719.76,
+    "AGO": 720.74,
+    "DPK": 718.77,
+    "LPG": 722.12
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Warri",
+    "Period": "2024-08-28",
+    "PMS": 727.8,
+    "AGO": 725.01,
+    "DPK": 718.78,
+    "LPG": 728.15
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Warri",
+    "Period": "2024-09-27",
+    "PMS": 722.03,
+    "AGO": 720.79,
+    "DPK": 712.93,
+    "LPG": 725.7
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Warri",
+    "Period": "2024-10-27",
+    "PMS": 724.0,
+    "AGO": 722.18,
+    "DPK": 724.85,
+    "LPG": 717.45
+  },
+  {
+    "Depot": "Rainoil",
+    "State": "Warri",
+    "Period": "2024-11-26",
+    "PMS": 721.54,
+    "AGO": 726.58,
+    "DPK": 720.85,
+    "LPG": 729.56
+  },
+  {
+    "Depot": "MRS",
+    "State": "Lagos",
+    "Period": "2024-01-01",
+    "PMS": 696.06,
+    "AGO": 692.68,
+    "DPK": 689.71,
+    "LPG": 686.73
+  },
+  {
+    "Depot": "MRS",
+    "State": "Lagos",
+    "Period": "2024-01-31",
+    "PMS": 690.73,
+    "AGO": 699.02,
+    "DPK": 699.67,
+    "LPG": 697.32
+  },
+  {
+    "Depot": "MRS",
+    "State": "Lagos",
+    "Period": "2024-03-01",
+    "PMS": 692.24,
+    "AGO": 685.59,
+    "DPK": 698.53,
+    "LPG": 685.99
+  },
+  {
+    "Depot": "MRS",
+    "State": "Lagos",
+    "Period": "2024-03-31",
+    "PMS": 694.87,
+    "AGO": 692.11,
+    "DPK": 701.85,
+    "LPG": 697.11
+  },
+  {
+    "Depot": "MRS",
+    "State": "Lagos",
+    "Period": "2024-04-30",
+    "PMS": 694.03,
+    "AGO": 704.24,
+    "DPK": 697.81,
+    "LPG": 697.92
+  },
+  {
+    "Depot": "MRS",
+    "State": "Lagos",
+    "Period": "2024-05-30",
+    "PMS": 690.31,
+    "AGO": 687.26,
+    "DPK": 690.54,
+    "LPG": 691.56
+  },
+  {
+    "Depot": "MRS",
+    "State": "Lagos",
+    "Period": "2024-06-29",
+    "PMS": 704.15,
+    "AGO": 704.0,
+    "DPK": 702.15,
+    "LPG": 700.38
+  },
+  {
+    "Depot": "MRS",
+    "State": "Lagos",
+    "Period": "2024-07-29",
+    "PMS": 689.0,
+    "AGO": 697.61,
+    "DPK": 683.49,
+    "LPG": 684.11
+  },
+  {
+    "Depot": "MRS",
+    "State": "Lagos",
+    "Period": "2024-08-28",
+    "PMS": 703.12,
+    "AGO": 694.46,
+    "DPK": 698.8,
+    "LPG": 695.33
+  },
+  {
+    "Depot": "MRS",
+    "State": "Lagos",
+    "Period": "2024-09-27",
+    "PMS": 698.23,
+    "AGO": 696.42,
+    "DPK": 705.82,
+    "LPG": 702.23
+  },
+  {
+    "Depot": "MRS",
+    "State": "Lagos",
+    "Period": "2024-10-27",
+    "PMS": 687.35,
+    "AGO": 689.68,
+    "DPK": 691.09,
+    "LPG": 686.19
+  },
+  {
+    "Depot": "MRS",
+    "State": "Lagos",
+    "Period": "2024-11-26",
+    "PMS": 706.51,
+    "AGO": 707.26,
+    "DPK": 708.25,
+    "LPG": 701.78
+  },
+  {
+    "Depot": "MRS",
+    "State": "Abuja",
+    "Period": "2024-01-01",
+    "PMS": 696.74,
+    "AGO": 701.47,
+    "DPK": 690.67,
+    "LPG": 692.72
+  },
+  {
+    "Depot": "MRS",
+    "State": "Abuja",
+    "Period": "2024-01-31",
+    "PMS": 701.96,
+    "AGO": 708.41,
+    "DPK": 711.03,
+    "LPG": 701.22
+  },
+  {
+    "Depot": "MRS",
+    "State": "Abuja",
+    "Period": "2024-03-01",
+    "PMS": 696.09,
+    "AGO": 700.82,
+    "DPK": 698.81,
+    "LPG": 697.38
+  },
+  {
+    "Depot": "MRS",
+    "State": "Abuja",
+    "Period": "2024-03-31",
+    "PMS": 697.81,
+    "AGO": 701.54,
+    "DPK": 699.33,
+    "LPG": 703.25
+  },
+  {
+    "Depot": "MRS",
+    "State": "Abuja",
+    "Period": "2024-04-30",
+    "PMS": 700.35,
+    "AGO": 691.39,
+    "DPK": 696.42,
+    "LPG": 694.84
+  },
+  {
+    "Depot": "MRS",
+    "State": "Abuja",
+    "Period": "2024-05-30",
+    "PMS": 700.66,
+    "AGO": 704.99,
+    "DPK": 695.72,
+    "LPG": 698.03
+  },
+  {
+    "Depot": "MRS",
+    "State": "Abuja",
+    "Period": "2024-06-29",
+    "PMS": 692.56,
+    "AGO": 693.56,
+    "DPK": 693.82,
+    "LPG": 695.09
+  },
+  {
+    "Depot": "MRS",
+    "State": "Abuja",
+    "Period": "2024-07-29",
+    "PMS": 709.27,
+    "AGO": 710.24,
+    "DPK": 713.88,
+    "LPG": 702.89
+  },
+  {
+    "Depot": "MRS",
+    "State": "Abuja",
+    "Period": "2024-08-28",
+    "PMS": 706.46,
+    "AGO": 700.11,
+    "DPK": 703.17,
+    "LPG": 706.66
+  },
+  {
+    "Depot": "MRS",
+    "State": "Abuja",
+    "Period": "2024-09-27",
+    "PMS": 693.7,
+    "AGO": 692.74,
+    "DPK": 695.3,
+    "LPG": 697.15
+  },
+  {
+    "Depot": "MRS",
+    "State": "Abuja",
+    "Period": "2024-10-27",
+    "PMS": 703.53,
+    "AGO": 715.51,
+    "DPK": 709.94,
+    "LPG": 712.32
+  },
+  {
+    "Depot": "MRS",
+    "State": "Abuja",
+    "Period": "2024-11-26",
+    "PMS": 707.71,
+    "AGO": 705.72,
+    "DPK": 712.26,
+    "LPG": 704.24
+  },
+  {
+    "Depot": "MRS",
+    "State": "Port Harcourt",
+    "Period": "2024-01-01",
+    "PMS": 703.58,
+    "AGO": 705.09,
+    "DPK": 701.12,
+    "LPG": 699.56
+  },
+  {
+    "Depot": "MRS",
+    "State": "Port Harcourt",
+    "Period": "2024-01-31",
+    "PMS": 717.29,
+    "AGO": 712.36,
+    "DPK": 709.07,
+    "LPG": 712.08
+  },
+  {
+    "Depot": "MRS",
+    "State": "Port Harcourt",
+    "Period": "2024-03-01",
+    "PMS": 715.57,
+    "AGO": 705.01,
+    "DPK": 713.79,
+    "LPG": 717.64
+  },
+  {
+    "Depot": "MRS",
+    "State": "Port Harcourt",
+    "Period": "2024-03-31",
+    "PMS": 695.42,
+    "AGO": 690.94,
+    "DPK": 702.21,
+    "LPG": 701.1
+  },
+  {
+    "Depot": "MRS",
+    "State": "Port Harcourt",
+    "Period": "2024-04-30",
+    "PMS": 698.22,
+    "AGO": 701.85,
+    "DPK": 694.09,
+    "LPG": 695.79
+  },
+  {
+    "Depot": "MRS",
+    "State": "Port Harcourt",
+    "Period": "2024-05-30",
+    "PMS": 714.17,
+    "AGO": 713.35,
+    "DPK": 710.64,
+    "LPG": 713.31
+  },
+  {
+    "Depot": "MRS",
+    "State": "Port Harcourt",
+    "Period": "2024-06-29",
+    "PMS": 694.99,
+    "AGO": 687.76,
+    "DPK": 702.65,
+    "LPG": 698.29
+  },
+  {
+    "Depot": "MRS",
+    "State": "Port Harcourt",
+    "Period": "2024-07-29",
+    "PMS": 694.61,
+    "AGO": 698.28,
+    "DPK": 696.61,
+    "LPG": 701.38
+  },
+  {
+    "Depot": "MRS",
+    "State": "Port Harcourt",
+    "Period": "2024-08-28",
+    "PMS": 711.49,
+    "AGO": 711.09,
+    "DPK": 706.76,
+    "LPG": 707.56
+  },
+  {
+    "Depot": "MRS",
+    "State": "Port Harcourt",
+    "Period": "2024-09-27",
+    "PMS": 706.27,
+    "AGO": 704.15,
+    "DPK": 716.91,
+    "LPG": 706.52
+  },
+  {
+    "Depot": "MRS",
+    "State": "Port Harcourt",
+    "Period": "2024-10-27",
+    "PMS": 702.69,
+    "AGO": 703.67,
+    "DPK": 709.44,
+    "LPG": 701.06
+  },
+  {
+    "Depot": "MRS",
+    "State": "Port Harcourt",
+    "Period": "2024-11-26",
+    "PMS": 696.95,
+    "AGO": 690.63,
+    "DPK": 699.36,
+    "LPG": 693.27
+  },
+  {
+    "Depot": "MRS",
+    "State": "Kano",
+    "Period": "2024-01-01",
+    "PMS": 739.34,
+    "AGO": 741.58,
+    "DPK": 742.03,
+    "LPG": 740.3
+  },
+  {
+    "Depot": "MRS",
+    "State": "Kano",
+    "Period": "2024-01-31",
+    "PMS": 740.95,
+    "AGO": 732.35,
+    "DPK": 748.23,
+    "LPG": 741.04
+  },
+  {
+    "Depot": "MRS",
+    "State": "Kano",
+    "Period": "2024-03-01",
+    "PMS": 731.95,
+    "AGO": 728.11,
+    "DPK": 739.52,
+    "LPG": 738.73
+  },
+  {
+    "Depot": "MRS",
+    "State": "Kano",
+    "Period": "2024-03-31",
+    "PMS": 737.17,
+    "AGO": 734.07,
+    "DPK": 729.12,
+    "LPG": 730.33
+  },
+  {
+    "Depot": "MRS",
+    "State": "Kano",
+    "Period": "2024-04-30",
+    "PMS": 742.68,
+    "AGO": 737.8,
+    "DPK": 732.79,
+    "LPG": 736.8
+  },
+  {
+    "Depot": "MRS",
+    "State": "Kano",
+    "Period": "2024-05-30",
+    "PMS": 735.63,
+    "AGO": 743.81,
+    "DPK": 730.41,
+    "LPG": 738.69
+  },
+  {
+    "Depot": "MRS",
+    "State": "Kano",
+    "Period": "2024-06-29",
+    "PMS": 742.96,
+    "AGO": 740.11,
+    "DPK": 744.54,
+    "LPG": 737.22
+  },
+  {
+    "Depot": "MRS",
+    "State": "Kano",
+    "Period": "2024-07-29",
+    "PMS": 735.04,
+    "AGO": 721.91,
+    "DPK": 731.14,
+    "LPG": 729.33
+  },
+  {
+    "Depot": "MRS",
+    "State": "Kano",
+    "Period": "2024-08-28",
+    "PMS": 742.55,
+    "AGO": 746.38,
+    "DPK": 738.51,
+    "LPG": 740.33
+  },
+  {
+    "Depot": "MRS",
+    "State": "Kano",
+    "Period": "2024-09-27",
+    "PMS": 737.88,
+    "AGO": 734.62,
+    "DPK": 743.93,
+    "LPG": 733.37
+  },
+  {
+    "Depot": "MRS",
+    "State": "Kano",
+    "Period": "2024-10-27",
+    "PMS": 725.4,
+    "AGO": 726.43,
+    "DPK": 718.27,
+    "LPG": 731.32
+  },
+  {
+    "Depot": "MRS",
+    "State": "Kano",
+    "Period": "2024-11-26",
+    "PMS": 741.07,
+    "AGO": 742.14,
+    "DPK": 736.04,
+    "LPG": 736.85
+  },
+  {
+    "Depot": "MRS",
+    "State": "Warri",
+    "Period": "2024-01-01",
+    "PMS": 696.98,
+    "AGO": 686.42,
+    "DPK": 701.63,
+    "LPG": 697.09
+  },
+  {
+    "Depot": "MRS",
+    "State": "Warri",
+    "Period": "2024-01-31",
+    "PMS": 683.4,
+    "AGO": 693.08,
+    "DPK": 685.15,
+    "LPG": 679.89
+  },
+  {
+    "Depot": "MRS",
+    "State": "Warri",
+    "Period": "2024-03-01",
+    "PMS": 686.93,
+    "AGO": 695.51,
+    "DPK": 684.09,
+    "LPG": 686.01
+  },
+  {
+    "Depot": "MRS",
+    "State": "Warri",
+    "Period": "2024-03-31",
+    "PMS": 693.4,
+    "AGO": 700.99,
+    "DPK": 698.02,
+    "LPG": 696.84
+  },
+  {
+    "Depot": "MRS",
+    "State": "Warri",
+    "Period": "2024-04-30",
+    "PMS": 690.0,
+    "AGO": 691.49,
+    "DPK": 687.87,
+    "LPG": 690.49
+  },
+  {
+    "Depot": "MRS",
+    "State": "Warri",
+    "Period": "2024-05-30",
+    "PMS": 694.11,
+    "AGO": 699.94,
+    "DPK": 706.15,
+    "LPG": 696.86
+  },
+  {
+    "Depot": "MRS",
+    "State": "Warri",
+    "Period": "2024-06-29",
+    "PMS": 686.48,
+    "AGO": 686.78,
+    "DPK": 676.52,
+    "LPG": 680.44
+  },
+  {
+    "Depot": "MRS",
+    "State": "Warri",
+    "Period": "2024-07-29",
+    "PMS": 692.64,
+    "AGO": 700.38,
+    "DPK": 691.05,
+    "LPG": 692.13
+  },
+  {
+    "Depot": "MRS",
+    "State": "Warri",
+    "Period": "2024-08-28",
+    "PMS": 678.04,
+    "AGO": 685.46,
+    "DPK": 685.73,
+    "LPG": 682.67
+  },
+  {
+    "Depot": "MRS",
+    "State": "Warri",
+    "Period": "2024-09-27",
+    "PMS": 682.67,
+    "AGO": 675.53,
+    "DPK": 689.4,
+    "LPG": 677.31
+  },
+  {
+    "Depot": "MRS",
+    "State": "Warri",
+    "Period": "2024-10-27",
+    "PMS": 700.44,
+    "AGO": 705.62,
+    "DPK": 691.38,
+    "LPG": 700.14
+  },
+  {
+    "Depot": "MRS",
+    "State": "Warri",
+    "Period": "2024-11-26",
+    "PMS": 693.19,
+    "AGO": 696.21,
+    "DPK": 697.15,
+    "LPG": 696.33
+  },
+  {
+    "Depot": "Total",
+    "State": "Lagos",
+    "Period": "2024-01-01",
+    "PMS": 735.66,
+    "AGO": 735.04,
+    "DPK": 731.95,
+    "LPG": 732.82
+  },
+  {
+    "Depot": "Total",
+    "State": "Lagos",
+    "Period": "2024-01-31",
+    "PMS": 732.03,
+    "AGO": 729.13,
+    "DPK": 725.61,
+    "LPG": 731.37
+  },
+  {
+    "Depot": "Total",
+    "State": "Lagos",
+    "Period": "2024-03-01",
+    "PMS": 711.83,
+    "AGO": 709.72,
+    "DPK": 722.83,
+    "LPG": 719.05
+  },
+  {
+    "Depot": "Total",
+    "State": "Lagos",
+    "Period": "2024-03-31",
+    "PMS": 714.87,
+    "AGO": 727.45,
+    "DPK": 724.8,
+    "LPG": 719.54
+  },
+  {
+    "Depot": "Total",
+    "State": "Lagos",
+    "Period": "2024-04-30",
+    "PMS": 726.76,
+    "AGO": 721.0,
+    "DPK": 728.42,
+    "LPG": 733.8
+  },
+  {
+    "Depot": "Total",
+    "State": "Lagos",
+    "Period": "2024-05-30",
+    "PMS": 722.9,
+    "AGO": 714.52,
+    "DPK": 725.41,
+    "LPG": 717.26
+  },
+  {
+    "Depot": "Total",
+    "State": "Lagos",
+    "Period": "2024-06-29",
+    "PMS": 713.42,
+    "AGO": 706.71,
+    "DPK": 720.24,
+    "LPG": 717.72
+  },
+  {
+    "Depot": "Total",
+    "State": "Lagos",
+    "Period": "2024-07-29",
+    "PMS": 733.46,
+    "AGO": 743.83,
+    "DPK": 726.65,
+    "LPG": 730.9
+  },
+  {
+    "Depot": "Total",
+    "State": "Lagos",
+    "Period": "2024-08-28",
+    "PMS": 726.31,
+    "AGO": 722.31,
+    "DPK": 720.26,
+    "LPG": 725.2
+  },
+  {
+    "Depot": "Total",
+    "State": "Lagos",
+    "Period": "2024-09-27",
+    "PMS": 716.36,
+    "AGO": 721.96,
+    "DPK": 716.93,
+    "LPG": 722.41
+  },
+  {
+    "Depot": "Total",
+    "State": "Lagos",
+    "Period": "2024-10-27",
+    "PMS": 733.53,
+    "AGO": 741.86,
+    "DPK": 724.15,
+    "LPG": 737.6
+  },
+  {
+    "Depot": "Total",
+    "State": "Lagos",
+    "Period": "2024-11-26",
+    "PMS": 726.21,
+    "AGO": 714.13,
+    "DPK": 715.03,
+    "LPG": 725.52
+  },
+  {
+    "Depot": "Total",
+    "State": "Abuja",
+    "Period": "2024-01-01",
+    "PMS": 688.7,
+    "AGO": 691.94,
+    "DPK": 685.75,
+    "LPG": 687.91
+  },
+  {
+    "Depot": "Total",
+    "State": "Abuja",
+    "Period": "2024-01-31",
+    "PMS": 696.91,
+    "AGO": 694.21,
+    "DPK": 699.08,
+    "LPG": 701.96
+  },
+  {
+    "Depot": "Total",
+    "State": "Abuja",
+    "Period": "2024-03-01",
+    "PMS": 704.45,
+    "AGO": 700.61,
+    "DPK": 701.38,
+    "LPG": 696.8
+  },
+  {
+    "Depot": "Total",
+    "State": "Abuja",
+    "Period": "2024-03-31",
+    "PMS": 688.65,
+    "AGO": 696.99,
+    "DPK": 696.44,
+    "LPG": 691.89
+  },
+  {
+    "Depot": "Total",
+    "State": "Abuja",
+    "Period": "2024-04-30",
+    "PMS": 691.63,
+    "AGO": 695.12,
+    "DPK": 684.0,
+    "LPG": 692.1
+  },
+  {
+    "Depot": "Total",
+    "State": "Abuja",
+    "Period": "2024-05-30",
+    "PMS": 684.79,
+    "AGO": 691.73,
+    "DPK": 687.33,
+    "LPG": 688.62
+  },
+  {
+    "Depot": "Total",
+    "State": "Abuja",
+    "Period": "2024-06-29",
+    "PMS": 693.9,
+    "AGO": 692.13,
+    "DPK": 702.82,
+    "LPG": 693.16
+  },
+  {
+    "Depot": "Total",
+    "State": "Abuja",
+    "Period": "2024-07-29",
+    "PMS": 697.21,
+    "AGO": 692.2,
+    "DPK": 704.76,
+    "LPG": 694.98
+  },
+  {
+    "Depot": "Total",
+    "State": "Abuja",
+    "Period": "2024-08-28",
+    "PMS": 690.55,
+    "AGO": 695.06,
+    "DPK": 691.93,
+    "LPG": 688.45
+  },
+  {
+    "Depot": "Total",
+    "State": "Abuja",
+    "Period": "2024-09-27",
+    "PMS": 706.14,
+    "AGO": 710.45,
+    "DPK": 708.77,
+    "LPG": 708.71
+  },
+  {
+    "Depot": "Total",
+    "State": "Abuja",
+    "Period": "2024-10-27",
+    "PMS": 691.79,
+    "AGO": 704.26,
+    "DPK": 696.71,
+    "LPG": 698.11
+  },
+  {
+    "Depot": "Total",
+    "State": "Abuja",
+    "Period": "2024-11-26",
+    "PMS": 705.22,
+    "AGO": 704.76,
+    "DPK": 714.51,
+    "LPG": 708.02
+  },
+  {
+    "Depot": "Total",
+    "State": "Port Harcourt",
+    "Period": "2024-01-01",
+    "PMS": 706.08,
+    "AGO": 704.07,
+    "DPK": 706.48,
+    "LPG": 702.3
+  },
+  {
+    "Depot": "Total",
+    "State": "Port Harcourt",
+    "Period": "2024-01-31",
+    "PMS": 708.68,
+    "AGO": 700.22,
+    "DPK": 704.59,
+    "LPG": 708.48
+  },
+  {
+    "Depot": "Total",
+    "State": "Port Harcourt",
+    "Period": "2024-03-01",
+    "PMS": 708.26,
+    "AGO": 718.55,
+    "DPK": 707.13,
+    "LPG": 704.51
+  },
+  {
+    "Depot": "Total",
+    "State": "Port Harcourt",
+    "Period": "2024-03-31",
+    "PMS": 706.56,
+    "AGO": 701.62,
+    "DPK": 707.4,
+    "LPG": 705.6
+  },
+  {
+    "Depot": "Total",
+    "State": "Port Harcourt",
+    "Period": "2024-04-30",
+    "PMS": 712.95,
+    "AGO": 712.14,
+    "DPK": 714.15,
+    "LPG": 713.09
+  },
+  {
+    "Depot": "Total",
+    "State": "Port Harcourt",
+    "Period": "2024-05-30",
+    "PMS": 717.34,
+    "AGO": 717.54,
+    "DPK": 718.77,
+    "LPG": 714.1
+  },
+  {
+    "Depot": "Total",
+    "State": "Port Harcourt",
+    "Period": "2024-06-29",
+    "PMS": 708.4,
+    "AGO": 712.14,
+    "DPK": 706.04,
+    "LPG": 702.33
+  },
+  {
+    "Depot": "Total",
+    "State": "Port Harcourt",
+    "Period": "2024-07-29",
+    "PMS": 715.28,
+    "AGO": 709.91,
+    "DPK": 724.14,
+    "LPG": 718.3
+  },
+  {
+    "Depot": "Total",
+    "State": "Port Harcourt",
+    "Period": "2024-08-28",
+    "PMS": 706.3,
+    "AGO": 711.15,
+    "DPK": 715.97,
+    "LPG": 708.04
+  },
+  {
+    "Depot": "Total",
+    "State": "Port Harcourt",
+    "Period": "2024-09-27",
+    "PMS": 699.91,
+    "AGO": 700.25,
+    "DPK": 705.89,
+    "LPG": 698.91
+  },
+  {
+    "Depot": "Total",
+    "State": "Port Harcourt",
+    "Period": "2024-10-27",
+    "PMS": 709.53,
+    "AGO": 699.81,
+    "DPK": 700.57,
+    "LPG": 709.96
+  },
+  {
+    "Depot": "Total",
+    "State": "Port Harcourt",
+    "Period": "2024-11-26",
+    "PMS": 710.92,
+    "AGO": 719.55,
+    "DPK": 717.91,
+    "LPG": 713.78
+  },
+  {
+    "Depot": "Total",
+    "State": "Kano",
+    "Period": "2024-01-01",
+    "PMS": 726.85,
+    "AGO": 738.95,
+    "DPK": 736.43,
+    "LPG": 736.28
+  },
+  {
+    "Depot": "Total",
+    "State": "Kano",
+    "Period": "2024-01-31",
+    "PMS": 731.83,
+    "AGO": 731.39,
+    "DPK": 728.38,
+    "LPG": 730.9
+  },
+  {
+    "Depot": "Total",
+    "State": "Kano",
+    "Period": "2024-03-01",
+    "PMS": 734.04,
+    "AGO": 732.71,
+    "DPK": 734.77,
+    "LPG": 740.4
+  },
+  {
+    "Depot": "Total",
+    "State": "Kano",
+    "Period": "2024-03-31",
+    "PMS": 726.93,
+    "AGO": 722.49,
+    "DPK": 731.37,
+    "LPG": 727.34
+  },
+  {
+    "Depot": "Total",
+    "State": "Kano",
+    "Period": "2024-04-30",
+    "PMS": 724.09,
+    "AGO": 722.45,
+    "DPK": 726.33,
+    "LPG": 726.78
+  },
+  {
+    "Depot": "Total",
+    "State": "Kano",
+    "Period": "2024-05-30",
+    "PMS": 726.91,
+    "AGO": 722.97,
+    "DPK": 735.75,
+    "LPG": 728.45
+  },
+  {
+    "Depot": "Total",
+    "State": "Kano",
+    "Period": "2024-06-29",
+    "PMS": 721.0,
+    "AGO": 729.2,
+    "DPK": 716.52,
+    "LPG": 720.45
+  },
+  {
+    "Depot": "Total",
+    "State": "Kano",
+    "Period": "2024-07-29",
+    "PMS": 731.06,
+    "AGO": 732.11,
+    "DPK": 725.87,
+    "LPG": 726.99
+  },
+  {
+    "Depot": "Total",
+    "State": "Kano",
+    "Period": "2024-08-28",
+    "PMS": 729.92,
+    "AGO": 718.09,
+    "DPK": 734.18,
+    "LPG": 729.49
+  },
+  {
+    "Depot": "Total",
+    "State": "Kano",
+    "Period": "2024-09-27",
+    "PMS": 734.51,
+    "AGO": 746.88,
+    "DPK": 734.27,
+    "LPG": 743.69
+  },
+  {
+    "Depot": "Total",
+    "State": "Kano",
+    "Period": "2024-10-27",
+    "PMS": 724.01,
+    "AGO": 729.98,
+    "DPK": 716.57,
+    "LPG": 722.13
+  },
+  {
+    "Depot": "Total",
+    "State": "Kano",
+    "Period": "2024-11-26",
+    "PMS": 723.55,
+    "AGO": 722.65,
+    "DPK": 731.17,
+    "LPG": 723.64
+  },
+  {
+    "Depot": "Total",
+    "State": "Warri",
+    "Period": "2024-01-01",
+    "PMS": 723.51,
+    "AGO": 719.17,
+    "DPK": 731.27,
+    "LPG": 730.44
+  },
+  {
+    "Depot": "Total",
+    "State": "Warri",
+    "Period": "2024-01-31",
+    "PMS": 721.74,
+    "AGO": 727.65,
+    "DPK": 729.33,
+    "LPG": 720.26
+  },
+  {
+    "Depot": "Total",
+    "State": "Warri",
+    "Period": "2024-03-01",
+    "PMS": 712.66,
+    "AGO": 707.96,
+    "DPK": 710.58,
+    "LPG": 711.63
+  },
+  {
+    "Depot": "Total",
+    "State": "Warri",
+    "Period": "2024-03-31",
+    "PMS": 714.29,
+    "AGO": 723.5,
+    "DPK": 719.02,
+    "LPG": 717.75
+  },
+  {
+    "Depot": "Total",
+    "State": "Warri",
+    "Period": "2024-04-30",
+    "PMS": 730.77,
+    "AGO": 734.31,
+    "DPK": 724.11,
+    "LPG": 730.49
+  },
+  {
+    "Depot": "Total",
+    "State": "Warri",
+    "Period": "2024-05-30",
+    "PMS": 724.5,
+    "AGO": 723.66,
+    "DPK": 729.19,
+    "LPG": 731.18
+  },
+  {
+    "Depot": "Total",
+    "State": "Warri",
+    "Period": "2024-06-29",
+    "PMS": 721.96,
+    "AGO": 722.69,
+    "DPK": 723.85,
+    "LPG": 729.24
+  },
+  {
+    "Depot": "Total",
+    "State": "Warri",
+    "Period": "2024-07-29",
+    "PMS": 727.42,
+    "AGO": 733.95,
+    "DPK": 726.35,
+    "LPG": 723.27
+  },
+  {
+    "Depot": "Total",
+    "State": "Warri",
+    "Period": "2024-08-28",
+    "PMS": 719.21,
+    "AGO": 714.24,
+    "DPK": 724.06,
+    "LPG": 717.98
+  },
+  {
+    "Depot": "Total",
+    "State": "Warri",
+    "Period": "2024-09-27",
+    "PMS": 725.0,
+    "AGO": 735.67,
+    "DPK": 722.51,
+    "LPG": 729.02
+  },
+  {
+    "Depot": "Total",
+    "State": "Warri",
+    "Period": "2024-10-27",
+    "PMS": 719.65,
+    "AGO": 711.99,
+    "DPK": 714.03,
+    "LPG": 714.53
+  },
+  {
+    "Depot": "Total",
+    "State": "Warri",
+    "Period": "2024-11-26",
+    "PMS": 718.47,
+    "AGO": 718.91,
+    "DPK": 721.11,
+    "LPG": 725.73
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Lagos",
+    "Period": "2024-01-01",
+    "PMS": 708.06,
+    "AGO": 711.61,
+    "DPK": 700.63,
+    "LPG": 704.57
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Lagos",
+    "Period": "2024-01-31",
+    "PMS": 700.65,
+    "AGO": 696.78,
+    "DPK": 703.09,
+    "LPG": 701.99
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Lagos",
+    "Period": "2024-03-01",
+    "PMS": 694.41,
+    "AGO": 695.06,
+    "DPK": 694.79,
+    "LPG": 695.45
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Lagos",
+    "Period": "2024-03-31",
+    "PMS": 710.11,
+    "AGO": 712.77,
+    "DPK": 704.46,
+    "LPG": 711.52
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Lagos",
+    "Period": "2024-04-30",
+    "PMS": 705.39,
+    "AGO": 717.78,
+    "DPK": 703.7,
+    "LPG": 709.99
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Lagos",
+    "Period": "2024-05-30",
+    "PMS": 699.06,
+    "AGO": 700.94,
+    "DPK": 691.85,
+    "LPG": 694.91
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Lagos",
+    "Period": "2024-06-29",
+    "PMS": 691.23,
+    "AGO": 680.53,
+    "DPK": 698.06,
+    "LPG": 684.31
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Lagos",
+    "Period": "2024-07-29",
+    "PMS": 701.11,
+    "AGO": 703.71,
+    "DPK": 703.18,
+    "LPG": 704.43
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Lagos",
+    "Period": "2024-08-28",
+    "PMS": 696.36,
+    "AGO": 699.29,
+    "DPK": 694.45,
+    "LPG": 697.71
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Lagos",
+    "Period": "2024-09-27",
+    "PMS": 708.38,
+    "AGO": 705.29,
+    "DPK": 701.09,
+    "LPG": 702.69
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Lagos",
+    "Period": "2024-10-27",
+    "PMS": 693.54,
+    "AGO": 698.1,
+    "DPK": 701.68,
+    "LPG": 698.75
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Lagos",
+    "Period": "2024-11-26",
+    "PMS": 695.6,
+    "AGO": 690.16,
+    "DPK": 691.56,
+    "LPG": 696.36
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Abuja",
+    "Period": "2024-01-01",
+    "PMS": 701.44,
+    "AGO": 707.0,
+    "DPK": 708.35,
+    "LPG": 705.76
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Abuja",
+    "Period": "2024-01-31",
+    "PMS": 705.01,
+    "AGO": 699.48,
+    "DPK": 712.43,
+    "LPG": 712.41
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Abuja",
+    "Period": "2024-03-01",
+    "PMS": 703.05,
+    "AGO": 700.78,
+    "DPK": 698.61,
+    "LPG": 705.6
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Abuja",
+    "Period": "2024-03-31",
+    "PMS": 708.88,
+    "AGO": 718.93,
+    "DPK": 708.66,
+    "LPG": 712.49
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Abuja",
+    "Period": "2024-04-30",
+    "PMS": 703.5,
+    "AGO": 712.54,
+    "DPK": 714.06,
+    "LPG": 702.38
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Abuja",
+    "Period": "2024-05-30",
+    "PMS": 707.06,
+    "AGO": 697.91,
+    "DPK": 702.98,
+    "LPG": 699.0
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Abuja",
+    "Period": "2024-06-29",
+    "PMS": 709.42,
+    "AGO": 702.13,
+    "DPK": 709.6,
+    "LPG": 713.0
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Abuja",
+    "Period": "2024-07-29",
+    "PMS": 719.86,
+    "AGO": 720.99,
+    "DPK": 717.92,
+    "LPG": 718.44
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Abuja",
+    "Period": "2024-08-28",
+    "PMS": 720.5,
+    "AGO": 706.89,
+    "DPK": 711.41,
+    "LPG": 721.54
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Abuja",
+    "Period": "2024-09-27",
+    "PMS": 719.47,
+    "AGO": 722.16,
+    "DPK": 727.59,
+    "LPG": 724.93
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Abuja",
+    "Period": "2024-10-27",
+    "PMS": 704.93,
+    "AGO": 705.15,
+    "DPK": 709.95,
+    "LPG": 700.81
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Abuja",
+    "Period": "2024-11-26",
+    "PMS": 710.85,
+    "AGO": 706.65,
+    "DPK": 715.44,
+    "LPG": 708.67
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Port Harcourt",
+    "Period": "2024-01-01",
+    "PMS": 720.35,
+    "AGO": 722.34,
+    "DPK": 718.04,
+    "LPG": 717.44
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Port Harcourt",
+    "Period": "2024-01-31",
+    "PMS": 729.05,
+    "AGO": 718.18,
+    "DPK": 724.19,
+    "LPG": 726.05
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Port Harcourt",
+    "Period": "2024-03-01",
+    "PMS": 721.48,
+    "AGO": 715.88,
+    "DPK": 714.59,
+    "LPG": 719.56
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Port Harcourt",
+    "Period": "2024-03-31",
+    "PMS": 715.87,
+    "AGO": 707.98,
+    "DPK": 716.1,
+    "LPG": 718.2
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Port Harcourt",
+    "Period": "2024-04-30",
+    "PMS": 729.0,
+    "AGO": 728.81,
+    "DPK": 726.2,
+    "LPG": 727.01
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Port Harcourt",
+    "Period": "2024-05-30",
+    "PMS": 726.54,
+    "AGO": 723.29,
+    "DPK": 728.39,
+    "LPG": 731.09
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Port Harcourt",
+    "Period": "2024-06-29",
+    "PMS": 723.83,
+    "AGO": 730.74,
+    "DPK": 730.23,
+    "LPG": 719.56
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Port Harcourt",
+    "Period": "2024-07-29",
+    "PMS": 733.47,
+    "AGO": 726.94,
+    "DPK": 730.41,
+    "LPG": 729.49
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Port Harcourt",
+    "Period": "2024-08-28",
+    "PMS": 734.09,
+    "AGO": 731.18,
+    "DPK": 728.29,
+    "LPG": 735.78
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Port Harcourt",
+    "Period": "2024-09-27",
+    "PMS": 731.12,
+    "AGO": 736.22,
+    "DPK": 723.62,
+    "LPG": 732.5
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Port Harcourt",
+    "Period": "2024-10-27",
+    "PMS": 731.12,
+    "AGO": 722.1,
+    "DPK": 734.1,
+    "LPG": 730.88
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Port Harcourt",
+    "Period": "2024-11-26",
+    "PMS": 736.16,
+    "AGO": 724.15,
+    "DPK": 734.51,
+    "LPG": 732.93
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Kano",
+    "Period": "2024-01-01",
+    "PMS": 731.98,
+    "AGO": 720.43,
+    "DPK": 724.06,
+    "LPG": 735.48
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Kano",
+    "Period": "2024-01-31",
+    "PMS": 726.89,
+    "AGO": 729.77,
+    "DPK": 733.29,
+    "LPG": 730.81
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Kano",
+    "Period": "2024-03-01",
+    "PMS": 718.6,
+    "AGO": 716.54,
+    "DPK": 726.54,
+    "LPG": 723.93
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Kano",
+    "Period": "2024-03-31",
+    "PMS": 716.6,
+    "AGO": 724.94,
+    "DPK": 721.32,
+    "LPG": 718.65
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Kano",
+    "Period": "2024-04-30",
+    "PMS": 723.85,
+    "AGO": 721.53,
+    "DPK": 712.48,
+    "LPG": 718.15
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Kano",
+    "Period": "2024-05-30",
+    "PMS": 721.22,
+    "AGO": 714.56,
+    "DPK": 720.41,
+    "LPG": 727.02
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Kano",
+    "Period": "2024-06-29",
+    "PMS": 729.36,
+    "AGO": 739.38,
+    "DPK": 737.52,
+    "LPG": 730.15
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Kano",
+    "Period": "2024-07-29",
+    "PMS": 719.35,
+    "AGO": 710.38,
+    "DPK": 715.06,
+    "LPG": 721.35
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Kano",
+    "Period": "2024-08-28",
+    "PMS": 736.19,
+    "AGO": 724.99,
+    "DPK": 735.06,
+    "LPG": 735.99
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Kano",
+    "Period": "2024-09-27",
+    "PMS": 715.56,
+    "AGO": 723.54,
+    "DPK": 722.72,
+    "LPG": 726.01
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Kano",
+    "Period": "2024-10-27",
+    "PMS": 712.68,
+    "AGO": 713.75,
+    "DPK": 719.4,
+    "LPG": 712.29
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Kano",
+    "Period": "2024-11-26",
+    "PMS": 720.28,
+    "AGO": 725.27,
+    "DPK": 720.05,
+    "LPG": 725.89
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Warri",
+    "Period": "2024-01-01",
+    "PMS": 694.53,
+    "AGO": 687.84,
+    "DPK": 685.95,
+    "LPG": 691.89
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Warri",
+    "Period": "2024-01-31",
+    "PMS": 691.43,
+    "AGO": 686.03,
+    "DPK": 693.76,
+    "LPG": 695.1
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Warri",
+    "Period": "2024-03-01",
+    "PMS": 697.18,
+    "AGO": 700.34,
+    "DPK": 700.31,
+    "LPG": 700.22
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Warri",
+    "Period": "2024-03-31",
+    "PMS": 688.87,
+    "AGO": 699.08,
+    "DPK": 682.92,
+    "LPG": 685.81
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Warri",
+    "Period": "2024-04-30",
+    "PMS": 686.52,
+    "AGO": 680.48,
+    "DPK": 688.49,
+    "LPG": 687.9
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Warri",
+    "Period": "2024-05-30",
+    "PMS": 685.88,
+    "AGO": 675.72,
+    "DPK": 675.95,
+    "LPG": 677.5
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Warri",
+    "Period": "2024-06-29",
+    "PMS": 685.01,
+    "AGO": 693.38,
+    "DPK": 697.45,
+    "LPG": 688.87
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Warri",
+    "Period": "2024-07-29",
+    "PMS": 693.04,
+    "AGO": 686.08,
+    "DPK": 699.62,
+    "LPG": 695.05
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Warri",
+    "Period": "2024-08-28",
+    "PMS": 695.8,
+    "AGO": 702.14,
+    "DPK": 687.87,
+    "LPG": 689.93
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Warri",
+    "Period": "2024-09-27",
+    "PMS": 693.49,
+    "AGO": 685.81,
+    "DPK": 697.59,
+    "LPG": 687.64
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Warri",
+    "Period": "2024-10-27",
+    "PMS": 683.74,
+    "AGO": 680.15,
+    "DPK": 682.74,
+    "LPG": 692.43
+  },
+  {
+    "Depot": "Northwest",
+    "State": "Warri",
+    "Period": "2024-11-26",
+    "PMS": 685.12,
+    "AGO": 682.21,
+    "DPK": 695.0,
+    "LPG": 687.28
+  },
+  {
+    "Depot": "Swift",
+    "State": "Lagos",
+    "Period": "2024-01-01",
+    "PMS": 719.04,
+    "AGO": 719.11,
+    "DPK": 727.62,
+    "LPG": 724.81
+  },
+  {
+    "Depot": "Swift",
+    "State": "Lagos",
+    "Period": "2024-01-31",
+    "PMS": 726.33,
+    "AGO": 713.54,
+    "DPK": 717.52,
+    "LPG": 722.6
+  },
+  {
+    "Depot": "Swift",
+    "State": "Lagos",
+    "Period": "2024-03-01",
+    "PMS": 737.77,
+    "AGO": 732.37,
+    "DPK": 728.5,
+    "LPG": 732.93
+  },
+  {
+    "Depot": "Swift",
+    "State": "Lagos",
+    "Period": "2024-03-31",
+    "PMS": 725.19,
+    "AGO": 728.2,
+    "DPK": 728.86,
+    "LPG": 722.99
+  },
+  {
+    "Depot": "Swift",
+    "State": "Lagos",
+    "Period": "2024-04-30",
+    "PMS": 728.19,
+    "AGO": 726.4,
+    "DPK": 722.91,
+    "LPG": 735.79
+  },
+  {
+    "Depot": "Swift",
+    "State": "Lagos",
+    "Period": "2024-05-30",
+    "PMS": 731.53,
+    "AGO": 735.3,
+    "DPK": 728.91,
+    "LPG": 738.79
+  },
+  {
+    "Depot": "Swift",
+    "State": "Lagos",
+    "Period": "2024-06-29",
+    "PMS": 723.65,
+    "AGO": 730.47,
+    "DPK": 731.46,
+    "LPG": 729.1
+  },
+  {
+    "Depot": "Swift",
+    "State": "Lagos",
+    "Period": "2024-07-29",
+    "PMS": 726.35,
+    "AGO": 735.94,
+    "DPK": 725.24,
+    "LPG": 731.39
+  },
+  {
+    "Depot": "Swift",
+    "State": "Lagos",
+    "Period": "2024-08-28",
+    "PMS": 733.02,
+    "AGO": 730.26,
+    "DPK": 734.44,
+    "LPG": 731.25
+  },
+  {
+    "Depot": "Swift",
+    "State": "Lagos",
+    "Period": "2024-09-27",
+    "PMS": 735.51,
+    "AGO": 735.49,
+    "DPK": 744.97,
+    "LPG": 735.02
+  },
+  {
+    "Depot": "Swift",
+    "State": "Lagos",
+    "Period": "2024-10-27",
+    "PMS": 730.78,
+    "AGO": 733.42,
+    "DPK": 734.89,
+    "LPG": 728.08
+  },
+  {
+    "Depot": "Swift",
+    "State": "Lagos",
+    "Period": "2024-11-26",
+    "PMS": 725.41,
+    "AGO": 724.74,
+    "DPK": 725.98,
+    "LPG": 716.29
+  },
+  {
+    "Depot": "Swift",
+    "State": "Abuja",
+    "Period": "2024-01-01",
+    "PMS": 731.44,
+    "AGO": 725.31,
+    "DPK": 733.34,
+    "LPG": 730.67
+  },
+  {
+    "Depot": "Swift",
+    "State": "Abuja",
+    "Period": "2024-01-31",
+    "PMS": 737.49,
+    "AGO": 739.03,
+    "DPK": 741.56,
+    "LPG": 741.4
+  },
+  {
+    "Depot": "Swift",
+    "State": "Abuja",
+    "Period": "2024-03-01",
+    "PMS": 734.37,
+    "AGO": 730.27,
+    "DPK": 729.18,
+    "LPG": 725.8
+  },
+  {
+    "Depot": "Swift",
+    "State": "Abuja",
+    "Period": "2024-03-31",
+    "PMS": 735.73,
+    "AGO": 728.58,
+    "DPK": 742.05,
+    "LPG": 737.52
+  },
+  {
+    "Depot": "Swift",
+    "State": "Abuja",
+    "Period": "2024-04-30",
+    "PMS": 748.22,
+    "AGO": 749.89,
+    "DPK": 744.1,
+    "LPG": 743.86
+  },
+  {
+    "Depot": "Swift",
+    "State": "Abuja",
+    "Period": "2024-05-30",
+    "PMS": 734.54,
+    "AGO": 728.78,
+    "DPK": 726.29,
+    "LPG": 725.61
+  },
+  {
+    "Depot": "Swift",
+    "State": "Abuja",
+    "Period": "2024-06-29",
+    "PMS": 724.5,
+    "AGO": 730.97,
+    "DPK": 725.73,
+    "LPG": 734.07
+  },
+  {
+    "Depot": "Swift",
+    "State": "Abuja",
+    "Period": "2024-07-29",
+    "PMS": 740.47,
+    "AGO": 738.57,
+    "DPK": 737.92,
+    "LPG": 741.32
+  },
+  {
+    "Depot": "Swift",
+    "State": "Abuja",
+    "Period": "2024-08-28",
+    "PMS": 727.71,
+    "AGO": 731.13,
+    "DPK": 732.47,
+    "LPG": 725.93
+  },
+  {
+    "Depot": "Swift",
+    "State": "Abuja",
+    "Period": "2024-09-27",
+    "PMS": 731.56,
+    "AGO": 737.47,
+    "DPK": 729.73,
+    "LPG": 734.78
+  },
+  {
+    "Depot": "Swift",
+    "State": "Abuja",
+    "Period": "2024-10-27",
+    "PMS": 734.96,
+    "AGO": 748.98,
+    "DPK": 735.78,
+    "LPG": 733.43
+  },
+  {
+    "Depot": "Swift",
+    "State": "Abuja",
+    "Period": "2024-11-26",
+    "PMS": 738.28,
+    "AGO": 737.12,
+    "DPK": 742.02,
+    "LPG": 745.42
+  },
+  {
+    "Depot": "Swift",
+    "State": "Port Harcourt",
+    "Period": "2024-01-01",
+    "PMS": 722.06,
+    "AGO": 725.65,
+    "DPK": 712.45,
+    "LPG": 719.41
+  },
+  {
+    "Depot": "Swift",
+    "State": "Port Harcourt",
+    "Period": "2024-01-31",
+    "PMS": 729.1,
+    "AGO": 728.73,
+    "DPK": 723.43,
+    "LPG": 719.95
+  },
+  {
+    "Depot": "Swift",
+    "State": "Port Harcourt",
+    "Period": "2024-03-01",
+    "PMS": 726.39,
+    "AGO": 728.63,
+    "DPK": 722.71,
+    "LPG": 728.13
+  },
+  {
+    "Depot": "Swift",
+    "State": "Port Harcourt",
+    "Period": "2024-03-31",
+    "PMS": 729.9,
+    "AGO": 739.24,
+    "DPK": 728.33,
+    "LPG": 733.16
+  },
+  {
+    "Depot": "Swift",
+    "State": "Port Harcourt",
+    "Period": "2024-04-30",
+    "PMS": 731.08,
+    "AGO": 741.1,
+    "DPK": 732.41,
+    "LPG": 729.05
+  },
+  {
+    "Depot": "Swift",
+    "State": "Port Harcourt",
+    "Period": "2024-05-30",
+    "PMS": 726.05,
+    "AGO": 724.59,
+    "DPK": 719.91,
+    "LPG": 733.35
+  },
+  {
+    "Depot": "Swift",
+    "State": "Port Harcourt",
+    "Period": "2024-06-29",
+    "PMS": 727.01,
+    "AGO": 731.65,
+    "DPK": 733.17,
+    "LPG": 733.3
+  },
+  {
+    "Depot": "Swift",
+    "State": "Port Harcourt",
+    "Period": "2024-07-29",
+    "PMS": 723.8,
+    "AGO": 719.12,
+    "DPK": 721.54,
+    "LPG": 724.71
+  },
+  {
+    "Depot": "Swift",
+    "State": "Port Harcourt",
+    "Period": "2024-08-28",
+    "PMS": 730.0,
+    "AGO": 730.96,
+    "DPK": 721.88,
+    "LPG": 725.06
+  },
+  {
+    "Depot": "Swift",
+    "State": "Port Harcourt",
+    "Period": "2024-09-27",
+    "PMS": 733.98,
+    "AGO": 724.84,
+    "DPK": 734.6,
+    "LPG": 735.03
+  },
+  {
+    "Depot": "Swift",
+    "State": "Port Harcourt",
+    "Period": "2024-10-27",
+    "PMS": 719.53,
+    "AGO": 732.08,
+    "DPK": 717.89,
+    "LPG": 724.53
+  },
+  {
+    "Depot": "Swift",
+    "State": "Port Harcourt",
+    "Period": "2024-11-26",
+    "PMS": 717.34,
+    "AGO": 722.14,
+    "DPK": 719.74,
+    "LPG": 712.51
+  },
+  {
+    "Depot": "Swift",
+    "State": "Kano",
+    "Period": "2024-01-01",
+    "PMS": 696.54,
+    "AGO": 708.8,
+    "DPK": 694.6,
+    "LPG": 698.34
+  },
+  {
+    "Depot": "Swift",
+    "State": "Kano",
+    "Period": "2024-01-31",
+    "PMS": 702.16,
+    "AGO": 709.44,
+    "DPK": 704.43,
+    "LPG": 699.26
+  },
+  {
+    "Depot": "Swift",
+    "State": "Kano",
+    "Period": "2024-03-01",
+    "PMS": 715.31,
+    "AGO": 706.69,
+    "DPK": 718.02,
+    "LPG": 716.47
+  },
+  {
+    "Depot": "Swift",
+    "State": "Kano",
+    "Period": "2024-03-31",
+    "PMS": 722.47,
+    "AGO": 727.56,
+    "DPK": 712.72,
+    "LPG": 713.94
+  },
+  {
+    "Depot": "Swift",
+    "State": "Kano",
+    "Period": "2024-04-30",
+    "PMS": 716.32,
+    "AGO": 708.98,
+    "DPK": 718.7,
+    "LPG": 708.06
+  },
+  {
+    "Depot": "Swift",
+    "State": "Kano",
+    "Period": "2024-05-30",
+    "PMS": 719.89,
+    "AGO": 729.69,
+    "DPK": 725.33,
+    "LPG": 725.56
+  },
+  {
+    "Depot": "Swift",
+    "State": "Kano",
+    "Period": "2024-06-29",
+    "PMS": 706.2,
+    "AGO": 713.99,
+    "DPK": 704.37,
+    "LPG": 710.97
+  },
+  {
+    "Depot": "Swift",
+    "State": "Kano",
+    "Period": "2024-07-29",
+    "PMS": 710.17,
+    "AGO": 703.83,
+    "DPK": 705.09,
+    "LPG": 706.21
+  },
+  {
+    "Depot": "Swift",
+    "State": "Kano",
+    "Period": "2024-08-28",
+    "PMS": 706.09,
+    "AGO": 695.78,
+    "DPK": 705.9,
+    "LPG": 703.35
+  },
+  {
+    "Depot": "Swift",
+    "State": "Kano",
+    "Period": "2024-09-27",
+    "PMS": 719.16,
+    "AGO": 716.85,
+    "DPK": 717.08,
+    "LPG": 719.08
+  },
+  {
+    "Depot": "Swift",
+    "State": "Kano",
+    "Period": "2024-10-27",
+    "PMS": 711.33,
+    "AGO": 713.67,
+    "DPK": 711.68,
+    "LPG": 716.98
+  },
+  {
+    "Depot": "Swift",
+    "State": "Kano",
+    "Period": "2024-11-26",
+    "PMS": 705.52,
+    "AGO": 707.54,
+    "DPK": 703.8,
+    "LPG": 704.79
+  },
+  {
+    "Depot": "Swift",
+    "State": "Warri",
+    "Period": "2024-01-01",
+    "PMS": 709.57,
+    "AGO": 700.94,
+    "DPK": 710.28,
+    "LPG": 706.23
+  },
+  {
+    "Depot": "Swift",
+    "State": "Warri",
+    "Period": "2024-01-31",
+    "PMS": 705.42,
+    "AGO": 699.31,
+    "DPK": 706.92,
+    "LPG": 713.08
+  },
+  {
+    "Depot": "Swift",
+    "State": "Warri",
+    "Period": "2024-03-01",
+    "PMS": 718.2,
+    "AGO": 706.57,
+    "DPK": 712.08,
+    "LPG": 715.95
+  },
+  {
+    "Depot": "Swift",
+    "State": "Warri",
+    "Period": "2024-03-31",
+    "PMS": 714.44,
+    "AGO": 706.51,
+    "DPK": 706.86,
+    "LPG": 711.05
+  },
+  {
+    "Depot": "Swift",
+    "State": "Warri",
+    "Period": "2024-04-30",
+    "PMS": 718.5,
+    "AGO": 730.24,
+    "DPK": 715.13,
+    "LPG": 726.5
+  },
+  {
+    "Depot": "Swift",
+    "State": "Warri",
+    "Period": "2024-05-30",
+    "PMS": 713.13,
+    "AGO": 720.01,
+    "DPK": 712.1,
+    "LPG": 709.93
+  },
+  {
+    "Depot": "Swift",
+    "State": "Warri",
+    "Period": "2024-06-29",
+    "PMS": 714.43,
+    "AGO": 703.81,
+    "DPK": 709.92,
+    "LPG": 711.16
+  },
+  {
+    "Depot": "Swift",
+    "State": "Warri",
+    "Period": "2024-07-29",
+    "PMS": 722.48,
+    "AGO": 723.73,
+    "DPK": 720.58,
+    "LPG": 719.2
+  },
+  {
+    "Depot": "Swift",
+    "State": "Warri",
+    "Period": "2024-08-28",
+    "PMS": 725.17,
+    "AGO": 732.92,
+    "DPK": 715.33,
+    "LPG": 721.26
+  },
+  {
+    "Depot": "Swift",
+    "State": "Warri",
+    "Period": "2024-09-27",
+    "PMS": 708.6,
+    "AGO": 708.18,
+    "DPK": 711.26,
+    "LPG": 705.7
+  },
+  {
+    "Depot": "Swift",
+    "State": "Warri",
+    "Period": "2024-10-27",
+    "PMS": 711.43,
+    "AGO": 698.4,
+    "DPK": 715.4,
+    "LPG": 711.46
+  },
+  {
+    "Depot": "Swift",
+    "State": "Warri",
+    "Period": "2024-11-26",
+    "PMS": 727.88,
+    "AGO": 734.75,
+    "DPK": 725.16,
+    "LPG": 726.2
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Lagos",
+    "Period": "2024-01-01",
+    "PMS": 671.9,
+    "AGO": 667.33,
+    "DPK": 678.15,
+    "LPG": 680.02
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Lagos",
+    "Period": "2024-01-31",
+    "PMS": 688.95,
+    "AGO": 689.57,
+    "DPK": 680.14,
+    "LPG": 691.3
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Lagos",
+    "Period": "2024-03-01",
+    "PMS": 691.36,
+    "AGO": 690.9,
+    "DPK": 689.63,
+    "LPG": 689.45
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Lagos",
+    "Period": "2024-03-31",
+    "PMS": 676.47,
+    "AGO": 683.86,
+    "DPK": 668.57,
+    "LPG": 678.66
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Lagos",
+    "Period": "2024-04-30",
+    "PMS": 686.1,
+    "AGO": 689.66,
+    "DPK": 688.35,
+    "LPG": 686.03
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Lagos",
+    "Period": "2024-05-30",
+    "PMS": 687.01,
+    "AGO": 676.98,
+    "DPK": 676.77,
+    "LPG": 684.64
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Lagos",
+    "Period": "2024-06-29",
+    "PMS": 685.18,
+    "AGO": 672.84,
+    "DPK": 683.58,
+    "LPG": 679.25
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Lagos",
+    "Period": "2024-07-29",
+    "PMS": 694.41,
+    "AGO": 696.61,
+    "DPK": 685.14,
+    "LPG": 692.97
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Lagos",
+    "Period": "2024-08-28",
+    "PMS": 676.25,
+    "AGO": 683.51,
+    "DPK": 672.61,
+    "LPG": 684.11
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Lagos",
+    "Period": "2024-09-27",
+    "PMS": 685.1,
+    "AGO": 675.8,
+    "DPK": 680.09,
+    "LPG": 676.4
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Lagos",
+    "Period": "2024-10-27",
+    "PMS": 682.76,
+    "AGO": 683.56,
+    "DPK": 681.38,
+    "LPG": 678.74
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Lagos",
+    "Period": "2024-11-26",
+    "PMS": 685.67,
+    "AGO": 679.28,
+    "DPK": 688.06,
+    "LPG": 692.53
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Abuja",
+    "Period": "2024-01-01",
+    "PMS": 684.1,
+    "AGO": 677.64,
+    "DPK": 688.0,
+    "LPG": 683.38
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Abuja",
+    "Period": "2024-01-31",
+    "PMS": 690.31,
+    "AGO": 684.91,
+    "DPK": 692.12,
+    "LPG": 689.37
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Abuja",
+    "Period": "2024-03-01",
+    "PMS": 691.16,
+    "AGO": 691.19,
+    "DPK": 692.85,
+    "LPG": 688.45
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Abuja",
+    "Period": "2024-03-31",
+    "PMS": 700.12,
+    "AGO": 691.71,
+    "DPK": 694.44,
+    "LPG": 700.03
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Abuja",
+    "Period": "2024-04-30",
+    "PMS": 688.46,
+    "AGO": 689.55,
+    "DPK": 679.36,
+    "LPG": 679.23
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Abuja",
+    "Period": "2024-05-30",
+    "PMS": 698.74,
+    "AGO": 707.29,
+    "DPK": 705.95,
+    "LPG": 697.82
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Abuja",
+    "Period": "2024-06-29",
+    "PMS": 702.35,
+    "AGO": 697.58,
+    "DPK": 696.64,
+    "LPG": 694.12
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Abuja",
+    "Period": "2024-07-29",
+    "PMS": 686.79,
+    "AGO": 680.09,
+    "DPK": 692.42,
+    "LPG": 684.11
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Abuja",
+    "Period": "2024-08-28",
+    "PMS": 687.66,
+    "AGO": 689.02,
+    "DPK": 694.78,
+    "LPG": 695.1
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Abuja",
+    "Period": "2024-09-27",
+    "PMS": 696.5,
+    "AGO": 699.37,
+    "DPK": 690.51,
+    "LPG": 701.52
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Abuja",
+    "Period": "2024-10-27",
+    "PMS": 696.77,
+    "AGO": 699.81,
+    "DPK": 691.13,
+    "LPG": 692.4
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Abuja",
+    "Period": "2024-11-26",
+    "PMS": 685.06,
+    "AGO": 681.37,
+    "DPK": 690.1,
+    "LPG": 682.25
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Port Harcourt",
+    "Period": "2024-01-01",
+    "PMS": 721.87,
+    "AGO": 736.56,
+    "DPK": 730.78,
+    "LPG": 723.83
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Port Harcourt",
+    "Period": "2024-01-31",
+    "PMS": 718.31,
+    "AGO": 728.41,
+    "DPK": 715.26,
+    "LPG": 721.81
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Port Harcourt",
+    "Period": "2024-03-01",
+    "PMS": 721.14,
+    "AGO": 725.39,
+    "DPK": 721.95,
+    "LPG": 719.08
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Port Harcourt",
+    "Period": "2024-03-31",
+    "PMS": 729.42,
+    "AGO": 727.73,
+    "DPK": 724.15,
+    "LPG": 729.18
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Port Harcourt",
+    "Period": "2024-04-30",
+    "PMS": 723.44,
+    "AGO": 728.8,
+    "DPK": 721.24,
+    "LPG": 731.19
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Port Harcourt",
+    "Period": "2024-05-30",
+    "PMS": 728.48,
+    "AGO": 716.06,
+    "DPK": 730.92,
+    "LPG": 719.53
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Port Harcourt",
+    "Period": "2024-06-29",
+    "PMS": 733.6,
+    "AGO": 726.84,
+    "DPK": 736.2,
+    "LPG": 728.4
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Port Harcourt",
+    "Period": "2024-07-29",
+    "PMS": 737.75,
+    "AGO": 740.72,
+    "DPK": 727.33,
+    "LPG": 731.92
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Port Harcourt",
+    "Period": "2024-08-28",
+    "PMS": 724.32,
+    "AGO": 726.06,
+    "DPK": 717.76,
+    "LPG": 724.93
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Port Harcourt",
+    "Period": "2024-09-27",
+    "PMS": 729.95,
+    "AGO": 720.35,
+    "DPK": 725.45,
+    "LPG": 728.13
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Port Harcourt",
+    "Period": "2024-10-27",
+    "PMS": 735.33,
+    "AGO": 739.38,
+    "DPK": 725.77,
+    "LPG": 734.29
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Port Harcourt",
+    "Period": "2024-11-26",
+    "PMS": 721.96,
+    "AGO": 729.11,
+    "DPK": 730.85,
+    "LPG": 722.02
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Kano",
+    "Period": "2024-01-01",
+    "PMS": 712.81,
+    "AGO": 712.52,
+    "DPK": 716.75,
+    "LPG": 715.17
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Kano",
+    "Period": "2024-01-31",
+    "PMS": 703.07,
+    "AGO": 702.15,
+    "DPK": 712.24,
+    "LPG": 709.5
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Kano",
+    "Period": "2024-03-01",
+    "PMS": 715.89,
+    "AGO": 711.73,
+    "DPK": 717.68,
+    "LPG": 714.8
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Kano",
+    "Period": "2024-03-31",
+    "PMS": 707.38,
+    "AGO": 718.22,
+    "DPK": 715.54,
+    "LPG": 705.65
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Kano",
+    "Period": "2024-04-30",
+    "PMS": 707.34,
+    "AGO": 719.4,
+    "DPK": 706.9,
+    "LPG": 713.05
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Kano",
+    "Period": "2024-05-30",
+    "PMS": 722.15,
+    "AGO": 718.95,
+    "DPK": 715.27,
+    "LPG": 711.57
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Kano",
+    "Period": "2024-06-29",
+    "PMS": 709.37,
+    "AGO": 700.32,
+    "DPK": 700.68,
+    "LPG": 704.19
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Kano",
+    "Period": "2024-07-29",
+    "PMS": 712.99,
+    "AGO": 703.68,
+    "DPK": 701.76,
+    "LPG": 709.45
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Kano",
+    "Period": "2024-08-28",
+    "PMS": 711.06,
+    "AGO": 707.9,
+    "DPK": 703.27,
+    "LPG": 706.31
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Kano",
+    "Period": "2024-09-27",
+    "PMS": 718.02,
+    "AGO": 711.38,
+    "DPK": 709.45,
+    "LPG": 717.68
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Kano",
+    "Period": "2024-10-27",
+    "PMS": 719.25,
+    "AGO": 721.01,
+    "DPK": 730.93,
+    "LPG": 724.72
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Kano",
+    "Period": "2024-11-26",
+    "PMS": 717.73,
+    "AGO": 726.78,
+    "DPK": 715.19,
+    "LPG": 713.29
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Warri",
+    "Period": "2024-01-01",
+    "PMS": 737.81,
+    "AGO": 732.23,
+    "DPK": 742.93,
+    "LPG": 740.11
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Warri",
+    "Period": "2024-01-31",
+    "PMS": 739.06,
+    "AGO": 733.6,
+    "DPK": 735.39,
+    "LPG": 738.72
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Warri",
+    "Period": "2024-03-01",
+    "PMS": 736.14,
+    "AGO": 736.24,
+    "DPK": 729.33,
+    "LPG": 726.36
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Warri",
+    "Period": "2024-03-31",
+    "PMS": 736.54,
+    "AGO": 732.95,
+    "DPK": 743.3,
+    "LPG": 741.68
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Warri",
+    "Period": "2024-04-30",
+    "PMS": 723.06,
+    "AGO": 722.08,
+    "DPK": 731.72,
+    "LPG": 726.49
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Warri",
+    "Period": "2024-05-30",
+    "PMS": 733.48,
+    "AGO": 731.15,
+    "DPK": 724.64,
+    "LPG": 731.71
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Warri",
+    "Period": "2024-06-29",
+    "PMS": 744.85,
+    "AGO": 746.44,
+    "DPK": 745.84,
+    "LPG": 742.73
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Warri",
+    "Period": "2024-07-29",
+    "PMS": 733.28,
+    "AGO": 727.93,
+    "DPK": 733.5,
+    "LPG": 738.02
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Warri",
+    "Period": "2024-08-28",
+    "PMS": 740.5,
+    "AGO": 741.17,
+    "DPK": 731.22,
+    "LPG": 741.14
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Warri",
+    "Period": "2024-09-27",
+    "PMS": 739.39,
+    "AGO": 740.82,
+    "DPK": 739.5,
+    "LPG": 742.92
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Warri",
+    "Period": "2024-10-27",
+    "PMS": 740.04,
+    "AGO": 728.81,
+    "DPK": 742.02,
+    "LPG": 734.23
+  },
+  {
+    "Depot": "Conoil",
+    "State": "Warri",
+    "Period": "2024-11-26",
+    "PMS": 726.91,
+    "AGO": 726.28,
+    "DPK": 726.68,
+    "LPG": 727.54
+  }
+]

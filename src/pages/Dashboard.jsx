@@ -1,13 +1,10 @@
 import { useState } from "react";
-import DepotCard from "../components/Dashboard/DepotCard";
-import FlightStatsCard from "../components/Dashboard/FlightStatCard";
-import Header from "../components/Dashboard/Header";
-import NewsCard from "../components/Dashboard/NewsCard";
-import ReportsCard from "../components/Dashboard/ReportsCard";
-import RetailProductCard from "../components/Dashboard/RetailProductCard";
-import Sidebar from "../components/Dashboard/Sidebar";
-import { MessageCircle, Menu } from "lucide-react";
+import Header from "../components/dashboard/Header";
+import Sidebar from "../components/dashboard/Sidebar";
+import { MessageCircle, Menu, LayoutDashboard } from "lucide-react";
 import { useNavigate } from "react-router";
+import { useWidgets } from "../contexts/WidgetContext";
+import allWidgets from "../components/allWidgets"; // map of all components
 
 const Dashboard = () => {
   const navigate = useNavigate();
@@ -16,12 +13,25 @@ const Dashboard = () => {
   const [isMobileOpen, setIsMobileOpen] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
+  const { selectedWidgets, widgetSizes } = useWidgets();
+
   const handleWidgetsEdit = () => {
     navigate("/widgets");
   };
 
   const handleSetAlertClick = () => {
     setIsModalOpen(true);
+  };
+
+  const getColSpan = (size) => {
+    switch (size) {
+      case "large":
+        return "md:col-span-12";
+      case "medium":
+        return "md:col-span-6";
+      default:
+        return "md:col-span-4";
+    }
   };
 
   return (
@@ -53,34 +63,72 @@ const Dashboard = () => {
           onSetAlertClick={handleSetAlertClick}
         />
 
-        <main className="flex-1 overflow-y-auto p-4 md:p-8">
-          <div className="grid grid-cols-1 md:grid-cols-12 gap-6 mb-6 items-stretch">
-            <div className="col-span-12 md:col-span-6 h-full">
-              <RetailProductCard darkMode={darkMode} />
+        {/* MAIN WIDGET DISPLAY */}
+        <main
+          style={{
+            "&::-webkit-scrollbar": {
+              width: "6px",
+            },
+            "&::-webkit-scrollbar-track": {
+              background: "transparent",
+            },
+            "&::-webkit-scrollbar-thumb": {
+              background: "#262626",
+              borderRadius: "4px",
+            },
+            "&::-webkit-scrollbar-thumb:hover": {
+              background: "#404040",
+            },
+            scrollbarWidth: "thin",
+            scrollbarColor: "#262626 #333",
+          }}
+          className="flex-1 overflow-y-auto p-6"
+        >
+          {selectedWidgets.length === 0 ? (
+            <div className="mt-auto h-full flex items-center justify-center">
+              <div className="text-center text-gray-400">
+                <LayoutDashboard
+                  size={48}
+                  className="mx-auto mb-4 opacity-50"
+                />
+                <p>No widgets to see here.</p>
+                <p className="text-sm mt-2">Add widgets for them to display</p>
+              </div>
             </div>
-            <div className="col-span-12 md:col-span-6 h-full">
-              <DepotCard darkMode={darkMode} />
-            </div>
-          </div>
+          ) : (
+            <div className="flex justify-center">
+              <div className="grid grid-cols-12 gap-6 max-w-full">
+                {selectedWidgets.map((widgetId) => {
+                  const WidgetComponent = allWidgets[widgetId];
+                  const size = widgetSizes[widgetId] || "small";
 
-          <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-stretch">
-            <div className="col-span-12 md:col-span-6 lg:col-span-3 h-full">
-              <ReportsCard darkMode={darkMode} />
+                  if (!WidgetComponent) return null;
+
+                  let colSpanClass = "";
+                  if (size === "small")
+                    colSpanClass = "col-span-12 md:col-span-4";
+                  else if (size === "medium")
+                    colSpanClass = "col-span-12 md:col-span-8";
+                  else if (size === "large")
+                    colSpanClass = "col-span-12 md:col-span-4";
+
+                  return (
+                    <div key={widgetId} className={`${colSpanClass}`}>
+                      <WidgetComponent size={size} />
+                    </div>
+                  );
+                })}
+              </div>
             </div>
-            <div className="col-span-12 md:col-span-6 lg:col-span-3 h-full">
-              <NewsCard darkMode={darkMode} />
-            </div>
-            <div className="col-span-12 md:col-span-12 lg:col-span-6 h-full">
-              <FlightStatsCard darkMode={darkMode} />
-            </div>
-          </div>
+          )}
         </main>
 
+        {/* EDIT WIDGET BUTTON */}
         <span className="bg-transparent backdrop-blur-3xl">
           <div className="py-4 flex justify-center items-center">
             <button
               onClick={handleWidgetsEdit}
-              className={`px-4 py-2 rounded-full text-sm ${
+              className={`px-4 py-2 rounded-full cursor-pointer text-sm ${
                 darkMode
                   ? "bg-[#737373] text-gray-300 hover:bg-[#2C3138]"
                   : "bg-gray-200 text-gray-600 hover:bg-gray-300"
@@ -102,6 +150,7 @@ const Dashboard = () => {
           </button>
         </span>
 
+        {/* SET ALERT MODAL */}
         {isModalOpen && (
           <div className="fixed inset-0 bg-[#3a3a3a] bg-opacity-80 flex justify-center items-center z-50">
             <div className="bg-[#262626] p-6 rounded-3xl shadow-lg w-96">
@@ -124,7 +173,7 @@ const Dashboard = () => {
                   <option value="sms">SMS</option>
                 </select>
               </div>
-              <div className="flex justify-center  mt-6 gap-4">
+              <div className="flex justify-center mt-6 gap-4">
                 <button
                   onClick={() => setIsModalOpen(false)}
                   className="px-4 py-2 bg-gray-500 w-full text-white rounded-full hover:bg-gray-600"
@@ -142,5 +191,4 @@ const Dashboard = () => {
     </div>
   );
 };
-
 export default Dashboard;
