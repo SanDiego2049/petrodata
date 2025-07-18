@@ -141,7 +141,7 @@ const WidgetsConfiguration = () => {
       />
 
       {/* Main Content */}
-      <div className="flex-1 flex">
+      <div className="flex-1 mb-6 flex">
         {/* Middle Section - Widget Display */}
         <div
           style={{
@@ -251,6 +251,24 @@ const WidgetsConfiguration = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      {/* Bottom Button Section for Small Screens */}
+      <div className="fixed bottom-0 left-0 right-0 md:hidden bg-[#171717] border-t border-[#404040] p-4 flex gap-4 z-50">
+        {selectedWidgets.length > 0 && (
+          <button
+            onClick={handleDone}
+            className="flex-1 cursor-pointer py-1 bg-[#26A69A] text-white rounded-lg font-medium hover:bg-[#1e7a70] transition-colors"
+          >
+            Done
+          </button>
+        )}
+        <button
+          onClick={() => navigate("/")}
+          className="flex-1 cursor-pointer py-1 bg-gray-600 text-white rounded-lg font-medium hover:bg-gray-700 transition-colors"
+        >
+          Cancel
+        </button>
       </div>
     </div>
   );
