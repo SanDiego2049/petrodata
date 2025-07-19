@@ -131,7 +131,7 @@ const WidgetsConfiguration = () => {
   };
 
   return (
-    <div className="flex h-screen bg-[#262626] overflow-hidden">
+    <div className="flex h-screen bg-white text-black dark:bg-[#262626] dark:text-white overflow-hidden">
       {/* Sidebar */}
       <Sidebar
         activeItem={activeItem}
@@ -144,57 +144,51 @@ const WidgetsConfiguration = () => {
       <div className="flex-1 mb-6 flex">
         {/* Middle Section - Widget Display */}
         <div
+          className="flex-1 p-6 overflow-y-auto scroll-smooth"
           style={{
-            "&::-webkit-scrollbar": {
-              width: "6px",
-            },
-            "&::-webkit-scrollbar-track": {
-              background: "transparent",
-            },
+            "&::-webkit-scrollbar": { width: "6px" },
+            "&::-webkit-scrollbar-track": { background: "transparent" },
             "&::-webkit-scrollbar-thumb": {
               background: "#262626",
               borderRadius: "4px",
             },
-            "&::-webkit-scrollbar-thumb:hover": {
-              background: "#404040",
-            },
+            "&::-webkit-scrollbar-thumb:hover": { background: "#404040" },
             scrollbarWidth: "thin",
             scrollbarColor: "#262626 #333",
           }}
-          className="flex-1 p-6 overflow-y-auto scroll-smooth"
         >
-          <div className="flex-1 p-6 overflow-y-auto scroll-smooth">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              {renderWidgets().map((widget) => {
-                const WidgetComponent = widget.component;
-                const size = widgetSizes[widget.id];
-                const isSelected = selectedWidgets.includes(widget.id);
-                const colSpan =
-                  size === "medium" ? "col-span-1 sm:col-span-2" : "col-span-1";
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            {renderWidgets().map((widget) => {
+              const WidgetComponent = widget.component;
+              const size = widgetSizes[widget.id];
+              const isSelected = selectedWidgets.includes(widget.id);
+              const colSpan =
+                size === "medium" ? "col-span-1 sm:col-span-2" : "col-span-1";
 
-                return (
-                  <div key={widget.id} className={colSpan}>
-                    <SelectorCard
-                      title={widget.title}
-                      description={widget.description}
-                      onSelect={() => handleWidgetSelect(widget.id)}
-                      isSelected={isSelected}
-                      selectedSize={size}
-                      onSizeChange={(size) => handleSizeChange(widget.id, size)}
-                    >
-                      <WidgetComponent size={size} preview={isMobile} />
-                    </SelectorCard>
-                  </div>
-                );
-              })}
-            </div>
+              return (
+                <div key={widget.id} className={colSpan}>
+                  <SelectorCard
+                    title={widget.title}
+                    description={widget.description}
+                    onSelect={() => handleWidgetSelect(widget.id)}
+                    isSelected={isSelected}
+                    selectedSize={size}
+                    onSizeChange={(size) => handleSizeChange(widget.id, size)}
+                  >
+                    <WidgetComponent size={size} preview={isMobile} />
+                  </SelectorCard>
+                </div>
+              );
+            })}
           </div>
         </div>
 
         {/* Right Section - Preview */}
-        <div className="hidden 2xl:block w-96 bg-[#171717] p-6 border-l border-[#404040] flex-shrink-0">
+        <div className="hidden 2xl:block w-96 bg-gray-100 dark:bg-[#171717] p-6 border-l border-gray-300 dark:border-[#404040] flex-shrink-0">
           <div className="h-full flex flex-col">
-            <h2 className="text-xl font-semibold text-white mb-6">Preview</h2>
+            <h2 className="text-xl font-semibold mb-6 text-gray-900 dark:text-white">
+              Preview
+            </h2>
 
             {selectedWidgets.length === 0 ? (
               <div className="flex-1 flex items-center justify-center">
@@ -221,9 +215,7 @@ const WidgetsConfiguration = () => {
                     return (
                       <div
                         key={widgetId}
-                        className={`border-[#404040] border rounded-lg p-4 flex ${getPreviewGridClasses(
-                          size
-                        )}`}
+                        className="border border-gray-300 dark:border-[#404040] rounded-lg p-4 flex"
                       >
                         <WidgetComponent size={size} preview={true} />
                       </div>
@@ -233,7 +225,7 @@ const WidgetsConfiguration = () => {
               </div>
             )}
 
-            <div className="mt-6 pt-4 border-t border-[#404040] flex gap-4">
+            <div className="mt-6 pt-4 border-t border-gray-300 dark:border-[#404040] flex gap-4">
               {selectedWidgets.length > 0 && (
                 <button
                   onClick={handleDone}
@@ -244,7 +236,7 @@ const WidgetsConfiguration = () => {
               )}
               <button
                 onClick={() => navigate("/")}
-                className="flex-1 cursor-pointer py-3 bg-gray-600 text-white rounded-lg font-medium hover:bg-gray-700 transition-colors"
+                className="flex-1 cursor-pointer py-3 bg-gray-500 text-white rounded-lg font-medium hover:bg-gray-700 transition-colors"
               >
                 Cancel
               </button>
@@ -253,8 +245,8 @@ const WidgetsConfiguration = () => {
         </div>
       </div>
 
-      {/* Bottom Button Section for Small Screens */}
-      <div className="fixed bottom-0 left-0 right-0 md:hidden bg-[#171717] border-t border-[#404040] p-4 flex gap-4 z-50">
+      {/* Bottom Section for Mobile */}
+      <div className="fixed bottom-0 left-0 right-0 md:hidden bg-gray-100 dark:bg-[#171717] border-t border-gray-300 dark:border-[#404040] p-4 flex gap-4 z-50">
         {selectedWidgets.length > 0 && (
           <button
             onClick={handleDone}
