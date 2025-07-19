@@ -1,4 +1,4 @@
-import { AlarmClockPlus, Bell, Moon, Search, Sun } from "lucide-react";
+import { AlarmClockPlus, Bell, Search } from "lucide-react";
 import ThemeToggle from "./ThemeToggle";
 
 const Header = ({ onSetAlertClick }) => (
