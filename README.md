@@ -23,3 +23,11 @@ The project might be "concluded" but I'm definitely not done with it. I'll be tw
 ## Here'a The Link
 
 Check it out -> https://petrodata-xi.vercel.app/
+
+## Latest upadtes
+
+The project has been greatly improved since the last time. I have fixed my mistake of building from the Dashboard to the Widgets page. The widgets no get passed to the Dashboard though a WidgetsContext. I have also added the ThemeContext instead of using the darkMode prop everywhere in my code. only a few things left to do now. The mobile responsiveness of the cards and the functionality of any buttons left undone.
+
+Initial build - https://petrodata-2t7w3vrek-sandiego2049s-projects.vercel.app
+
+Current build - https://petrodata-aq5l576sh-sandiego2049s-projects.vercel.app/
