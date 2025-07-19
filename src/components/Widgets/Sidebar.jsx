@@ -85,7 +85,7 @@ const Sidebar = ({
 
   return (
     <>
-      {/* Mobile hamburger menu button */}
+      {/* Mobile overlay */}
       {isOpen && (
         <div
           className="fixed inset-0 bg-black/30 backdrop-blur-sm z-30 lg:hidden"
@@ -93,9 +93,10 @@ const Sidebar = ({
         />
       )}
 
+      {/* Mobile open button */}
       {!isOpen && (
         <button
-          className="lg:hidden fixed top-3 left-3 z-50 bg-[#171717] text-white p-2 rounded-md"
+          className="lg:hidden fixed top-3 left-3 z-50 bg-white text-black dark:bg-[#171717] dark:text-white p-2 rounded-md"
           onClick={() => setIsOpen(true)}
           aria-label="Open sidebar"
         >
@@ -106,14 +107,16 @@ const Sidebar = ({
       {/* Sidebar */}
       <aside
         className={`
-          fixed top-0 left-0 h-full bg-[#171717] text-white w-64 flex flex-col
+          fixed top-0 left-0 h-full w-64 flex flex-col
+          bg-white text-black dark:bg-[#171717] dark:text-white
           transform transition-transform duration-300 ease-in-out
           z-40
           lg:static lg:translate-x-0
           ${isOpen ? "translate-x-0" : "-translate-x-full"}
         `}
       >
-        <div className="p-4 border-b border-[#404040] flex items-center gap-2">
+        {/* Search Bar */}
+        <div className="p-4 border-b border-gray-200 dark:border-[#404040] flex items-center gap-2">
           <div className="relative flex-1">
             <Search
               className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"
@@ -124,13 +127,13 @@ const Sidebar = ({
               placeholder="Search widgets..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full pl-10 pr-10 py-2 bg-[#262626] border border-[#404040] rounded-full text-white placeholder-gray-400 focus:outline-none focus:border-[#26A69A]"
+              className="w-full pl-10 pr-10 py-2 bg-gray-100 dark:bg-[#262626] border border-gray-300 dark:border-[#404040] rounded-full text-black dark:text-white placeholder-gray-400 focus:outline-none focus:border-[#26A69A]"
             />
           </div>
 
-          {/* Close (X) button inside sidebar, right of search input */}
+          {/* Close button */}
           <button
-            className="lg:hidden p-2 rounded-full hover:bg-[#333]"
+            className="lg:hidden p-2 rounded-full hover:bg-gray-100 dark:hover:bg-[#333]"
             onClick={() => setIsOpen(false)}
             aria-label="Close sidebar"
           >
@@ -138,6 +141,7 @@ const Sidebar = ({
           </button>
         </div>
 
+        {/* Navigation Items */}
         <nav className="flex-1 py-4 pl-4 overflow-y-auto">
           <div className="space-y-2">
             {filteredItems.map((item) => (
@@ -145,12 +149,12 @@ const Sidebar = ({
                 key={item.id}
                 onClick={() => {
                   setActiveItem(item.id);
-                  setIsOpen(false); // close sidebar on mobile when an item is selected
+                  setIsOpen(false);
                 }}
-                className={`w-full flex items-center gap-3 px-4 py-3 transition-colors text-left ${
+                className={`w-full flex items-center gap-3 px-4 py-3 text-left transition-colors ${
                   activeItem === item.id
-                    ? "text-[#26A69A] bg-opacity-20 border-r-2 border-[#26A69A]"
-                    : "text-gray-400 hover:bg-[#262626] hover:text-white"
+                    ? "text-[#26A69A] border-r-2 border-[#26A69A]"
+                    : "text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-[#262626] hover:text-black dark:hover:text-white"
                 }`}
               >
                 <item.icon size={20} />

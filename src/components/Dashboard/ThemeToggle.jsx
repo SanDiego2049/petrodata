@@ -38,23 +38,29 @@ function ThemeToggle() {
       onClick={toggleDarkMode}
       aria-label="Toggle Theme"
       className={`
-        relative w-16 h-8 rounded-full p-1 flex items-center
+        relative w-16 h-10 rounded-full p-1 flex items-center
         transition-colors duration-300 ease-in-out
-        ${darkMode ? "bg-gray-700" : "bg-[#00695C]"}
+        ${darkMode ? "bg-[#26A69A] " : "bg-[#00695C] text-[#26A69A]"}
       `}
     >
       <div
         className={`
-          w-6 h-6 rounded-full shadow-md transform
+          w-9 h-9 rounded-full shadow-md transform
           transition-transform duration-300 ease-in-out pointer-events-none
           flex items-center justify-center
-          ${darkMode ? "translate-x-8 bg-white" : "translate-x-0 bg-white"}
+          ${darkMode ? "translate-x-5.5 bg-white" : "-translate-x-0.5 bg-white"}
         `}
       >
         {darkMode ? (
-          <Moon size={16} className="text-[#00695C]" />
+          <Sun
+            size={20}
+            className={`${darkMode ? "text-[#00695C]" : "text-[#80CBC4]"} `}
+          />
         ) : (
-          <Sun size={16} className="text-[#00695C]" />
+          <Moon
+            size={20}
+            className={`${darkMode ? "text-[#80CBC4]" : "text-[#00695C]"} `}
+          />
         )}
       </div>
     </button>
@@ -62,10 +68,3 @@ function ThemeToggle() {
 }
 
 export default ThemeToggle;
-
-
-<div
-  className={`flex justify-between items-center py-2 ${
-    index !== arr.length - 1 ? "border-b border-[#333]" : ""
-  }`}
-></div>

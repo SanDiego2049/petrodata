@@ -10,7 +10,6 @@ import {
 import logo from "../../assets/entypo_drop.png";
 
 const Sidebar = ({
-  darkMode,
   isCollapsed,
   setIsCollapsed,
   isMobileOpen,
@@ -32,33 +31,28 @@ const Sidebar = ({
         <div
           className="fixed inset-0 bg-black opacity-50 z-40 md:hidden"
           onClick={() => setIsMobileOpen(false)}
-        ></div>
+        />
       )}
 
-      {/* Sidebar Component */}
+      {/* Sidebar */}
       <aside
         className={`
           ${isCollapsed ? "w-16" : "w-64"}
           ${isMobileOpen ? "translate-x-0" : "-translate-x-full"}
-          
-          fixed top-0 left-0 h-screen flex flex-col text-white z-50
+          fixed top-0 left-0 h-screen flex flex-col z-50
           transition-all duration-300 ease-in-out
-          
-          ${darkMode ? "bg-[#171717]" : "bg-white"}
-
+          bg-white dark:bg-[#171717] text-gray-900 dark:text-white
           md:relative md:translate-x-0
         `}
       >
+        {/* Collapse Toggle Button */}
         <button
           onClick={() => setIsCollapsed(!isCollapsed)}
           className={`
-            absolute top-1/10 -translate-y-1/2 p-2 rounded-full
-            ${
-              darkMode
-                ? "bg-[#262626] hover:bg-[#111111] text-white border-[#404040]"
-                : "bg-white hover:bg-[#f5f5f5] text-gray-900 border-gray-300"
-            }
-             transition-all z-10
+            absolute top-1/10 -translate-y-1/2 p-2 rounded-full border
+            bg-white hover:bg-[#f5f5f5] text-gray-900 border-gray-300
+            dark:bg-[#262626] dark:hover:bg-[#111111] dark:text-white dark:border-[#404040]
+            transition-all z-10
             ${isCollapsed ? "right-[-14px]" : "right-[-12px]"}
             hidden md:block
           `}
@@ -71,10 +65,12 @@ const Sidebar = ({
             }`}
           />
         </button>
+
+        {/* Logo & Brand */}
         <div className="p-4 mb-10 flex items-center gap-4">
           <img src={logo} alt="Petrodata Logo" />
           <span
-            className={`text-2xl font-medium text-[#A3A3A3] whitespace-nowrap overflow-hidden ${
+            className={`text-2xl font-medium text-[#A3A3A3] whitespace-nowrap overflow-hidden transition-opacity duration-200 ${
               isCollapsed ? "opacity-0" : "opacity-100"
             }`}
           >
@@ -82,6 +78,7 @@ const Sidebar = ({
           </span>
         </div>
 
+        {/* Navigation Links */}
         <nav className="flex-grow flex flex-col gap-2 mt-30">
           {sidebarItems.map((item, index) => (
             <a
@@ -91,12 +88,8 @@ const Sidebar = ({
                 flex items-center gap-4 px-4 py-2.5 transition-colors
                 ${
                   item.active
-                    ? ` bg-opacity-20 text-[#26A69A] border-e-2`
-                    : `${
-                        darkMode
-                          ? "text-gray-400 hover:bg-gray-700"
-                          : "text-gray-700 hover:bg-gray-100"
-                      }`
+                    ? "bg-[#26A69A]/10 text-[#26A69A] border-e-2 border-[#26A69A]"
+                    : "text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700"
                 }
                 ${isCollapsed ? "justify-center" : ""}
               `}
