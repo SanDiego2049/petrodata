@@ -207,10 +207,10 @@ const WatchlistWithNewsCard = ({ size = "small", preview = false }) => {
     <div
       className={`p-6 bg-white dark:bg-[#171717] text-black dark:text-white rounded-3xl ${
         size === "small"
-          ? "w-100 h-100"
+          ? "min-w-full max-w-100 h-100"
           : size === "medium"
-          ? "w-200 h-100"
-          : "w-100 h-120"
+          ? "min-w-full max-w-200 h-100"
+          : "min-w-full max-w-100 h-120"
       }`}
     >
       <div className="flex flex-col h-full">

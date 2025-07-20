@@ -83,11 +83,11 @@ const Dashboard = () => {
 
                   let colSpanClass = "";
                   if (size === "small")
-                    colSpanClass = "col-span-12 md:col-span-4";
+                    colSpanClass = "col-span-12 md:col-span-3";
                   else if (size === "medium")
-                    colSpanClass = "col-span-12 md:col-span-8";
+                    colSpanClass = "col-span-12 md:col-span-6";
                   else if (size === "large")
-                    colSpanClass = "col-span-12 md:col-span-4";
+                    colSpanClass = "col-span-12 md:col-span-3";
 
                   return (
                     <div key={widgetId} className={colSpanClass}>

@@ -43,9 +43,9 @@ const RetailProductWithNewsCard = ({ size = "small", preview = false }) => {
   const uniqueStates = [...new Set(fullData.map((d) => d.State))];
 
   const cardWidths = {
-    small: "w-100",
-    medium: "w-200",
-    large: "w-100",
+    small: "min-w-full max-w-100",
+    medium: "min-w-full max-w-200",
+    large: "min-w-full max-w-100",
   };
 
   const cardHeights = {

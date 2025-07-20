@@ -183,7 +183,7 @@ const WidgetsConfiguration = () => {
               </div>
             ) : (
               <div className="flex-1 overflow-y-auto">
-                <div className="grid grid-cols-3 gap-3 auto-rows-min">
+                <div className="grid grid-cols-4 gap-3 auto-rows-min">
                   {selectedWidgets.map((widgetId) => {
                     const allWidgets = Object.values(widgets).flat();
                     const widget = allWidgets.find((w) => w.id === widgetId);

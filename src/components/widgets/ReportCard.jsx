@@ -5,9 +5,9 @@ import report_image from "../../assets/Image.png";
 
 // Size-based styles
 const cardWidths = {
-  small: "w-100",
-  medium: "w-200",
-  large: "w-100",
+  small: "min-w-full max-w-100",
+  medium: "min-w-full max-w-200",
+  large: "min-w-full max-w-100",
 };
 
 const cardHeights = {
@@ -90,14 +90,7 @@ export default function ReportCard({ size = "small", preview = false }) {
 
       {/* Medium layout */}
       {size === "medium" && (
-        <div
-          style={{
-            overflowY: "auto",
-            scrollbarWidth: "thin",
-            scrollbarColor: "#262626 #333",
-          }}
-          className="flex flex-col gap-6 pr-2"
-        >
+        <div className="flex flex-col gap-6 pr-2 overflow-y-auto scrollbar-thin dark:scrollbar-thumb-[#737373] scrollbar-track-transparent">
           {reportData.map((week) => (
             <div key={week.weekNumber}>
               <div className="flex items-center gap-3 mb-3">
@@ -137,7 +130,7 @@ export default function ReportCard({ size = "small", preview = false }) {
 
       {/* Large layout */}
       {size === "large" && (
-        <div className="flex flex-col gap-6 scrollbar-thin dark:scrollbar-thumb-[#737373] scrollbar-track-transparent pr-2">
+        <div className="flex flex-col gap-6 overflow-y-auto scrollbar-thin dark:scrollbar-thumb-[#737373] scrollbar-track-transparent pr-2">
           {reportData.map((week) => (
             <div key={week.weekNumber}>
               <div className="flex items-center gap-3 mb-3">

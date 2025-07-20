@@ -3,9 +3,9 @@ import { ArrowRightLeft } from "lucide-react";
 import exchangeRates from "../../data/exchangeRates.json";
 
 const cardWidths = {
-  small: "w-100",
-  medium: "w-200",
-  large: "w-100",
+  small: "min-w-full max-w-100",
+  medium: "min-w-full max-w-200",
+  large: "min-w-full max-w-100",
 };
 
 const cardHeights = {
@@ -69,11 +69,8 @@ export default function ExchangeRateCard({ size = "small", preview = false }) {
   );
 
   const RatesList = ({ rates }) => (
-    <div
-      className="flex flex-col gap-2 scrollbar-thin dark:scrollbar-thumb-[#737373] scrollbar-track-transparent overflow-y-auto pr-2"
-      
-    >
-      <div className="flex flex-col gap-2">
+    <div className="flex-1 overflow-y-auto scrollbar-thin dark:scrollbar-thumb-[#737373] scrollbar-track-transparent">
+      <div className="flex flex-col gap-2 pb-1 pr-1">
         {rates.map(({ date, rate }) => (
           <div
             key={date}
@@ -149,8 +146,10 @@ export default function ExchangeRateCard({ size = "small", preview = false }) {
             <TabSwitcher />
           </div>
 
-          <div className="w-70 p-6 pl-4 border border-gray-200 dark:border-[#171717] bg-gray-100 dark:bg-[#404040] rounded-e-3xl flex flex-col">
-            <RatesList rates={rates} />
+          <div className="w-70 border border-gray-200 dark:border-[#171717] bg-gray-100 dark:bg-[#404040] rounded-e-3xl flex flex-col overflow-hidden">
+            <div className="flex-1 p-6 overflow-y-auto scrollbar-thin dark:scrollbar-thumb-[#737373] scrollbar-track-transparent">
+              <RatesList rates={rates} />
+            </div>
           </div>
         </div>
       </Wrapper>
@@ -179,8 +178,10 @@ export default function ExchangeRateCard({ size = "small", preview = false }) {
             </div>
             <TabSwitcher />
           </div>
-          <div className="p-6 bg-gray-100 dark:bg-[#404040] border border-gray-200 dark:border-[#171717] h-full rounded-b-3xl mt-2 overflow-y-auto">
-            <RatesList rates={rates} />
+          <div className="flex-1 overflow-hidden rounded-b-3xl mt-2 border border-gray-200 dark:border-[#171717]">
+            <div className="h-full bg-gray-100 dark:bg-[#404040] p-6 overflow-y-auto scrollbar-thin dark:scrollbar-thumb-[#737373] scrollbar-track-transparent">
+              <RatesList rates={rates} />
+            </div>
           </div>
         </div>
       </Wrapper>
