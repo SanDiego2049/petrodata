@@ -95,13 +95,21 @@ const Sidebar = ({
 
       {/* Mobile open button */}
       {!isOpen && (
-        <button
-          className="lg:hidden fixed top-3 left-3 z-50 bg-white text-black dark:bg-[#171717] dark:text-white p-2 rounded-md"
-          onClick={() => setIsOpen(true)}
-          aria-label="Open sidebar"
-        >
-          <Menu size={24} />
-        </button>
+        <div className="lg:hidden fixed top-0 left-0 w-full z-50 bg-white dark:bg-[#171717] shadow-md">
+          <div className="flex items-center justify-between px-4 py-2">
+            <button
+              className="text-black dark:text-white p-2 rounded-md"
+              onClick={() => setIsOpen(true)}
+              aria-label="Open sidebar"
+            >
+              <Menu size={24} />
+            </button>
+            <span className="text-sm text-gray-600 dark:text-gray-300">
+              Select Widgets
+            </span>
+            <div className="w-6" />
+          </div>
+        </div>
       )}
 
       {/* Sidebar */}
@@ -142,7 +150,7 @@ const Sidebar = ({
         </div>
 
         {/* Navigation Items */}
-        <nav className="flex-1 py-4 pl-4 overflow-y-auto">
+        <nav className="flex-1 py-4 overflow-y-auto">
           <div className="space-y-2">
             {filteredItems.map((item) => (
               <button
@@ -151,7 +159,7 @@ const Sidebar = ({
                   setActiveItem(item.id);
                   setIsOpen(false);
                 }}
-                className={`w-full flex items-center gap-3 px-4 py-3 text-left transition-colors ${
+                className={`w-full cursor-pointer flex items-center gap-3 px-4 py-3 text-left transition-colors ${
                   activeItem === item.id
                     ? "text-[#26A69A] border-r-2 border-[#26A69A]"
                     : "text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-[#262626] hover:text-black dark:hover:text-white"

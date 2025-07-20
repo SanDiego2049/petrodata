@@ -1,7 +1,7 @@
 import { AlarmClockPlus, Bell, Search } from "lucide-react";
 import ThemeToggle from "./ThemeToggle";
 
-const Header = ({ onSetAlertClick }) => (
+const Header = ({ onSetAlertClick, onNotificationClick, onSearchClick }) => (
   <header className="px-4 py-3 mt-2 md:px-8 md:py-5 md:mt-4 pt-16 sm:pt-12 md:pt-5">
     <div className="flex items-center justify-between">
       {/* Left: Greeting */}
@@ -21,7 +21,10 @@ const Header = ({ onSetAlertClick }) => (
       {/* Right: Actions */}
       <div className="flex items-center gap-2 md:gap-4">
         {/* Search button */}
-        <button className="bg-gray-200 dark:bg-[#2C3138] hover:bg-gray-300 dark:hover:bg-gray-700 p-2 md:p-3 rounded-full">
+        <button
+          onClick={onSearchClick}
+          className="bg-gray-200 dark:bg-[#2C3138] hover:bg-gray-300 dark:hover:bg-gray-700 p-2 md:p-3 rounded-full"
+        >
           <Search size={18} className="md:w-5 md:h-5" />
         </button>
 
@@ -29,17 +32,21 @@ const Header = ({ onSetAlertClick }) => (
         <button
           onClick={onSetAlertClick}
           className="
-            hidden sm:flex items-center gap-1 md:gap-2 px-2 py-2 md:px-4 md:py-3 
-            rounded-full text-xs md:text-sm font-medium
+            flex items-center justify-center gap-1 md:gap-2 p-2 md:p-3 lg:px-4 lg:py-3 
+            rounded-full text-xs lg:text-sm font-medium
             bg-gray-200 dark:bg-[#2C3138] hover:bg-gray-300 dark:hover:bg-gray-700
           "
+          aria-label="Set alert"
         >
           <AlarmClockPlus size={18} className="md:w-5 md:h-5" />
-          <span className="hidden md:inline">Set alert</span>
+          <span className="hidden lg:inline">Set alert</span>
         </button>
 
         {/* Notifications */}
-        <button className="bg-gray-200 dark:bg-[#2C3138] hover:bg-gray-300 dark:hover:bg-gray-700 p-2 md:p-3 rounded-full">
+        <button
+          onClick={onNotificationClick}
+          className="bg-gray-200 dark:bg-[#2C3138] hover:bg-gray-300 dark:hover:bg-gray-700 p-2 md:p-3 rounded-full"
+        >
           <Bell size={18} className="md:w-5 md:h-5" />
         </button>
 

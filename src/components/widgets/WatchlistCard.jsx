@@ -71,7 +71,6 @@ const WatchlistCard = ({ size = "small", preview = false }) => {
     large: "max-h-10",
   };
 
-  // Use first commodity for preview
   const firstCommodity = COMMODITIES[0];
   const firstPrice = allPrices[firstCommodity] || 0;
   const firstChangeObj = allChanges[firstCommodity] || {};
@@ -80,7 +79,7 @@ const WatchlistCard = ({ size = "small", preview = false }) => {
 
   if (preview) {
     return (
-      <div className="w-full h-full flex items-center justify-center bg-[#171717] rounded-xl text-white">
+      <div className="w-full h-full flex items-center justify-center bg-white dark:bg-[#171717] rounded-xl text-black dark:text-white">
         <div className="flex flex-wrap h-20 items-center justify-center gap-2 text-center text-sm px-2 py-3">
           <span className="font-semibold truncate">{firstCommodity}</span>
           <span className="text-xs font-medium">₦{firstPrice.toFixed(2)}</span>
@@ -104,36 +103,16 @@ const WatchlistCard = ({ size = "small", preview = false }) => {
     );
   }
 
-  // Limit commodities for medium size
   const displayedCommodities =
     size === "medium" ? COMMODITIES.slice(0, 3) : COMMODITIES;
 
   return (
     <div
-      className={`bg-[#171717] text-white rounded-3xl ${cardWidths[size]} ${cardHeights[size]}`}
+      className={`bg-white dark:bg-[#171717] text-black dark:text-white rounded-3xl ${cardWidths[size]} ${cardHeights[size]}`}
     >
       <div className="flex flex-col h-full p-6 w-full">
-        {/* SCROLLABLE COMMODITY LIST */}
-        <div
-          style={{
-            "&::-webkit-scrollbar": {
-              width: "6px",
-            },
-            "&::-webkit-scrollbar-track": {
-              background: "transparent",
-            },
-            "&::-webkit-scrollbar-thumb": {
-              background: "#262626",
-              borderRadius: "4px",
-            },
-            "&::-webkit-scrollbar-thumb:hover": {
-              background: "#404040",
-            },
-            scrollbarWidth: "thin",
-            scrollbarColor: "#262626 #333",
-          }}
-          className="flex-1 overflow-y-auto pr-1 scroll-smooth w-full"
-        >
+        {/* Commodity list */}
+        <div className="flex-1 overflow-y-auto pr-1 scroll-smooth w-full scrollbar-thin scrollbar-thumb-[#262626] dark:scrollbar-thumb-[#404040] scrollbar-track-transparent">
           <div className="flex flex-col gap-2">
             {displayedCommodities.map((commodity) => {
               const { symbol, name } = COMMODITY_INFO[commodity];
@@ -144,7 +123,7 @@ const WatchlistCard = ({ size = "small", preview = false }) => {
               return (
                 <div
                   key={commodity}
-                  className={`flex justify-between items-center border-b border-[#333] ${
+                  className={`flex justify-between items-center border-b border-gray-300 dark:border-[#333] ${
                     size === "small"
                       ? "py-4"
                       : size === "large"
@@ -163,7 +142,9 @@ const WatchlistCard = ({ size = "small", preview = false }) => {
                       ></div>
                       <span className="text-sm font-semibold">{symbol}</span>
                     </div>
-                    <div className="text-gray-400 text-xs">{name}</div>
+                    <div className="text-xs text-gray-500 dark:text-gray-400">
+                      {name}
+                    </div>
                   </div>
 
                   {(size === "medium" || size === "large") && (
@@ -202,12 +183,12 @@ const WatchlistCard = ({ size = "small", preview = false }) => {
           </div>
         </div>
 
-        {/* SELECT STATE */}
+        {/* State selector */}
         <div className="mt-auto">
           <select
             value={state}
             onChange={(e) => setState(e.target.value)}
-            className="bg-[#171717] text-white border border-gray-600 rounded px-2 py-1 opacity-50"
+            className="bg-white dark:bg-[#171717] text-black dark:text-white border border-gray-300 dark:border-gray-600 rounded px-2 py-1 opacity-80"
           >
             {uniqueStates.map((s) => (
               <option key={s} value={s}>

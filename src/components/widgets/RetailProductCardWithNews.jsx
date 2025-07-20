@@ -73,7 +73,7 @@ const RetailProductWithNewsCard = ({ size = "small", preview = false }) => {
 
   if (preview) {
     return (
-      <div className="w-full h-full flex items-center justify-center bg-[#171717] rounded-xl text-white">
+      <div className="w-full h-full flex items-center justify-center bg-white dark:bg-[#171717] rounded-xl text-black dark:text-white">
         <div className="flex flex-wrap h-20 truncate items-center justify-center gap-2 text-center text-sm px-2 py-3">
           <span className="font-semibold truncate">
             {COMMODITY_INFO[commodity].symbol}
@@ -83,12 +83,12 @@ const RetailProductWithNewsCard = ({ size = "small", preview = false }) => {
           </span>
           <div
             className={`w-0 h-0 border-l-[6px] border-r-[6px] border-l-transparent border-r-transparent ${
-              priceChange >= 0
+              isPositive
                 ? "border-b-[10px] border-b-green-400"
                 : "border-t-[10px] border-t-red-400"
             }`}
           />
-          <p className="text-xs text-gray-400">With News</p>
+          <p className="text-xs text-gray-500 dark:text-gray-400">With News</p>
         </div>
       </div>
     );
@@ -96,7 +96,7 @@ const RetailProductWithNewsCard = ({ size = "small", preview = false }) => {
 
   return (
     <div
-      className={`bg-[#171717] flex flex-col text-white p-6 rounded-3xl h-full ${cardWidths[size]} ${cardHeights[size]}`}
+      className={`flex flex-col text-black dark:text-white p-6 rounded-3xl h-full bg-white dark:bg-[#171717] ${cardWidths[size]} ${cardHeights[size]}`}
     >
       {size === "small" && (
         <>
@@ -113,7 +113,7 @@ const RetailProductWithNewsCard = ({ size = "small", preview = false }) => {
                 {COMMODITY_INFO[commodity].symbol}
               </span>
             </div>
-            <div className="text-sm font-semibold text-white">
+            <div className="text-sm font-semibold">
               ₦{currentPrice.toFixed(2)}
             </div>
           </div>
@@ -136,7 +136,7 @@ const RetailProductWithNewsCard = ({ size = "small", preview = false }) => {
                 {COMMODITY_INFO[commodity].symbol}
               </span>
             </div>
-            <div className="text-gray-400 text-sm">
+            <div className="text-sm text-gray-500 dark:text-gray-400">
               {COMMODITY_INFO[commodity].name}
             </div>
           </div>
@@ -165,35 +165,18 @@ const RetailProductWithNewsCard = ({ size = "small", preview = false }) => {
 
       {(size === "medium" || size === "large") && (
         <div
-          style={{
-            "&::-webkit-scrollbar": {
-              width: "6px",
-            },
-            "&::-webkit-scrollbar-track": {
-              background: "transparent",
-            },
-            "&::-webkit-scrollbar-thumb": {
-              background: "#262626",
-              borderRadius: "4px",
-            },
-            "&::-webkit-scrollbar-thumb:hover": {
-              background: "#404040",
-            },
-            scrollbarWidth: "thin",
-            scrollbarColor: "#262626 #333",
-          }}
           className={`${
             size === "large"
               ? "overflow-y-auto max-h-[250px] pr-2 scroll-smooth"
               : ""
-          } flex flex-col gap-4 mb-6`}
+          } flex flex-col gap-4 mb-6 scrollbar-thin dark:scrollbar-thumb-[#737373] scrollbar-track-transparent`}
         >
           {mockNews[commodity]
             .slice(0, size === "large" ? 5 : 2)
             .map((news, idx) => (
               <div
                 key={idx}
-                className="flex border-t-1 border-[#36353A] pt-2 items-start gap-4"
+                className="flex border-t border-gray-300 dark:border-[#36353A] pt-2 items-start gap-4"
               >
                 <div className="flex-1">
                   <div className="flex items-center gap-2 mb-1">
@@ -202,7 +185,7 @@ const RetailProductWithNewsCard = ({ size = "small", preview = false }) => {
                   <h4 className="text-sm font-semibold leading-snug">
                     {news.headline}
                   </h4>
-                  <p className="text-xs text-gray-400 leading-tight mt-1">
+                  <p className="text-xs text-gray-500 dark:text-gray-400 leading-tight mt-1">
                     {news.summary}
                   </p>
                 </div>
@@ -216,19 +199,19 @@ const RetailProductWithNewsCard = ({ size = "small", preview = false }) => {
         </div>
       )}
 
-      <div className="flex gap-0 border-t border-gray-700">
+      <div className="flex gap-0 border-t border-gray-300 dark:border-gray-700">
         {COMMODITIES.map((c) => (
           <button
             key={c}
             onClick={() => setCommodity(c)}
-            className={`px-4 py-2 text-sm flex-1 relative ${
+            className={`px-4 py-2 text-sm flex-1 relative transition-colors ${
               commodity === c
-                ? "text-green-400"
-                : "text-gray-400 hover:text-gray-300"
+                ? "text-green-500 dark:text-green-400"
+                : "text-gray-500 dark:text-gray-400 hover:text-black dark:hover:text-gray-300"
             }`}
           >
             {commodity === c && (
-              <div className="absolute top-0 left-0 right-0 h-0.5 bg-green-400"></div>
+              <div className="absolute top-0 left-0 right-0 h-0.5 bg-green-500 dark:bg-green-400"></div>
             )}
             {c}
           </button>
@@ -238,7 +221,7 @@ const RetailProductWithNewsCard = ({ size = "small", preview = false }) => {
       {size === "small" && (
         <div className="flex flex-col items-start gap-2 text-sm mb-4">
           <img src={vanguard_icon} alt="Vanguard" className="mt-2" />
-          <p className="text-white text-lg leading-tight">
+          <p className="text-black dark:text-white text-lg leading-tight">
             {
               mockNews[commodity][
                 Math.floor(Math.random() * mockNews[commodity].length)
@@ -252,7 +235,7 @@ const RetailProductWithNewsCard = ({ size = "small", preview = false }) => {
         <select
           value={state}
           onChange={(e) => setState(e.target.value)}
-          className="bg-[#171717] text-white border border-gray-600 rounded px-2 py-1 opacity-50"
+          className="bg-white dark:bg-[#171717] text-black dark:text-white border border-gray-300 dark:border-gray-600 rounded px-2 py-1 opacity-80"
         >
           {uniqueStates.map((s) => (
             <option key={s} value={s}>

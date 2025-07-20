@@ -77,7 +77,7 @@ const NewsCard = ({ size = "small", preview = false }) => {
 
   if (preview) {
     return (
-      <div className="w-full h-full flex items-center justify-center bg-[#171717] rounded-xl text-white">
+      <div className="w-full h-full flex items-center justify-center bg-white dark:bg-[#171717] rounded-xl text-black dark:text-white">
         <div className="flex flex-col truncate items-center justify-center text-center px-4 py-3">
           <CommodityBadge commodity={currentCommodity} />
           <span className="text-xs font-medium mt-1 line-clamp-2 max-w-[9rem]">
@@ -90,24 +90,26 @@ const NewsCard = ({ size = "small", preview = false }) => {
 
   const Wrapper = ({ children }) => (
     <div
-      className={`text-white rounded-3xl ${cardWidths[size]} ${cardHeights[size]} overflow-hidden`}
+      className={`bg-white dark:bg-[#171717] text-black dark:text-white rounded-3xl ${cardWidths[size]} ${cardHeights[size]} overflow-hidden`}
     >
       <div className="h-full">{children}</div>
     </div>
   );
 
   const NewsItem = ({ news, commodity }) => (
-    <div className="flex border-b-1 border-[#36353A] justify-between gap-2 py-3">
+    <div className="flex border-b-1 border-gray-300 dark:border-[#36353A] justify-between gap-2 py-3">
       <div className="flex-1">
-        <div className="flex items-center justify-between flex-shrink-0 w-full">
-          <img className=" h-3" src={newsIcon2} alt="News Icon" />
+        <div className="flex items-center justify-between w-full">
+          <img className="h-3" src={newsIcon2} alt="Publisher icon" />
           <CommodityBadge commodity={commodity} />
         </div>
         <div>
-          <h4 className="text-lg font-semibold text-white leading-tight">
+          <h4 className="text-lg font-semibold leading-tight">
             {news.headline}
           </h4>
-          <p className="text-xs text-gray-400 leading-tight">{news.summary}</p>
+          <p className="text-xs text-gray-600 dark:text-gray-400 leading-tight">
+            {news.summary}
+          </p>
         </div>
       </div>
       <div className="flex items-center gap-2">
@@ -122,9 +124,7 @@ const NewsCard = ({ size = "small", preview = false }) => {
 
   const NewsContent = ({ news }) => (
     <div className="flex flex-col gap-2">
-      <h3 className="text-xl font-semibold text-white leading-tight">
-        {news.headline}
-      </h3>
+      <h3 className="text-xl font-semibold leading-tight">{news.headline}</h3>
     </div>
   );
 
@@ -134,20 +134,20 @@ const NewsCard = ({ size = "small", preview = false }) => {
 
     return (
       <Wrapper>
-        <div className="p-6 h-full bg-[#171717] flex flex-col">
-          <div className="flex justify-between items-center border-b border-[#36353A] pb-2">
-            <span className="text-md font-semibold text-red-500">
+        <div className="p-6 h-full flex flex-col">
+          <div className="flex justify-between items-center border-b border-gray-300 dark:border-[#36353A] pb-2">
+            <span className="text-md font-semibold text-red-600 dark:text-red-500">
               Top Stories
             </span>
             <img src={newsIcon1} alt="News Icon" className="h-4" />
           </div>
 
-          <div className="flex-1 overflow-y-auto pr-2 mt-2">
+          <div className="flex-1 overflow-y-auto scrollbar-thin dark:scrollbar-thumb-[#737373] scrollbar-track-transparent pr-2 mt-2">
             <div className="flex flex-col gap-4">
               {topStories.map((news, index) => (
                 <div
                   key={index}
-                  className="flex border-b border-[#36353A] pb-2 gap-3"
+                  className="flex border-b border-gray-300 dark:border-[#36353A] pb-2 gap-3"
                 >
                   <div className="flex-1">
                     <div className="flex items-center justify-between mb-1">
@@ -163,10 +163,10 @@ const NewsCard = ({ size = "small", preview = false }) => {
                         )}
                       </div>
                     </div>
-                    <h4 className="text-sm font-semibold text-white leading-tight">
+                    <h4 className="text-sm font-semibold leading-tight">
                       {news.headline}
                     </h4>
-                    <p className="text-xs text-gray-400 leading-tight mt-1">
+                    <p className="text-xs text-gray-600 dark:text-gray-400 leading-tight mt-1">
                       {news.summary}
                     </p>
                   </div>
@@ -180,8 +180,8 @@ const NewsCard = ({ size = "small", preview = false }) => {
             </div>
 
             <div className="mt-6">
-              <div className="flex justify-between items-center border-b border-[#36353A] pb-2">
-                <span className="text-md font-semibold text-green-500">
+              <div className="flex justify-between items-center border-b border-gray-300 dark:border-[#36353A] pb-2">
+                <span className="text-md font-semibold text-green-600 dark:text-green-500">
                   For You
                 </span>
               </div>
@@ -194,10 +194,10 @@ const NewsCard = ({ size = "small", preview = false }) => {
                       <CommodityBadge commodity="PMS" />
                     </div>
                   </div>
-                  <h4 className="text-sm font-semibold text-white leading-tight">
+                  <h4 className="text-sm font-semibold leading-tight">
                     {forYouStory.headline}
                   </h4>
-                  <p className="text-xs text-gray-400 leading-tight mt-1">
+                  <p className="text-xs text-gray-600 dark:text-gray-400 leading-tight mt-1">
                     {forYouStory.summary}
                   </p>
                 </div>
@@ -214,7 +214,8 @@ const NewsCard = ({ size = "small", preview = false }) => {
             <select
               value={state}
               onChange={(e) => setState(e.target.value)}
-              className="bg-[#171717] text-white border border-gray-600 rounded px-2 py-1 opacity-50"
+              className="bg-white dark:bg-[#171717] text-black dark:text-white border border-gray-400 dark:border-gray-600 rounded px-2 py-1 opacity-50"
+              aria-label="Select state"
             >
               {uniqueStates.map((s) => (
                 <option key={s} value={s}>
@@ -233,9 +234,9 @@ const NewsCard = ({ size = "small", preview = false }) => {
 
     return (
       <Wrapper>
-        <div className="p-6 h-full bg-[#171717] flex flex-col">
-          <div className="flex justify-between items-center border-b border-[#36353A] pb-2">
-            <span className="text-md font-semibold text-red-500">
+        <div className="p-6 h-full flex flex-col">
+          <div className="flex justify-between items-center border-b border-gray-300 dark:border-[#36353A] pb-2">
+            <span className="text-md font-semibold text-red-600 dark:text-red-500">
               Top Stories
             </span>
             <img src={newsIcon1} alt="Top Left" className="h-4" />
@@ -253,7 +254,8 @@ const NewsCard = ({ size = "small", preview = false }) => {
             <select
               value={state}
               onChange={(e) => setState(e.target.value)}
-              className="bg-[#171717] text-white border border-gray-600 rounded px-2 py-1 opacity-50"
+              className="bg-white dark:bg-[#171717] text-black dark:text-white border border-gray-400 dark:border-gray-600 rounded px-2 py-1 opacity-50"
+              aria-label="Select state"
             >
               {uniqueStates.map((s) => (
                 <option key={s} value={s}>
@@ -279,7 +281,7 @@ const NewsCard = ({ size = "small", preview = false }) => {
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/40 to-black/80"></div>
 
-        <div className="flex flex-col justify-between h-full p-4 relative">
+        <div className="flex flex-col justify-between h-full p-4 relative text-white">
           <div className="flex items-center justify-between mb-3">
             <CommodityBadge commodity={currentCommodity} />
             <img

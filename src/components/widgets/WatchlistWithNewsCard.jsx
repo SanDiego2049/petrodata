@@ -30,7 +30,9 @@ const CommodityItem = ({ commodity, data, size }) => {
   return (
     <div
       className={`flex justify-between items-start ${
-        size === "small" ? "border-b border-[#333] py-2 items-center" : ""
+        size === "small"
+          ? "border-b border-gray-300 dark:border-[#333] py-2 items-center"
+          : ""
       }`}
     >
       <div>
@@ -41,11 +43,11 @@ const CommodityItem = ({ commodity, data, size }) => {
                 ? "border-b-[12px] border-b-green-400"
                 : "border-t-[12px] border-t-red-400"
             }`}
-          ></div>
+          />
           <span className="text-sm font-semibold">{symbol}</span>
         </div>
         {size === "small" && (
-          <div className="text-gray-400 text-xs">{name}</div>
+          <div className="text-xs text-gray-500 dark:text-gray-400">{name}</div>
         )}
       </div>
       <div className="text-end">
@@ -66,13 +68,15 @@ const CommodityItem = ({ commodity, data, size }) => {
 };
 
 const NewsItem = ({ news }) => (
-  <div className="flex border-t border-[#36353A] pt-2 items-start gap-4">
+  <div className="flex border-t border-gray-300 dark:border-[#36353A] pt-2 items-start gap-4">
     <div className="flex-1">
       <div className="flex items-center gap-2 mb-1">
         <img src={vanguard_icon} alt="Vanguard" className="mt-1" />
       </div>
       <h4 className="text-sm font-semibold leading-snug">{news.headline}</h4>
-      <p className="text-xs text-gray-400 leading-tight mt-1">{news.summary}</p>
+      <p className="text-xs text-gray-500 dark:text-gray-400 leading-tight mt-1">
+        {news.summary}
+      </p>
     </div>
     <img
       src={news.image}
@@ -111,15 +115,15 @@ const WatchlistWithNewsCard = ({ size = "small", preview = false }) => {
     setAllChanges(changesObj);
   }, [state]);
 
-  // --- Preview Mode: show first commodity summary only ---
+  // --- Preview Mode ---
   if (preview) {
     const firstCommodity = COMMODITIES[0];
     const current = allPrices[firstCommodity] || 0;
     const { change, isPositive } = allChanges[firstCommodity] || {};
 
     return (
-      <div className="w-full h-full flex items-center justify-center bg-[#171717] rounded-xl text-white">
-        <div className="flex h-20 truncate flex-wrap items-center justify-center gap-2 text-center text-sm px-2 py-3">
+      <div className="w-full h-full flex items-center justify-center bg-white dark:bg-[#171717] rounded-xl text-black dark:text-white">
+        <div className="flex h-20 flex-wrap items-center justify-center gap-2 text-center text-sm px-2 py-3">
           <span className="font-semibold truncate">{firstCommodity}</span>
           <span className="text-xs font-medium">₦{current.toFixed(2)}</span>
           <div
@@ -137,13 +141,12 @@ const WatchlistWithNewsCard = ({ size = "small", preview = false }) => {
             {isPositive ? "+" : ""}
             {change}
           </span>
-          <p className="text-xs text-gray-400">With News</p>
+          <p className="text-xs text-gray-500 dark:text-gray-400">With News</p>
         </div>
       </div>
     );
   }
 
-  // --- Full Card Mode ---
   const displayedCommodities =
     size === "small" ? COMMODITIES.slice(0, 3) : COMMODITIES;
 
@@ -171,7 +174,7 @@ const WatchlistWithNewsCard = ({ size = "small", preview = false }) => {
       return (
         <div className="flex flex-col items-start gap-2 text-sm mb-4">
           <img src={vanguard_icon} alt="Vanguard" className="mt-2" />
-          <p className="text-white text-lg leading-tight">
+          <p className="text-black dark:text-white text-lg leading-tight">
             {
               mockNews[COMMODITIES[0]][
                 Math.floor(Math.random() * mockNews[COMMODITIES[0]].length)
@@ -187,28 +190,11 @@ const WatchlistWithNewsCard = ({ size = "small", preview = false }) => {
 
     return (
       <div
-        style={{
-          "&::-webkit-scrollbar": {
-            width: "6px",
-          },
-          "&::-webkit-scrollbar-track": {
-            background: "transparent",
-          },
-          "&::-webkit-scrollbar-thumb": {
-            background: "#262626",
-            borderRadius: "4px",
-          },
-          "&::-webkit-scrollbar-thumb:hover": {
-            background: "#404040",
-          },
-          scrollbarWidth: "thin",
-          scrollbarColor: "#262626 #333",
-        }}
         className={`flex flex-col gap-4 mb-4 ${
           size === "large"
             ? "overflow-y-auto max-h-[300px] pr-2 scroll-smooth"
             : ""
-        }`}
+        } scrollbar-thin dark:scrollbar-thumb-[#737373] scrollbar-track-transparent`}
       >
         {newsItems.map((news, idx) => (
           <NewsItem key={idx} news={news} />
@@ -219,7 +205,7 @@ const WatchlistWithNewsCard = ({ size = "small", preview = false }) => {
 
   return (
     <div
-      className={`p-6 bg-[#171717] text-white rounded-3xl ${
+      className={`p-6 bg-white dark:bg-[#171717] text-black dark:text-white rounded-3xl ${
         size === "small"
           ? "w-100 h-100"
           : size === "medium"
@@ -234,7 +220,7 @@ const WatchlistWithNewsCard = ({ size = "small", preview = false }) => {
           <select
             value={state}
             onChange={(e) => setState(e.target.value)}
-            className="bg-[#171717] text-white border border-gray-600 rounded px-2 py-1 opacity-50"
+            className="bg-white dark:bg-[#171717] text-black dark:text-white border border-gray-300 dark:border-gray-600 rounded px-2 py-1 opacity-80"
           >
             {uniqueStates.map((s) => (
               <option key={s} value={s}>

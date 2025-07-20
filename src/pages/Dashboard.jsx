@@ -5,12 +5,17 @@ import { MessageCircle, Menu, LayoutDashboard } from "lucide-react";
 import { useNavigate } from "react-router";
 import { useWidgets } from "../contexts/WidgetContext";
 import allWidgets from "../components/allWidgets";
+import SetAlertModal from "../components/dashboard/SetAlertModal";
+import NotificationModal from "../components/dashboard/NotificationModal"; 
+import SearchModal from "../components/dashboard/SearchModal";
 
 const Dashboard = () => {
   const navigate = useNavigate();
   const [isCollapsed, setIsCollapsed] = useState(false);
   const [isMobileOpen, setIsMobileOpen] = useState(false);
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isAlertModalOpen, setIsAlertModalOpen] = useState(false); 
+  const [isNotificationModalOpen, setIsNotificationModalOpen] = useState(false);
+  const [isSearchModalOpen, setIsSearchModalOpen] = useState(false)
 
   const { selectedWidgets, widgetSizes } = useWidgets();
 
@@ -19,8 +24,16 @@ const Dashboard = () => {
   };
 
   const handleSetAlertClick = () => {
-    setIsModalOpen(true);
+    setIsAlertModalOpen(true); 
   };
+
+  const handleNotificationClick = () => {
+    setIsNotificationModalOpen(true); 
+  };
+
+  const handleSearchClick = () => {
+    setIsSearchModalOpen(true)
+  }
 
   return (
     <div className="flex h-screen bg-gray-100 text-black dark:bg-[#262626] dark:text-white">
@@ -33,14 +46,18 @@ const Dashboard = () => {
 
       <div className="flex-1 flex flex-col overflow-hidden relative">
         <button
-          className="p-2 m-4 rounded md:hidden absolute top-0 left-0 z-30"
+          className="p-2 my-4 mx-1 rounded md:hidden absolute top-0 left-0 z-30"
           onClick={() => setIsMobileOpen(true)}
           aria-label="Open sidebar menu"
         >
           <Menu size={24} className="text-black dark:text-white" />
         </button>
 
-        <Header onSetAlertClick={handleSetAlertClick} />
+        <Header
+          onSetAlertClick={handleSetAlertClick}
+          onNotificationClick={handleNotificationClick}
+          onSearchClick={handleSearchClick}
+        />
 
         {/* MAIN WIDGET DISPLAY */}
         <main className="flex-1 overflow-y-auto p-6 scrollbar-thin scrollbar-thumb-[#262626] scrollbar-track-transparent">
@@ -84,70 +101,77 @@ const Dashboard = () => {
         </main>
 
         {/* EDIT WIDGET BUTTON */}
-        <div className="bg-transparent backdrop-blur-3xl">
-          <div className="py-4 flex justify-center items-center">
+        <div>
+          {/* Desktop View */}
+          <div className="hidden md:flex justify-center items-center py-4">
             <button
               onClick={handleWidgetsEdit}
               className="
                 px-4 py-2 rounded-full cursor-pointer text-sm
                 bg-gray-200 text-gray-600 hover:bg-gray-300
-                dark:bg-[#737373] dark:text-gray-300 dark:hover:bg-[#2C3138]
+                dark:bg-[#525252] dark:text-gray-300 dark:hover:bg-[#292929]
                 flex items-center space-x-2
               "
             >
-              <span>Edit widget</span>
+              <span>
+                {selectedWidgets.length === 0 ? "Add widgets" : "Edit widgets"}
+              </span>
             </button>
           </div>
 
+          {/* Fixed Mobile Button */}
+          <div className="md:hidden fixed bottom-0 left-0 right-0 bg-white dark:bg-[#171717] border-t border-gray-200 dark:border-[#404040] p-4 flex justify-center">
+            <button
+              onClick={handleWidgetsEdit}
+              className="
+                w-full max-w-xs px-4 py-2 rounded-full cursor-pointer text-sm
+                bg-gray-200 text-gray-600 hover:bg-gray-300
+                dark:bg-[#737373] dark:text-gray-300 dark:hover:bg-[#2C3138]
+                flex items-center justify-center space-x-2
+              "
+            >
+              <span>
+                {selectedWidgets.length === 0 ? "Add widgets" : "Edit widgets"}
+              </span>
+            </button>
+          </div>
+
+          {/* Request Button */}
           <button
             className="
-              absolute bottom-4 right-4 z-10 flex items-center sm:space-x-2
-              rounded-full bg-[#00897B] text-white hover:bg-teal-700
-              px-3 py-3 sm:px-4 sm:py-2 sm:text-sm
-              md:bottom-12 md:right-8 md:px-4 md:py-2 md:text-sm
+              fixed bottom-20 right-4
+              flex items-center md:space-x-2 rounded-full
+              bg-[#00897B] text-white hover:bg-teal-700
+              md:px-4 md:py-2 p-3 shadow-lg
+              transition-all duration-300 ease-in-out
             "
           >
-            <MessageCircle className="w-6 h-6 sm:w-4 sm:h-4" />
-            <span className="hidden sm:inline">Make special request</span>
+            <MessageCircle />
+            <span className="hidden sm:inline text-sm">
+              Make special request
+            </span>
           </button>
         </div>
 
         {/* SET ALERT MODAL */}
-        {isModalOpen && (
-          <div className="fixed inset-0 bg-[#3a3a3a] bg-opacity-80 flex justify-center items-center z-50">
-            <div className="bg-white dark:bg-[#262626] p-6 rounded-3xl shadow-lg w-96">
-              <h2 className="text-xl font-semibold mb-6 text-black dark:text-white">
-                Set Alert
-              </h2>
-              <div className="space-y-4">
-                <input
-                  type="text"
-                  placeholder="Enter price"
-                  className="w-full p-2 bg-gray-100 dark:bg-[#333] text-black dark:text-white rounded-full border border-gray-300 dark:border-gray-600"
-                />
-                <input
-                  type="text"
-                  placeholder="Condition"
-                  className="w-full p-2 bg-gray-100 dark:bg-[#333] text-black dark:text-white rounded-full border border-gray-300 dark:border-gray-600"
-                />
-                <select className="w-full p-2 text-sm bg-gray-100 dark:bg-[#333] text-black dark:text-white rounded-full border border-gray-300 dark:border-gray-600">
-                  <option value="email">Email</option>
-                  <option value="sms">SMS</option>
-                </select>
-              </div>
-              <div className="flex justify-center mt-6 gap-4">
-                <button
-                  onClick={() => setIsModalOpen(false)}
-                  className="px-4 py-2 bg-gray-300 dark:bg-gray-500 text-black dark:text-white w-full rounded-full hover:bg-gray-400 dark:hover:bg-gray-600"
-                >
-                  Cancel
-                </button>
-                <button className="px-4 py-2 w-full bg-[#00897B] text-white rounded-full hover:bg-green-600">
-                  Save
-                </button>
-              </div>
-            </div>
-          </div>
+        {isAlertModalOpen && (
+          <SetAlertModal onClose={() => setIsAlertModalOpen(false)} />
+        )}
+
+        {/* NOTIFICATION MODAL */}
+        {isNotificationModalOpen && (
+          <NotificationModal
+            isOpen={isNotificationModalOpen}
+            onClose={() => setIsNotificationModalOpen(false)}
+          />
+        )}
+
+        {/* NOTIFICATION MODAL */}
+        {isSearchModalOpen && (
+          <SearchModal
+            isOpen={isSearchModalOpen}
+            onClose={() => setIsSearchModalOpen(false)}
+          />
         )}
       </div>
     </div>

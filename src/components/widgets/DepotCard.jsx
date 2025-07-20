@@ -73,7 +73,7 @@ const DepotCard = ({ size = "small", preview = false }) => {
 
   if (preview) {
     return (
-      <div className="w-full h-full flex items-center justify-center bg-[#171717] rounded-xl text-white">
+      <div className="w-full h-full flex items-center justify-center rounded-xl bg-white dark:bg-[#171717] text-black dark:text-white">
         <div className="flex flex-wrap h-20 items-center justify-center gap-2 text-center text-sm px-2 py-3">
           <Warehouse className="text-orange-400" size={16} />
           <span className="font-semibold">{depot}</span>
@@ -92,12 +92,12 @@ const DepotCard = ({ size = "small", preview = false }) => {
 
   return (
     <div
-      className={`p-6 bg-[#171717] text-white rounded-3xl ${cardWidths[size]} ${cardHeights[size]}`}
+      className={`p-6 rounded-3xl bg-white dark:bg-[#171717] text-black dark:text-white ${cardWidths[size]} ${cardHeights[size]}`}
     >
       <div className="flex flex-col h-full">
         <div className="flex items-center justify-between mb-4">
           <div className="flex items-center gap-3">
-            <div className="w-9 h-9 bg-white rounded-full flex items-center justify-center">
+            <div className="w-9 h-9 bg-white dark:bg-[#262626] rounded-full flex items-center justify-center">
               <Warehouse className="text-orange-500" />
             </div>
             <div className="text-sm font-semibold">Depot</div>
@@ -147,7 +147,7 @@ const DepotCard = ({ size = "small", preview = false }) => {
             </div>
 
             <div className="mt-auto">
-              <div className="flex overflow-x-auto gap-0 border-t border-[#404040] mb-2">
+              <div className="flex overflow-x-auto gap-0 border-t border-gray-200 dark:border-[#404040] mb-2">
                 {DEPOTS.map((d) => (
                   <button
                     key={d}
@@ -155,7 +155,7 @@ const DepotCard = ({ size = "small", preview = false }) => {
                     className={`px-4 truncate py-2 text-sm flex-1 relative ${
                       depot === d
                         ? "text-green-400"
-                        : "text-gray-400 hover:text-gray-300"
+                        : "text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-300"
                     }`}
                   >
                     {depot === d && (
@@ -166,7 +166,7 @@ const DepotCard = ({ size = "small", preview = false }) => {
                 ))}
               </div>
 
-              <div className="flex gap-0 border-t border-[#404040] mb-2">
+              <div className="flex gap-0 border-t border-gray-200 dark:border-[#404040] mb-2">
                 {COMMODITIES.map((c) => (
                   <button
                     key={c}
@@ -174,7 +174,7 @@ const DepotCard = ({ size = "small", preview = false }) => {
                     className={`px-4 py-2 text-sm flex-1 relative ${
                       commodity === c
                         ? "text-green-400"
-                        : "text-gray-400 hover:text-gray-300"
+                        : "text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-300"
                     }`}
                   >
                     {commodity === c && (
@@ -191,24 +191,7 @@ const DepotCard = ({ size = "small", preview = false }) => {
         {size !== "small" && (
           <>
             <div
-              style={{
-                "&::-webkit-scrollbar": {
-                  width: "6px",
-                },
-                "&::-webkit-scrollbar-track": {
-                  background: "transparent",
-                },
-                "&::-webkit-scrollbar-thumb": {
-                  background: "#262626",
-                  borderRadius: "4px",
-                },
-                "&::-webkit-scrollbar-thumb:hover": {
-                  background: "#404040",
-                },
-                scrollbarWidth: "thin",
-                scrollbarColor: "#262626 #333",
-              }}
-              className={`flex flex-col pr-2 ${
+              className={`flex flex-col pr-2 scrollbar-thin dark:scrollbar-thumb-[#737373] scrollbar-track-transparent ${
                 size === "large" ? "overflow-y-auto" : ""
               }`}
             >
@@ -227,7 +210,7 @@ const DepotCard = ({ size = "small", preview = false }) => {
                 return (
                   <div key={depot}>
                     <div
-                      className={`flex justify-between items-center border-b border-[#36353A] ${
+                      className={`flex justify-between items-center border-b border-gray-200 dark:border-[#36353A] ${
                         size === "large" ? "py-2" : ""
                       }`}
                     >
@@ -278,7 +261,7 @@ const DepotCard = ({ size = "small", preview = false }) => {
               })}
             </div>
 
-            <div className="border-t border-[#404040] mb-3">
+            <div className="border-t border-gray-200 dark:border-[#404040] mb-3">
               <div className="flex">
                 {COMMODITIES.map((c) => (
                   <button
@@ -287,7 +270,7 @@ const DepotCard = ({ size = "small", preview = false }) => {
                     className={`px-4 py-2 text-sm flex-1 relative ${
                       commodity === c
                         ? "text-green-400"
-                        : "text-gray-400 hover:text-gray-300"
+                        : "text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-300"
                     }`}
                   >
                     {commodity === c && (
@@ -300,11 +283,12 @@ const DepotCard = ({ size = "small", preview = false }) => {
             </div>
           </>
         )}
+
         <div className="mt-auto">
           <select
             value={state}
             onChange={(e) => setState(e.target.value)}
-            className="bg-[#171717] text-white border border-gray-600 rounded px-2 py-1 opacity-50"
+            className="bg-white dark:bg-[#171717] text-black dark:text-white border border-gray-300 dark:border-gray-600 rounded px-2 py-1 opacity-50"
           >
             {uniqueStates.map((s) => (
               <option key={s} value={s}>

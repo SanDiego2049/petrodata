@@ -29,12 +29,11 @@ export default function ReportCard({ size = "small", preview = false }) {
 
   if (!currentWeekData) return null;
 
-  // ✅ Preview mode
   if (preview) {
     const firstReport = currentWeekData.reports?.[0];
 
     return (
-      <div className="w-full h-full flex items-center justify-center bg-[#171717] rounded-xl text-white">
+      <div className="w-full h-full flex items-center justify-center bg-white dark:bg-[#171717] rounded-xl text-black dark:text-white">
         <div className="flex flex-col truncate items-center justify-center text-center px-4 py-3">
           <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center mb-2">
             <File size={16} className="text-teal-500" />
@@ -43,7 +42,7 @@ export default function ReportCard({ size = "small", preview = false }) {
             Week {currentWeekData.weekNumber}
           </span>
           {firstReport && (
-            <span className="text-[0.65rem] text-gray-400 mt-1 max-w-[9rem] truncate">
+            <span className="text-[0.65rem] text-gray-600 dark:text-gray-400 mt-1 max-w-[9rem] truncate">
               {firstReport.commodity} • {currentWeekData.weekRange}
             </span>
           )}
@@ -54,7 +53,7 @@ export default function ReportCard({ size = "small", preview = false }) {
 
   return (
     <div
-      className={`bg-[#171717] text-white p-6 rounded-3xl flex flex-col ${
+      className={`bg-white dark:bg-[#171717] text-black dark:text-white p-6 rounded-3xl flex flex-col ${
         cardWidths[size]
       } ${cardHeights[size]} ${size !== "small" ? " pr-2" : ""}`}
     >
@@ -80,7 +79,7 @@ export default function ReportCard({ size = "small", preview = false }) {
                   alt={`Week ${week.weekNumber} preview`}
                   className="h-20 object-contain rounded"
                 />
-                <div className="text-sm font-medium text-center">
+                <div className="text-sm font-medium text-center text-black dark:text-white">
                   {week.reports[0].commodity} • {week.weekRange}
                 </div>
               </div>
@@ -113,7 +112,7 @@ export default function ReportCard({ size = "small", preview = false }) {
                 {week.reports.map((report, idx) => (
                   <div
                     key={`${week.weekNumber}-${idx}`}
-                    className="bg-[#262626] rounded-xl p-3 flex items-center gap-4"
+                    className="bg-gray-100 dark:bg-[#262626] rounded-xl p-3 flex items-center gap-4"
                   >
                     <img
                       src={report_image}
@@ -121,8 +120,12 @@ export default function ReportCard({ size = "small", preview = false }) {
                       className="h-20 object-contain rounded"
                     />
                     <div className="text-sm font-medium text-start leading-tight space-y-2">
-                      <div className="text-[#FAFAFA]">{report.commodity}</div>
-                      <div className="text-[#A3A3A3]">{week.weekRange}</div>
+                      <div className="text-black dark:text-[#FAFAFA]">
+                        {report.commodity}
+                      </div>
+                      <div className="text-gray-600 dark:text-[#A3A3A3]">
+                        {week.weekRange}
+                      </div>
                     </div>
                   </div>
                 ))}
@@ -134,14 +137,7 @@ export default function ReportCard({ size = "small", preview = false }) {
 
       {/* Large layout */}
       {size === "large" && (
-        <div
-          style={{
-            overflowY: "auto",
-            scrollbarWidth: "thin",
-            scrollbarColor: "#262626 #333",
-          }}
-          className="flex flex-col gap-6 pr-2"
-        >
+        <div className="flex flex-col gap-6 scrollbar-thin dark:scrollbar-thumb-[#737373] scrollbar-track-transparent pr-2">
           {reportData.map((week) => (
             <div key={week.weekNumber}>
               <div className="flex items-center gap-3 mb-3">
@@ -162,8 +158,12 @@ export default function ReportCard({ size = "small", preview = false }) {
                       className="h-20 object-contain rounded"
                     />
                     <div className="text-sm font-medium text-center leading-tight space-y-2">
-                      <div className="text-[#FAFAFA]">{report.commodity}</div>
-                      <div className="text-[#A3A3A3]">{week.weekRange}</div>
+                      <div className="text-black dark:text-[#FAFAFA]">
+                        {report.commodity}
+                      </div>
+                      <div className="text-gray-600 dark:text-[#A3A3A3]">
+                        {week.weekRange}
+                      </div>
                     </div>
                   </div>
                 ))}

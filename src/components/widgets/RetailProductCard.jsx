@@ -77,7 +77,7 @@ const RetailProductCard = ({ size = "small", preview = false }) => {
 
   if (preview) {
     return (
-      <div className="w-full h-full flex items-center justify-center bg-[#171717] rounded-xl text-white">
+      <div className="w-full h-full flex items-center justify-center bg-white dark:bg-[#171717] rounded-xl text-black dark:text-white">
         <div className="flex flex-wrap h-20 items-center justify-center gap-2 text-center text-sm px-2 py-3">
           <span className="font-semibold truncate">
             {COMMODITY_INFO[commodity].symbol}
@@ -85,7 +85,7 @@ const RetailProductCard = ({ size = "small", preview = false }) => {
           <span className="text-xs font-medium">₦{current.toFixed(2)}</span>
           <div
             className={`w-0 h-0 border-l-[6px] border-r-[6px] border-l-transparent border-r-transparent ${
-              change >= 0
+              isPositive
                 ? "border-b-[10px] border-b-green-400"
                 : "border-t-[10px] border-t-red-400"
             }`}
@@ -97,7 +97,7 @@ const RetailProductCard = ({ size = "small", preview = false }) => {
 
   return (
     <div
-      className={`p-6 ${cardWidths[size]} ${cardHeights[size]} flex flex-col h-full bg-[#171717] rounded-3xl text-white`}
+      className={`p-6 ${cardWidths[size]} ${cardHeights[size]} flex flex-col h-full bg-white dark:bg-[#171717] rounded-3xl text-black dark:text-white`}
     >
       <div className="flex items-center justify-between mb-6">
         <div className="w-100">
@@ -113,7 +113,7 @@ const RetailProductCard = ({ size = "small", preview = false }) => {
               {COMMODITY_INFO[commodity].symbol}
             </span>
           </div>
-          <div className="text-sm text-gray-400">
+          <div className="text-sm text-gray-600 dark:text-gray-400">
             {COMMODITY_INFO[commodity].name}
           </div>
         </div>
@@ -154,20 +154,20 @@ const RetailProductCard = ({ size = "small", preview = false }) => {
         <div className="flex gap-6 mb-6">
           <div className="space-y-3">
             <div className="flex justify-between text-sm">
-              <span className="text-gray-400">Highest</span>
-              <span className="text-white font-medium">
+              <span className="text-gray-600 dark:text-gray-400">Highest</span>
+              <span className="text-black dark:text-white font-medium">
                 {stats.highest.toFixed(2)}
               </span>
             </div>
             <div className="flex justify-between text-sm">
-              <span className="text-gray-400">Median</span>
-              <span className="text-white font-medium">
+              <span className="text-gray-600 dark:text-gray-400">Median</span>
+              <span className="text-black dark:text-white font-medium">
                 {stats.median.toFixed(2)}
               </span>
             </div>
             <div className="flex justify-between text-sm">
-              <span className="text-gray-400">Lowest</span>
-              <span className="text-white font-medium">
+              <span className="text-gray-600 dark:text-gray-400">Lowest</span>
+              <span className="text-black dark:text-white font-medium">
                 {stats.lowest.toFixed(2)}
               </span>
             </div>
@@ -191,10 +191,10 @@ const RetailProductCard = ({ size = "small", preview = false }) => {
             <div className="flex gap-12 mx-auto">
               {Object.entries(stats).map(([label, value]) => (
                 <div key={label} className="flex flex-col items-start">
-                  <span className="text-sm text-gray-400 capitalize">
+                  <span className="text-sm text-gray-600 dark:text-gray-400 capitalize">
                     {label}
                   </span>
-                  <span className="text-sm font-medium text-white">
+                  <span className="text-sm font-medium text-black dark:text-white">
                     {value.toFixed(2)}
                   </span>
                 </div>
@@ -219,19 +219,19 @@ const RetailProductCard = ({ size = "small", preview = false }) => {
         ₦{current.toFixed(2)}
       </div>
 
-      <div className="flex gap-0 border-t border-gray-700">
+      <div className="flex gap-0 border-t border-gray-300 dark:border-gray-700">
         {COMMODITIES.map((c) => (
           <button
             key={c}
             onClick={() => setCommodity(c)}
-            className={`px-4 py-2 text-sm flex-1 relative ${
+            className={`px-4 py-2 text-sm flex-1 relative transition-colors ${
               commodity === c
-                ? "text-green-400"
-                : "text-gray-400 hover:text-gray-300"
+                ? "text-green-500 dark:text-green-400"
+                : "text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-300"
             }`}
           >
             {commodity === c && (
-              <div className="absolute top-0 left-0 right-0 h-0.5 bg-green-400" />
+              <div className="absolute top-0 left-0 right-0 h-0.5 bg-green-500 dark:bg-green-400" />
             )}
             {c}
           </button>
@@ -242,7 +242,7 @@ const RetailProductCard = ({ size = "small", preview = false }) => {
         <select
           value={state}
           onChange={(e) => setState(e.target.value)}
-          className="bg-[#171717] text-white border border-gray-600 rounded px-2 py-1 opacity-50"
+          className="bg-white dark:bg-[#171717] text-black dark:text-white border border-gray-300 dark:border-gray-600 rounded px-2 py-1 opacity-80"
         >
           {uniqueStates.map((s) => (
             <option key={s} value={s}>

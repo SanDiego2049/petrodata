@@ -1,4 +1,3 @@
-// components/cards/FlightStatCard.jsx
 import { useEffect, useState } from "react";
 import { Plane } from "lucide-react";
 import StackedBarChart from "../../charts/StackedBarChart";
@@ -80,7 +79,7 @@ const FlightStatCard = ({ size = "small", preview = false }) => {
   }, [tab, state, size]);
 
   const TabSwitcher = () => (
-    <div className="border-t border-[#404040] mb-2">
+    <div className="border-t border-gray-300 dark:border-[#404040] mb-2">
       <div className="flex w-50">
         {TABS.map((label) => (
           <button
@@ -89,11 +88,12 @@ const FlightStatCard = ({ size = "small", preview = false }) => {
             className={`px-4 py-2 text-sm flex-1 relative ${
               tab === label
                 ? "text-[#009688]"
-                : "text-gray-400 hover:text-gray-300"
+                : "text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-gray-300"
             }`}
+            aria-label={`Switch to ${label}`}
           >
             {tab === label && (
-              <div className="absolute top-0 left-0 right-0 h-0.5 bg-[#009688]"></div>
+              <div className="absolute top-0 left-0 right-0 h-0.5 bg-[#009688]" />
             )}
             {label}
           </button>
@@ -107,7 +107,8 @@ const FlightStatCard = ({ size = "small", preview = false }) => {
       <select
         value={state}
         onChange={(e) => setState(e.target.value)}
-        className="bg-[#171717] text-white border border-gray-600 rounded px-2 py-1 opacity-50"
+        className="bg-white dark:bg-[#171717] text-black dark:text-white border border-gray-400 dark:border-gray-600 rounded px-2 py-1 opacity-50"
+        aria-label="Select state"
       >
         {uniqueStates.map((s) => (
           <option key={s} value={s}>
@@ -124,9 +125,11 @@ const FlightStatCard = ({ size = "small", preview = false }) => {
         <div className="w-9 h-9 bg-white rounded-full flex items-center justify-center">
           <Plane fill="#155dfc" className="text-blue-600" />
         </div>
-        <div className="text-2xl font-semibold">
+        <div className="text-2xl font-semibold text-black dark:text-white">
           {total.toLocaleString()}{" "}
-          <span className="text-gray-400 text-sm">Flights</span>
+          <span className="text-gray-500 dark:text-gray-400 text-sm">
+            Flights
+          </span>
         </div>
       </div>
       <div className="mb-4">
@@ -145,12 +148,16 @@ const FlightStatCard = ({ size = "small", preview = false }) => {
       {stats.map(({ airport, flights }) => (
         <div
           key={airport}
-          className={`flex flex-col gap-2 items-start py-1.5 border-b border-[#333] last:border-b-0`}
+          className="flex flex-col gap-2 items-start py-1.5 border-b border-gray-300 dark:border-[#333] last:border-b-0"
         >
-          <div className={`${textSize} font-semibold text-[#FAFAFA] text-wrap`}>
+          <div
+            className={`${textSize} font-semibold text-black dark:text-[#FAFAFA] text-wrap`}
+          >
             {airport}
           </div>
-          <div className={`${textSize} font-medium text-[#D4D4D4]`}>
+          <div
+            className={`${textSize} font-medium text-gray-600 dark:text-[#D4D4D4]`}
+          >
             {flights.toLocaleString()} flights
           </div>
         </div>
@@ -160,7 +167,7 @@ const FlightStatCard = ({ size = "small", preview = false }) => {
 
   const Wrapper = ({ children }) => (
     <div
-      className={`bg-[#171717] text-white rounded-3xl ${cardWidths[size]} ${cardHeights[size]}`}
+      className={`bg-white dark:bg-[#171717] text-black dark:text-white rounded-3xl ${cardWidths[size]} ${cardHeights[size]}`}
     >
       {children}
     </div>
@@ -168,7 +175,7 @@ const FlightStatCard = ({ size = "small", preview = false }) => {
 
   if (preview) {
     return (
-      <div className="w-full h-full flex items-center justify-center bg-[#171717] rounded-xl text-white">
+      <div className="w-full h-full flex items-center justify-center bg-white dark:bg-[#171717] rounded-xl text-black dark:text-white">
         <div className="flex flex-wrap items-center justify-center gap-2 text-center text-sm px-2 py-3">
           <Plane fill="#155dfc" className="text-blue-600" size={16} />
           <span className="font-semibold">{state}</span>
@@ -190,7 +197,7 @@ const FlightStatCard = ({ size = "small", preview = false }) => {
             <TabSwitcher />
             <StateDropdown />
           </div>
-          <div className="p-6 border border-[#171717] bg-[#404040] h-full rounded-b-3xl">
+          <div className="p-6 border border-gray-300 dark:border-[#171717] bg-gray-100 dark:bg-[#404040] h-full rounded-b-3xl">
             <AirportList stats={airportStats} textSize="text-md" />
           </div>
         </div>
@@ -207,7 +214,7 @@ const FlightStatCard = ({ size = "small", preview = false }) => {
             <TabSwitcher />
             <StateDropdown />
           </div>
-          <div className="w-70 pl-4 p-6 border border-[#171717] bg-[#404040] rounded-e-3xl">
+          <div className="w-70 pl-4 p-6 border border-gray-300 dark:border-[#171717] bg-gray-100 dark:bg-[#404040] rounded-e-3xl">
             <AirportList stats={airportStats} />
           </div>
         </div>

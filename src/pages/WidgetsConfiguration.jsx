@@ -37,7 +37,15 @@ const WidgetsConfiguration = () => {
   };
 
   const handleDone = () => {
-    navigate("/"); // Navigate to dashboard or home page
+    navigate("/"); // Navigate to dashboard
+  };
+
+  const handleCancel = () => {
+    if (selectedWidgets.length > 0) {
+      setSelectedWidgets([]);
+      setWidgetSizes({});
+    }
+    navigate("/");
   };
 
   const widgets = {
@@ -113,22 +121,7 @@ const WidgetsConfiguration = () => {
     ],
   };
 
-  const renderWidgets = () => {
-    return widgets[activeItem] || [];
-  };
-
-  const getPreviewGridClasses = (size) => {
-    switch (size) {
-      case "small":
-        return "col-span-1 row-span-1";
-      case "medium":
-        return "col-span-2 row-span-1";
-      case "large":
-        return "col-span-1 row-span-2";
-      default:
-        return "col-span-1 row-span-1";
-    }
-  };
+  const renderWidgets = () => widgets[activeItem] || [];
 
   return (
     <div className="flex h-screen bg-white text-black dark:bg-[#262626] dark:text-white overflow-hidden">
@@ -142,21 +135,8 @@ const WidgetsConfiguration = () => {
 
       {/* Main Content */}
       <div className="flex-1 mb-6 flex">
-        {/* Middle Section - Widget Display */}
-        <div
-          className="flex-1 p-6 overflow-y-auto scroll-smooth"
-          style={{
-            "&::-webkit-scrollbar": { width: "6px" },
-            "&::-webkit-scrollbar-track": { background: "transparent" },
-            "&::-webkit-scrollbar-thumb": {
-              background: "#262626",
-              borderRadius: "4px",
-            },
-            "&::-webkit-scrollbar-thumb:hover": { background: "#404040" },
-            scrollbarWidth: "thin",
-            scrollbarColor: "#262626 #333",
-          }}
-        >
+        {/* Middle Section */}
+        <div className="flex-1 p-6 py-16 overflow-y-auto scrollbar-thin dark:scrollbar-thumb-[#737373] scrollbar-track-transparent scroll-smooth">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {renderWidgets().map((widget) => {
               const WidgetComponent = widget.component;
@@ -183,7 +163,7 @@ const WidgetsConfiguration = () => {
           </div>
         </div>
 
-        {/* Right Section - Preview */}
+        {/* Right Section */}
         <div className="hidden 2xl:block w-96 bg-gray-100 dark:bg-[#171717] p-6 border-l border-gray-300 dark:border-[#404040] flex-shrink-0">
           <div className="h-full flex flex-col">
             <h2 className="text-xl font-semibold mb-6 text-gray-900 dark:text-white">
@@ -235,10 +215,10 @@ const WidgetsConfiguration = () => {
                 </button>
               )}
               <button
-                onClick={() => navigate("/")}
-                className="flex-1 cursor-pointer py-3 bg-gray-500 text-white rounded-lg font-medium hover:bg-gray-700 transition-colors"
+                onClick={handleCancel}
+                className="flex-1 cursor-pointer py-3 bg-[#404040] text-white rounded-lg font-medium hover:bg-gray-700 transition-colors"
               >
-                Cancel
+                {selectedWidgets.length > 0 ? "Cancel" : "Back home"}
               </button>
             </div>
           </div>
@@ -246,20 +226,20 @@ const WidgetsConfiguration = () => {
       </div>
 
       {/* Bottom Section for Mobile */}
-      <div className="fixed bottom-0 left-0 right-0 md:hidden bg-gray-100 dark:bg-[#171717] border-t border-gray-300 dark:border-[#404040] p-4 flex gap-4 z-50">
+      <div className="fixed bottom-0 left-0 right-0 md:hidden bg-gray-100 dark:bg-[#171717] border-t border-gray-300 dark:border-[#404040] p-4 flex gap-4">
         {selectedWidgets.length > 0 && (
           <button
             onClick={handleDone}
-            className="flex-1 cursor-pointer py-1 bg-[#26A69A] text-white rounded-lg font-medium hover:bg-[#1e7a70] transition-colors"
+            className="flex-1 cursor-pointer py-2 bg-[#26A69A] text-white rounded-full font-medium text-sm hover:bg-[#1e7a70] transition-colors"
           >
             Done
           </button>
         )}
         <button
-          onClick={() => navigate("/")}
-          className="flex-1 cursor-pointer py-1 bg-gray-600 text-white rounded-lg font-medium hover:bg-gray-700 transition-colors"
+          onClick={handleCancel}
+          className="flex-1 cursor-pointer py-2 bg-[#404040] text-white rounded-full font-medium text-sm hover:bg-gray-700 transition-colors"
         >
-          Cancel
+          {selectedWidgets.length > 0 ? "Cancel" : "Back home"}
         </button>
       </div>
     </div>

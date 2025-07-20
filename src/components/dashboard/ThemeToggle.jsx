@@ -29,39 +29,38 @@ function ThemeToggle() {
     }
   }, [darkMode]);
 
-  const toggleDarkMode = () => {
-    setDarkMode((prev) => !prev);
-  };
+  const toggleDarkMode = () => setDarkMode((prev) => !prev);
 
   return (
     <button
       onClick={toggleDarkMode}
       aria-label="Toggle Theme"
       className={`
-        relative w-16 h-10 rounded-full p-1 flex items-center
+        relative w-16 h-9 rounded-full p-1 flex items-center justify-between
         transition-colors duration-300 ease-in-out
-        ${darkMode ? "bg-[#26A69A] " : "bg-[#00695C] text-[#26A69A]"}
+        ${darkMode ? "bg-[#00695C]" : "bg-[#26A69A]"}
       `}
     >
+      {/* Toggle Thumb */}
       <div
         className={`
-          w-9 h-9 rounded-full shadow-md transform
-          transition-transform duration-300 ease-in-out pointer-events-none
-          flex items-center justify-center
-          ${darkMode ? "translate-x-5.5 bg-white" : "-translate-x-0.5 bg-white"}
+          absolute top-0.5 left-0.5 w-8 h-8 rounded-full bg-white shadow-md
+          transform transition-transform duration-300 ease-in-out
+          ${darkMode ? "translate-x-0" : "translate-x-[90%]"}
+          z-10 flex items-center justify-center
         `}
       >
         {darkMode ? (
-          <Sun
-            size={20}
-            className={`${darkMode ? "text-[#00695C]" : "text-[#80CBC4]"} `}
-          />
+          <Moon size={20} className="text-[#00695C]" />
         ) : (
-          <Moon
-            size={20}
-            className={`${darkMode ? "text-[#80CBC4]" : "text-[#00695C]"} `}
-          />
+          <Sun size={20} className="text-[#00695C]" />
         )}
+      </div>
+
+      {/* Icons in Background */}
+      <div className="flex w-full justify-between items-center px-2 z-0">
+        <Moon size={16} className="text-[#80CBC4]" />
+        <Sun size={16} className="text-[#80CBC4]" />
       </div>
     </button>
   );

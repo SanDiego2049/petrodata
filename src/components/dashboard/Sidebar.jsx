@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import {
   Settings,
   LayoutDashboard,
@@ -24,12 +25,25 @@ const Sidebar = ({
     { icon: Settings, label: "Settings", active: false },
   ];
 
+  // Prevent background scroll when sidebar is open on mobile
+  useEffect(() => {
+    if (isMobileOpen) {
+      document.body.classList.add("overflow-hidden");
+    } else {
+      document.body.classList.remove("overflow-hidden");
+    }
+
+    return () => {
+      document.body.classList.remove("overflow-hidden");
+    };
+  }, [isMobileOpen]);
+
   return (
     <>
-      {/* Mobile Overlay */}
+      {/* Mobile Overlay - blocks clicks + adds blur */}
       {isMobileOpen && (
         <div
-          className="fixed inset-0 bg-black opacity-50 z-40 md:hidden"
+          className="fixed inset-0 z-40 bg-black/30 backdrop-blur-sm md:hidden"
           onClick={() => setIsMobileOpen(false)}
         />
       )}
@@ -66,7 +80,7 @@ const Sidebar = ({
           />
         </button>
 
-        {/* Logo & Brand */}
+        {/* Logo */}
         <div className="p-4 mb-10 flex items-center gap-4">
           <img src={logo} alt="Petrodata Logo" />
           <span
@@ -78,7 +92,7 @@ const Sidebar = ({
           </span>
         </div>
 
-        {/* Navigation Links */}
+        {/* Nav Links */}
         <nav className="flex-grow flex flex-col gap-2 mt-30">
           {sidebarItems.map((item, index) => (
             <a
