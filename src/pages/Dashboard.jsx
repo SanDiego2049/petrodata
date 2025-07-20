@@ -6,16 +6,16 @@ import { useNavigate } from "react-router";
 import { useWidgets } from "../contexts/WidgetContext";
 import allWidgets from "../components/allWidgets";
 import SetAlertModal from "../components/dashboard/SetAlertModal";
-import NotificationModal from "../components/dashboard/NotificationModal"; 
+import NotificationModal from "../components/dashboard/NotificationModal";
 import SearchModal from "../components/dashboard/SearchModal";
 
 const Dashboard = () => {
   const navigate = useNavigate();
   const [isCollapsed, setIsCollapsed] = useState(false);
   const [isMobileOpen, setIsMobileOpen] = useState(false);
-  const [isAlertModalOpen, setIsAlertModalOpen] = useState(false); 
+  const [isAlertModalOpen, setIsAlertModalOpen] = useState(false);
   const [isNotificationModalOpen, setIsNotificationModalOpen] = useState(false);
-  const [isSearchModalOpen, setIsSearchModalOpen] = useState(false)
+  const [isSearchModalOpen, setIsSearchModalOpen] = useState(false);
 
   const { selectedWidgets, widgetSizes } = useWidgets();
 
@@ -24,16 +24,16 @@ const Dashboard = () => {
   };
 
   const handleSetAlertClick = () => {
-    setIsAlertModalOpen(true); 
+    setIsAlertModalOpen(true);
   };
 
   const handleNotificationClick = () => {
-    setIsNotificationModalOpen(true); 
+    setIsNotificationModalOpen(true);
   };
 
   const handleSearchClick = () => {
-    setIsSearchModalOpen(true)
-  }
+    setIsSearchModalOpen(true);
+  };
 
   return (
     <div className="flex h-screen bg-gray-100 text-black dark:bg-[#262626] dark:text-white">
@@ -60,7 +60,7 @@ const Dashboard = () => {
         />
 
         {/* MAIN WIDGET DISPLAY */}
-        <main className="flex-1 overflow-y-auto p-6 scrollbar-thin scrollbar-thumb-[#262626] scrollbar-track-transparent">
+        <main className="flex-1 overflow-y-auto p-6 scrollbar-thin scrollbar-thumb-[#262626] scrollbar-track-transparent mb-16 md:mb-0">
           {selectedWidgets.length === 0 ? (
             <div className="mt-auto h-full flex items-center justify-center">
               <div className="text-center text-gray-400">

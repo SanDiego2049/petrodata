@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { X, Check, FileText, CheckCheck } from "lucide-react";
 import image1 from "../../assets/dangote.png";
-import image2 from "../../assets/News_image.png";
+import image2 from "../../assets/news_image.png";
 import image3 from "../../assets/oando.png";
 
 const NotificationsModal = ({ isOpen, onClose }) => {
